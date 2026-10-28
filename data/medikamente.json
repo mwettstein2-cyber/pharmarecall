@@ -88,8 +88,13 @@
     "category": "",
     "meds": "Vitamin-K Antagonisten: Phenprocoumon, Warfarin\nDirekte Faktor Xa Hemmer: Endoxaban, Apixaban, Rivaroxaban\nDirekter Thrombininhibitor: Dapigatran",
     "mechanism": "",
-    "learned": false,
+    "learned": true,
     "id": 1793182556545,
-    "reviews": []
+    "reviews": [
+      {
+        "score": "green",
+        "date": "2026-10-28"
+      }
+    ]
   }
 ]
