@@ -26,28 +26,6 @@
     "id": 1
   },
   {
-    "name": "P2Y12-Inhibitoren",
-    "category": "Kardiologie",
-    "meds": "Clopidogrel\nPrasugrel\nTicagrelor\nCangrelor",
-    "mechanism": "Hemmung des ADP-Rezeptors P2Y12 auf Thrombozyten.",
-    "learned": true,
-    "reviews": [
-      {
-        "score": "red",
-        "date": "2026-10-25"
-      },
-      {
-        "score": "yellow",
-        "date": "2026-10-25"
-      },
-      {
-        "score": "green",
-        "date": "2026-10-25"
-      }
-    ],
-    "id": 2
-  },
-  {
     "name": "ACE-Hemmer",
     "category": "Kardiologie",
     "meds": "Ramipril\nEnalapril\nLisinopril",
