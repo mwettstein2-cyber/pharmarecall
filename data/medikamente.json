@@ -1,31 +1,5 @@
 [
   {
-    "name": "GPIIb/IIIa-Antagonisten",
-    "category": "Kardiologie",
-    "meds": "Abciximab\nEptifibatid\nTirofiban",
-    "mechanism": "Blockade des GPIIb/IIIa-Rezeptors → Hemmung der Thrombozytenaggregation.",
-    "learned": true,
-    "reviews": [
-      {
-        "score": "green",
-        "date": "2026-10-25"
-      },
-      {
-        "score": "yellow",
-        "date": "2026-10-25"
-      },
-      {
-        "score": "green",
-        "date": "2026-10-25"
-      },
-      {
-        "score": "green",
-        "date": "2026-10-25"
-      }
-    ],
-    "id": 1
-  },
-  {
     "name": "ACE-Hemmer",
     "category": "Kardiologie",
     "meds": "Ramipril\nEnalapril\nLisinopril",
