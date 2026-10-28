@@ -82,5 +82,14 @@
         "date": "2026-10-28"
       }
     ]
+  },
+  {
+    "name": "Oralen Antikoagulanzien",
+    "category": "",
+    "meds": "Vitamin-K Antagonisten: Phenprocoumon, Warfarin\nDirekte Faktor Xa Hemmer: Endoxaban, Apixaban, Rivaroxaban\nDirekter Thrombininhibitor: Dapigatran",
+    "mechanism": "",
+    "learned": false,
+    "id": 1793182556545,
+    "reviews": []
   }
 ]
