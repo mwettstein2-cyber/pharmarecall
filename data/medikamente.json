@@ -1,14 +1,5 @@
 [
   {
-    "name": "Betablocker",
-    "category": "Kardiologie",
-    "meds": "Metoprolol\nBisoprolol\nCarvedilol",
-    "mechanism": "Blockade von β-Adrenozeptoren.",
-    "learned": false,
-    "reviews": [],
-    "id": 4
-  },
-  {
     "name": "Thrombozytenaggregationshemmer",
     "category": "",
     "meds": "COX Hemmer: Acethylsalicylsäure (ASS)\nADP Antagonisten: Clopidogrel, Ticagrelor, Prasugrel\nGlykoprotein IIb/IIIa Antagnositen: Thiofiban, Eptifibatid",
