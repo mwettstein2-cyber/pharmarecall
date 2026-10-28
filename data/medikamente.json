@@ -96,5 +96,14 @@
         "date": "2026-10-28"
       }
     ]
+  },
+  {
+    "name": "Parenterale Antikoagulantien",
+    "category": "",
+    "meds": "Unfraktionierte Heparine: Heparin\nNiedermolekulare Heparine: Certoparin, Dalteparin, Enoxaparin, Nadoparin, Tinzaparin\nSynthetisches Penthasaccharid: Fondaparinux\nHeparinoide: Danaparoid\nRekombinantes Hirudin: Bivalirudin",
+    "mechanism": "",
+    "learned": false,
+    "id": 1793187628014,
+    "reviews": []
   }
 ]
