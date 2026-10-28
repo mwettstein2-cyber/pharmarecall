@@ -1,14 +1,5 @@
 [
   {
-    "name": "ACE-Hemmer",
-    "category": "Kardiologie",
-    "meds": "Ramipril\nEnalapril\nLisinopril",
-    "mechanism": "Hemmung des Angiotensin-Converting-Enzyms.",
-    "learned": false,
-    "reviews": [],
-    "id": 3
-  },
-  {
     "name": "Betablocker",
     "category": "Kardiologie",
     "meds": "Metoprolol\nBisoprolol\nCarvedilol",
