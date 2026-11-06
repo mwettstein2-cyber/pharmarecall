@@ -1,7 +1,7 @@
 [
   {
     "name": "Thrombozytenaggregationshemmer",
-    "category": "",
+    "category": "Antikoagulanzien",
     "meds": "COX Hemmer: Acethylsalicylsäure (ASS)\nADP Antagonisten: Clopidogrel, Ticagrelor, Prasugrel\nGlykoprotein IIb/IIIa Antagnositen: Tirofiban, Eptifibatid, Abciximab",
     "mechanism": "",
     "learned": true,
@@ -14,13 +14,34 @@
       {
         "score": "green",
         "date": "2026-10-28"
+      },
+      {
+        "score": "green",
+        "date": "2026-10-29"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-03"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-04"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-06"
       }
-    ]
+    ],
+    "questionStats": {
+      "total": 43,
+      "correct": 24,
+      "date": "2026-10-28"
+    }
   },
   {
     "name": "Oralen Antikoagulanzien",
-    "category": "",
-    "meds": "Vitamin-K Antagonisten: Phenprocoumon, Warfarin\nDirekte Faktor Xa Hemmer: Endoxaban, Apixaban, Rivaroxaban\nDirekter Thrombininhibitor: Dapigatran",
+    "category": "Antikoagulanzien",
+    "meds": "Vitamin-K Antagonisten: Phenprocoumon, Warfarin\nDirekte Faktor Xa Hemmer: Apixaban, Edoxaban, Rivaroxaban\nDirekter Thrombininhibitor: Dapigatran",
     "mechanism": "",
     "learned": true,
     "id": 1793182556545,
@@ -28,15 +49,35 @@
       {
         "score": "green",
         "date": "2026-10-28"
+      },
+      {
+        "score": "green",
+        "date": "2026-10-29"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-03"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-03"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-04"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-06"
       }
     ]
   },
   {
     "name": "Parenterale Antikoagulantien",
-    "category": "",
+    "category": "Antikoagulanzien",
     "meds": "Unfraktionierte Heparine: Heparin\nNiedermolekulare Heparine: Certoparin, Dalteparin, Enoxaparin, Nadoparin, Tinzaparin\nSynthetisches Penthasaccharid: Fondaparinux\nHeparinoide: Danaparoid\nRekombinantes Hirudin: Bivalirudin",
     "mechanism": "",
-    "learned": false,
+    "learned": true,
     "id": 1793187628014,
     "reviews": [
       {
@@ -46,7 +87,185 @@
       {
         "score": "yellow",
         "date": "2026-10-28"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-10-29"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-03"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-04"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-06"
       }
     ]
+  },
+  {
+    "name": "Diabetis Typ 1",
+    "category": "Antidiabetika",
+    "meds": "Normalinsulin, Humaninsulin\nVerzögerten Insuline: NPH-Insulin, Zink Insulin\nInsulin Analoga: Insulin Lispro, Insulin Glargin",
+    "mechanism": "",
+    "learned": true,
+    "id": 1793276501471,
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-10-30"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-03"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-04"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-06"
+      }
+    ],
+    "questionStats": {
+      "total": 60,
+      "correct": 37,
+      "date": "2026-11-03"
+    }
+  },
+  {
+    "name": "Diabetis Typ2 (Antidiabetika)",
+    "category": "Antidiabetika",
+    "meds": "Biguanine: Metformin\nSulfonylharnstoffe: Glibenklamid, Glimepirid\nGlinide: Nateglinid, Repaglinid\nGLP-1R-Agonist: Exenatid, Liraglutid, Semaglutid, Dulaglotid\nSGLT-2-Inhibitoren: Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer: Arcabose",
+    "mechanism": "",
+    "learned": true,
+    "id": 1793369153654,
+    "reviews": [
+      {
+        "score": "red",
+        "date": "2026-11-03"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-04"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-06"
+      }
+    ],
+    "questionStats": {
+      "total": 60,
+      "correct": 37,
+      "date": "2026-11-03"
+    }
+  },
+  {
+    "name": "Antisympathotonika",
+    "category": "Antihypertonika",
+    "meds": "Clonidin, alpha-Methyldopa\nMoxonidin\nReserpin\nTizanidin",
+    "mechanism": "",
+    "learned": true,
+    "id": 1793878421354,
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-11-05"
+      }
+    ],
+    "questionStats": {
+      "total": 79,
+      "correct": 39,
+      "date": "2026-11-06"
+    }
+  },
+  {
+    "name": "Alphablocker",
+    "category": "Antihypertonika",
+    "meds": "Urapidil\nDoxazosin, Prazosin, Terazosin, Indoramin\nTamsulosin und Alfuzosin\nPhenoxibenzamin",
+    "mechanism": "",
+    "learned": true,
+    "id": 1793878735869,
+    "reviews": [
+      {
+        "score": "red",
+        "date": "2026-11-05"
+      }
+    ],
+    "questionStats": {
+      "total": 79,
+      "correct": 39,
+      "date": "2026-11-06"
+    }
+  },
+  {
+    "name": "Kalziumkanalblocker/Calciumkanalblocker",
+    "category": "Antihypertonika",
+    "meds": "Dihydropyridine (Gefäßselektive): Nifedipin (kurzwirksam)\nNitrendipin, Lercandipin, Amliodipin (Langwirksam)\nNicht Gefäßselektive: Diltiazem, Verapamil",
+    "mechanism": "",
+    "learned": true,
+    "id": 1793887804537,
+    "reviews": [
+      {
+        "score": "red",
+        "date": "2026-11-05"
+      }
+    ],
+    "questionStats": {
+      "total": 79,
+      "correct": 39,
+      "date": "2026-11-06"
+    }
+  },
+  {
+    "name": "Beta-Blocker",
+    "category": "Antihypertonika",
+    "meds": "Kardioselektive (b1): Bisoprolol, Metoprolol, Nebivolol, Artenolol\nUnselektive Betablocker: Propanolol, Timolol, Carvedilol",
+    "mechanism": "BISOn in METro schaut NEBenbei ARTE",
+    "learned": true,
+    "id": 1793891146037,
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-11-06"
+      }
+    ],
+    "questionStats": {
+      "total": 79,
+      "correct": 39,
+      "date": "2026-11-06"
+    }
+  },
+  {
+    "name": "RAAS Inhibitoren",
+    "category": "Antihypertonika",
+    "meds": "ACE Inhibitoren: Enalapril, Lisinopril, Captopril, Ramipril\nSartane: Candesartan, Valsartan, Losartan\nDirekte Renin Inhibitoren: Aliskiren",
+    "mechanism": "",
+    "learned": true,
+    "id": 1793897206116,
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-11-06"
+      }
+    ],
+    "questionStats": {
+      "total": 79,
+      "correct": 39,
+      "date": "2026-11-06"
+    }
+  },
+  {
+    "name": "Lipidsenker",
+    "category": "",
+    "meds": "Cholesterin Resorptionshemmer: Ezetemib\nHMG-CoA-Reduktase-Hemmer: Statine\nGallensäurekomplexbildner: Colestyramin\nFibrate\nPCSK9-Hemmer: Evolocumab, Alirocumab\nPCSK9-Translatoren: Inclisiran",
+    "mechanism": "",
+    "learned": false,
+    "id": 1793984301032,
+    "reviews": []
   }
 ]
