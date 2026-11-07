@@ -369,5 +369,15 @@
       "correct": 17,
       "date": "2026-11-07"
     }
+  },
+  {
+    "name": "Diuretika",
+    "category": "",
+    "meds": "Schleifendiuretika (Na, Ca, 2Cl -Contransporter): Furosemid, Torasemid\nThiaziddiuretika: Hodrochlorothiazid, Indapamid, Chlortalidon\nKaliumsparende Diuretika (Kaliumkanal Blocker): Amilorid, Triamteren\nAldosteron Antagonisten: Spironolacton, Eplerenon\nOsmotische Diuretika: Mannitol\nCarboanhydrase Hemmer: Acetazolamid, Dorzolamid, Brinzolamid",
+    "keyFacts": "",
+    "images": [],
+    "learned": false,
+    "id": 1794089032536,
+    "reviews": []
   }
 ]
