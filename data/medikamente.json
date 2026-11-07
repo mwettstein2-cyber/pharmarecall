@@ -351,7 +351,7 @@
   },
   {
     "name": "Lipidsenker",
-    "category": "",
+    "category": "Lipidsenker",
     "meds": "Cholesterin Resorptionshemmer: Ezetemib\nHMG-CoA-Reduktase-Hemmer: Statine\nGallensäurekomplexbildner: Colestyramin\nFibrate\nPCSK9-Hemmer: Evolocumab, Alirocumab\nPCSK9-Translatoren: Inclisiran",
     "mechanism": "",
     "learned": false,
@@ -368,11 +368,13 @@
       "total": 30,
       "correct": 17,
       "date": "2026-11-07"
-    }
+    },
+    "keyFacts": "",
+    "images": []
   },
   {
     "name": "Diuretika",
-    "category": "",
+    "category": "Diuretika",
     "meds": "Schleifendiuretika (Na, Ca, 2Cl -Contransporter): Furosemid, Torasemid\nThiaziddiuretika: Hodrochlorothiazid, Indapamid, Chlortalidon\nKaliumsparende Diuretika (Kaliumkanal Blocker): Amilorid, Triamteren\nAldosteron Antagonisten: Spironolacton, Eplerenon\nOsmotische Diuretika: Mannitol\nCarboanhydrase Hemmer: Acetazolamid, Dorzolamid, Brinzolamid",
     "keyFacts": "",
     "images": [],
