@@ -376,7 +376,7 @@
     "name": "Diuretika",
     "category": "Diuretika",
     "meds": "Schleifendiuretika (Na, Ca, 2Cl -Contransporter): Furosemid, Torasemid\nThiazid-Diuretika: Hodrochlorothiazid, Indapamid, Chlortalidon\nKaliumsparende Diuretika (Natriumkanal Blocker): Amilorid, Triamteren\nAldosteron Antagonisten (weniger Natrium Transporter: Spironolacton, Eplerenon\nOsmotische Diuretika: Mannitol\nCarboanhydrase Hemmer (weniger Bicarbonat abbau: Acetazolamid, Dorzolamid, Brinzolamid",
-    "keyFacts": "Furosemid und Thiazid-Diuretika\nThiazide erhöhen das Serum Calzium",
+    "keyFacts": "- Kaliumsparende Diuretika erhöhen das Serum Kalium!\n- Furosemid und Thiazid-Diuretika\n- Thiazide erhöhen das Serum Calzium\n- Furosemid wird über einen aktiven Transportmechanismus ins Tubuluslumen Sezerniert\n- Nur Thiazid und Schleifendiuretika beeinflussen das Calcium",
     "images": [],
     "learned": false,
     "id": 1794089032536,
