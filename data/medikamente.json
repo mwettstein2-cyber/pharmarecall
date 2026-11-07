@@ -352,6 +352,18 @@
     "mechanism": "",
     "learned": false,
     "id": 1793984301032,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 30,
+        "correct": 17,
+        "date": "2026-11-07"
+      }
+    ],
+    "questionStats": {
+      "total": 30,
+      "correct": 17,
+      "date": "2026-11-07"
+    }
   }
 ]
