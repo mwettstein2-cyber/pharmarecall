@@ -435,7 +435,7 @@
   {
     "name": "Opioide Analgetika",
     "category": "Analgetika",
-    "meds": "Agonisten an Opioid-Rezeptoren: -Morphin-Derivate: Morphin, Codein, Oxocodon\nSynthetische Opioide Methadon, Levomethadon, Tramadol, Tilidin, Fentanyl\nGemischt Agonisten/Antagonisten an Opioidreyeptoren< Buprenorphin\nAntagonisten an Opioid/Reyeptoren> Naloxon",
+    "meds": "Agonisten an Opioid-Rezeptoren: Morphin-Derivate: Morphin, Codein, Oxycodon\nSynthetische Opioide Methadon, Levomethadon, Tramadol, Tilidin, Fentanyl\nGemischt Agonisten/Antagonisten an Opioidrezeptoren: Buprenorphin\nAntagonisten an Opioid/Rezeptoren: Naloxon",
     "keyFacts": "-Alfentanyl hat die kürzeste Halbwertszeit\n-Naloxon kann alle Wirkungen von Morphin aufheben nicht aber bei Buprenorphin\n-Methylnaltrexon verhindert die durch Opioide verursachte Obstipation",
     "markedWords": [],
     "images": [
