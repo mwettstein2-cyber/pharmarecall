@@ -472,9 +472,12 @@
   {
     "name": "Nichtopioide Analgetika",
     "category": "Analgetika",
-    "meds": "NSAIDs (Nicht Steroidale Anti-Inflammatorische Drugs):\n  Nicht Selektiven COX hemmer:\n    ASS, Diclofenac, Ibuprofen\n  Selektiven COX 2 Hemmer:\n    Celecoxib, \nÜberwiegend Zentral wirkenden COX Hemmer:\n    Paracetamol",
+    "meds": "NSAIDs (Nicht Steroidale Anti-Inflammatorische Drugs):\n  Nicht Selektiven COX hemmer:\n    ASS, Diclofenac, Ibuprofen\n  Selektiven COX 2 Hemmer:\n    Celecoxib \nÜberwiegend Zentral wirkenden COX Hemmer:\n    Paracetamol, Metamizol",
     "keyFacts": "-ASS hemmt COX 1 und 2 irreversibel\n-Paracetamol macht tödliches Leberkoma\n-Metamizol wirkt Spasmolytisch",
-    "markedWords": [],
+    "markedWords": [
+      "ASS",
+      "Celecoxib"
+    ],
     "images": [
       "images/b999b6f0-8101-4ba1-8554-d58d9ba3e382.jpg"
     ],
