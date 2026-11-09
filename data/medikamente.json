@@ -441,7 +441,19 @@
     "images": [],
     "learned": false,
     "id": 1794165821260,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 69,
+        "correct": 33,
+        "date": "2026-11-09"
+      }
+    ],
+    "questionStats": {
+      "total": 69,
+      "correct": 33,
+      "date": "2026-11-09"
+    }
   },
   {
     "name": "Nichtopioide Analgetika",
@@ -452,6 +464,18 @@
     "images": [],
     "learned": false,
     "id": 1794165862408,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 69,
+        "correct": 33,
+        "date": "2026-11-09"
+      }
+    ],
+    "questionStats": {
+      "total": 69,
+      "correct": 33,
+      "date": "2026-11-09"
+    }
   }
 ]
