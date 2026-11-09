@@ -481,9 +481,14 @@
     "images": [
       "images/b999b6f0-8101-4ba1-8554-d58d9ba3e382.jpg"
     ],
-    "learned": false,
+    "learned": true,
     "id": 1794165862408,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "green",
+        "date": "2026-11-09"
+      }
+    ],
     "questionHistory": [
       {
         "total": 69,
