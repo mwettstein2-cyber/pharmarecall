@@ -426,12 +426,17 @@
         "total": 37,
         "correct": 27,
         "date": "2026-11-08"
+      },
+      {
+        "total": 37,
+        "correct": 34,
+        "date": "2026-11-09"
       }
     ],
     "questionStats": {
       "total": 37,
-      "correct": 27,
-      "date": "2026-11-08"
+      "correct": 34,
+      "date": "2026-11-09"
     },
     "highlightedMeds": [],
     "markedWords": []
