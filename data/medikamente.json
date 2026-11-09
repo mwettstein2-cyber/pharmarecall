@@ -403,7 +403,7 @@
   {
     "name": "Diuretika",
     "category": "Diuretika",
-    "meds": "Schleifendiuretika (Na, Ca, 2Cl -Contransporter): Furosemid, Torasemid\nThiazid-Diuretika: Hodrochlorothiazid, Indapamid, Chlortalidon\nKaliumsparende Diuretika (Natriumkanal Blocker): Amilorid, Triamteren\nAldosteron Antagonisten (weniger Natrium Transporter: Spironolacton, Eplerenon\nOsmotische Diuretika: Mannitol\nCarboanhydrase Hemmer (weniger Bicarbonat abbau: Acetazolamid, Dorzolamid, Brinzolamid",
+    "meds": "Schleifendiuretika (Na, Ca, 2Cl -Contransporter): \n    Furosemid, Torasemid\nThiazid-Diuretika: \n    Hodrochlorothiazid, Indapamid, Chlortalidon\nKaliumsparende Diuretika (Natriumkanal Blocker): \n    Amilorid, Triamteren\nAldosteron Antagonisten (weniger Natrium Transporter): \n    Spironolacton, Eplerenon\nOsmotische Diuretika: \n    Mannitol\nCarboanhydrase Hemmer (weniger Bicarbonat abbau): \n    Acetazolamid, Dorzolamid, Brinzolamid",
     "keyFacts": "- Furosemid nicht mit Thiazid-Diuretika\n- Thiazide erhöhen das Serum Calzium\n- Furosemid wird aktiv ins Tubuluslumen Sezerniert\n- Schleifendiuretika und Thiazide sind die einziegen Diuretika die Calcium beeinflussen\n-",
     "images": [
       "images/fc5db2c9-537b-471f-9a1b-148eb50c4b6e.jpg",
@@ -439,7 +439,9 @@
       "date": "2026-11-09"
     },
     "highlightedMeds": [],
-    "markedWords": []
+    "markedWords": [
+      "Triamteren"
+    ]
   },
   {
     "name": "Opioide Analgetika",
