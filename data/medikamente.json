@@ -563,5 +563,24 @@
     "learned": true,
     "id": 1794340741614,
     "reviews": []
+  },
+  {
+    "name": "Inotropika (Herzinsuffiziens)",
+    "category": "Inotropika und Antianginosa",
+    "meds": "Therapeutika der Chronischen Herzinsuffiziens:\n  Herzglykoside:\n    Digitoxin, Digoxin\n  Sonstige:\n    If-Kanalblocker\nTherapeutika der Akuten Herzinsuffiziens:\n  beta-Sympathomimetika\n    Dobutamin, Dopamin, Adrenalin, Noradrenalin\n  Phosphodiesterase-3-Hemmer:\n    Milrinon\n  Kalzium-Sensitivierer\n    Levosimendan",
+    "keyFacts": "",
+    "markedWords": [
+      "Milrinon",
+      "Levosimendan",
+      "Digitoxin",
+      "Digoxin"
+    ],
+    "images": [
+      "images/08d2635c-1fe6-4204-b18a-47d424fb792d.jpg",
+      "images/f7500ed7-5bd1-4848-9533-21bd7fe74350.jpg"
+    ],
+    "learned": true,
+    "id": 1794349281469,
+    "reviews": []
   }
 ]
