@@ -557,8 +557,10 @@
       "Ivabradin",
       "Molsidomin"
     ],
-    "images": [],
-    "learned": false,
+    "images": [
+      "images/2d4dfc5e-8543-41e6-840b-7ec43313a599.jpg"
+    ],
+    "learned": true,
     "id": 1794340741614,
     "reviews": []
   }
