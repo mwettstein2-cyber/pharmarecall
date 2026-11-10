@@ -528,6 +528,11 @@
     ],
     "learned": true,
     "id": 1794318168039,
-    "reviews": []
+    "reviews": [
+      {
+        "score": "green",
+        "date": "2026-11-10"
+      }
+    ]
   }
 ]
