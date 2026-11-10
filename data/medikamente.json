@@ -547,5 +547,19 @@
       "correct": 12,
       "date": "2026-11-10"
     }
+  },
+  {
+    "name": "Antianginosa (Koronare Durchblutungsstörungen)",
+    "category": "Inotropika und Antianginosa",
+    "meds": "Nitrovasodilatoren / NO-Donatoren:\n    Glyceroltrinitrat, Nitroprussidnatrium, Molsidomin\nIf-Kanalblocker:\n    Ivabradin",
+    "keyFacts": "",
+    "markedWords": [
+      "Ivabradin",
+      "Molsidomin"
+    ],
+    "images": [],
+    "learned": false,
+    "id": 1794340741614,
+    "reviews": []
   }
 ]
