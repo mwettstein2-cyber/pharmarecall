@@ -1,0 +1,347 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PharmaRecall – Lernlandkarte</title><style>
+:root{color-scheme:dark;--bg:#10151d;--panel:#19212c;--line:#303c4c;--text:#e8edf4;--muted:#8998a9;--green:#64cba9;--yellow:#eac46c;--red:#ec797b;--blue:#4daac5}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px system-ui,-apple-system,sans-serif}header{height:68px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:18px;padding:0 24px;background:#151c26}h1{font-size:21px;margin:0}small,.muted{color:var(--muted)}.brand{display:flex;align-items:center;gap:12px;min-width:220px}.logo{display:grid;grid-template-columns:repeat(2,13px);gap:3px}.logo i{height:13px;border-radius:3px;background:var(--green)}.logo i:nth-child(2){background:var(--yellow)}.logo i:nth-child(3){background:var(--blue)}.logo i:nth-child(4){background:#3163a0}input,select,textarea,button{font:inherit}input,textarea,select{background:#101721;border:1px solid #3b4859;border-radius:9px;color:var(--text);padding:10px}header input{flex:1;max-width:470px}button{border:1px solid #405268;background:#253347;color:var(--text);border-radius:9px;padding:10px 13px;cursor:pointer}button:hover{filter:brightness(1.15)}button.primary{background:#236d76;border-color:#368c91}main{padding:22px 26px}.stats{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:18px}.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 18px;min-width:145px}.stat strong{display:block;font-size:24px}.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:18px}.toolbar h2{font-size:16px;margin:0 auto 0 0}.legend{display:flex;gap:15px;color:var(--muted);font-size:12px}.dot{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:4px}.map-wrap{overflow:auto;border:1px solid var(--line);border-radius:14px;background:#141c26}.map{min-width:max-content;padding:22px 20px 12px}.plot{display:flex;align-items:end;height:315px;border-bottom:3px solid var(--blue);position:relative;padding-left:46px}.grid{position:absolute;inset:0 0 0 46px;background:repeating-linear-gradient(to top,transparent 0,transparent 49px,#2a3543 50px);pointer-events:none}.axis{position:absolute;left:0;top:0;bottom:0;width:40px;display:flex;flex-direction:column;justify-content:space-between;color:#728397;font-size:11px}.cols{position:relative;z-index:1;display:flex;align-items:end;gap:7px;height:100%}.col{width:72px;flex:none;display:flex;flex-direction:column;justify-content:end;height:100%;cursor:pointer}.stack{display:flex;flex-direction:column-reverse;gap:2px;justify-content:flex-start;min-height:4px}.seg{height:25px;border-radius:3px;border:1px solid #ffffff16}.seg.green{background:var(--green)}.seg.yellow{background:var(--yellow)}.seg.red{background:var(--red)}.empty{height:6px;background:#304153;border-radius:3px}.names{display:flex;gap:7px;padding-left:46px;margin-top:9px}.name{width:72px;flex:none;min-height:78px;text-align:center;font-size:11px;overflow-wrap:anywhere;color:#c5d1dd;cursor:pointer}.review-age{margin-top:6px;font-size:10px;white-space:nowrap}.name b{display:block;color:#fff;font-size:12px;margin-bottom:5px}.drugs{display:flex;gap:7px;padding-left:46px;border-top:1px solid #344253;margin-top:4px;padding-top:10px}.drugcol{width:72px;flex:none;font-size:10px;color:#a9bacb;overflow-wrap:anywhere;line-height:1.65}.drugcol div{border-bottom:1px solid #263444;padding:3px 0}.category{border-top:4px solid var(--blue);padding-top:6px;color:var(--muted);font-size:10px;margin:15px 0 0 46px}.hint{font-size:12px;color:var(--muted);margin-top:12px}dialog{border:1px solid #435269;border-radius:16px;background:#1a2532;color:var(--text);width:min(520px,94vw);padding:23px}dialog::backdrop{background:#000a}dialog h2{margin:0 0 18px}label{display:block;color:#bac8d8;margin:12px 0 5px}dialog input,dialog textarea,dialog select{width:100%}dialog textarea{min-height:86px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:17px}.actions button{flex:1}.feedback{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}.feedback button{padding:13px 5px}.feedback .red{background:#72383f}.feedback .yellow{background:#78602f}.feedback .green{background:#276e59}.answer{background:#111b25;border:1px solid #39495b;padding:12px;border-radius:10px;white-space:pre-wrap;margin-top:12px}.hide{display:none}.note{color:var(--muted);font-size:12px}.footer{display:flex;gap:8px;justify-content:flex-end;margin-top:14px}@media(max-width:700px){header{height:auto;flex-wrap:wrap;padding:12px}header input{order:3;flex-basis:100%;max-width:none}main{padding:12px}.plot{height:270px}.stat{min-width:100px;flex:1}.legend{flex-wrap:wrap}}
+
+/* Weekly review breakdown */
+.toolbar .legend{flex-wrap:wrap;align-items:center}
+.weekly-summary{display:flex;align-items:center;gap:12px;margin-left:16px;padding-left:16px;border-left:1px solid var(--line);flex-shrink:0}
+.weekly-donut{width:82px;height:82px;border-radius:50%;background:#344252;position:relative;flex:none}
+.weekly-donut::after{content:"";position:absolute;inset:15px;border-radius:50%;background:var(--bg)}
+.weekly-details{display:flex;flex-direction:column;gap:3px;font-size:11px;color:var(--muted);white-space:nowrap}
+.weekly-details strong{color:var(--text);font-size:12px;margin-bottom:2px}
+#weeklyGreen{color:var(--green)}#weeklyYellow{color:var(--yellow)}#weeklyRed{color:var(--red)}
+@media(max-width:700px){.toolbar{align-items:flex-start}.toolbar h2{flex-basis:100%}.weekly-summary{margin-left:0;padding-left:12px}.weekly-donut{width:68px;height:68px}.weekly-donut::after{inset:13px}}
+</style><style>
+.names .name{min-height:106px}.question-zone{display:flex;gap:7px;padding-left:46px;margin-top:8px;padding-bottom:13px}.question-cell{width:72px;flex:none;display:flex;flex-direction:column;align-items:center;cursor:pointer;min-height:115px}.question-track{height:84px;width:13px;display:flex;flex-direction:column;border:1px solid #4b6175;border-radius:4px;overflow:hidden;background:#263444}.question-correct{background:var(--green);width:100%}.question-wrong{background:var(--red);width:100%}.question-percent{font-size:11px;color:#b9d6e6;margin-top:4px;white-space:nowrap}.question-empty{font-size:10px;color:var(--muted);text-align:center;margin-top:24px}.question-cell:hover .question-track{outline:1px solid var(--blue)}.question-zone{position:relative}.question-category-cell{position:absolute;top:0;display:flex;align-items:center;flex-direction:column;min-height:128px;cursor:pointer}.question-metrics{display:flex;align-items:center;justify-content:center;gap:6px}.question-side{font-size:10px;white-space:nowrap;color:#b9d6e6}.question-category-label{font-size:10px;color:var(--muted);margin-top:7px;text-align:center;max-width:100%;overflow-wrap:anywhere}.question-category-cell:hover .question-track{outline:1px solid var(--blue)}
+.question-zone{border-bottom:1px solid #344253}.question-axis{position:absolute;left:0;top:0;height:170px;width:42px;color:#8fa3b8;font-size:10px}.question-tick{position:absolute;right:3px;transform:translateY(50%)}.question-grid{position:absolute;left:46px;right:0;top:0;height:170px;pointer-events:none}.question-gridline{position:absolute;left:0;right:0;border-top:1px dashed #344253}.question-category-cell{min-height:220px}.question-metrics{align-items:flex-end;gap:5px}.question-bars{display:flex;gap:5px;align-items:flex-end;height:170px}.question-track{height:var(--bar-height)!important;min-height:2px;width:14px}.question-run{display:flex;flex-direction:column;align-items:center;gap:4px}.question-run small{font-size:9px;color:var(--muted)}.question-side{align-self:flex-end;margin-bottom:3px}.question-age,.question-due{font-size:10px;color:#b9c6d7;margin-top:5px;text-align:center}.question-due.overdue{color:var(--red)}.question-due.today{color:var(--yellow)}.question-category-label{font-weight:600;margin-top:7px}.question-empty{margin-top:80px}
+#questionsDialog input{width:100%}#questionsDialog .note{line-height:1.5}
+#dueCard{cursor:pointer;border-color:#426f91}#dueCard:hover{filter:brightness(1.12)} .image-section{margin:20px 0 8px 46px;display:flex;gap:7px;align-items:flex-start}.image-tile{width:72px;flex:none;text-align:center;font-size:10px;color:var(--muted)}.image-tile img{width:66px;height:62px;object-fit:cover;border-radius:7px;border:1px solid var(--line);cursor:pointer}.image-preview{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}.image-preview img{width:100px;height:82px;object-fit:cover;border-radius:7px;border:1px solid var(--line)}.image-preview button{padding:4px 7px;font-size:11px;display:block;margin-top:3px}.image-card{max-width:110px}.image-section .image-tile{min-height:68px} </style><style>
+#imageViewer{width:min(1100px,96vw);max-width:96vw;max-height:92vh;padding:18px;border:1px solid #405268;border-radius:16px;background:#19212c;color:#e8edf4}
+#imageViewer::backdrop{background:#000c}
+.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.viewer-top h2{margin:0;font-size:18px}
+.viewer-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(220px,1fr);gap:18px;max-height:75vh}
+.viewer-image-area{min-width:0;display:flex;flex-direction:column;gap:10px;align-items:center;justify-content:center;background:#0e141d;border-radius:10px;padding:12px}
+#viewerImage{max-width:100%;max-height:61vh;object-fit:contain;border-radius:6px}
+.viewer-nav{display:flex;gap:10px;align-items:center}.viewer-facts{overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.6;padding:8px 4px}.viewer-facts h3{margin:0 0 12px;font-size:15px;color:#64cba9}
+.image-tile img{cursor:zoom-in}
+@media(max-width:650px){.viewer-layout{grid-template-columns:1fr;max-height:77vh;overflow:auto}.viewer-facts{max-height:30vh}#viewerImage{max-height:40vh}}
+</style><style>
+/* Fragen: kompakte Einzelrunde in der Übersicht, Historie im Dialog */
+.question-category-label{font-size:13px!important;font-weight:800!important;color:#edf6ff!important;line-height:1.22;max-width:104px!important;margin-top:9px!important}
+.question-category-cell{width:104px!important;min-height:255px!important}
+.question-age{font-size:10px;line-height:1.35;white-space:normal}
+.question-due{font-size:10px;line-height:1.4;white-space:normal;max-width:100px}
+.question-due span{display:block;font-weight:700}
+#questionsDialog{width:min(760px,96vw);max-height:90vh;overflow:auto}
+#questionsDialog h3{font-size:14px;margin:22px 0 8px}
+.dialog-chart{overflow-x:auto;margin:12px 0 20px;padding:14px 8px;background:#111b25;border:1px solid #344253;border-radius:12px}
+.dialog-chart-plot{display:flex;min-width:max-content;height:260px}
+.dialog-chart-axis{position:relative;width:38px;flex:none;height:190px;border-right:1px solid #405268;color:#8fa3b8;font-size:10px}
+.dialog-chart-axis span{position:absolute;right:7px;transform:translateY(50%)}
+.dialog-chart-bars{display:flex;gap:18px;align-items:flex-start;padding:0 12px}
+.dialog-chart-run{display:flex;flex-direction:column;align-items:center;width:75px;flex:none;font-size:11px}
+.dialog-chart-metrics{display:flex;gap:5px;align-items:flex-end;height:190px}
+.dialog-chart-track{display:flex;flex-direction:column-reverse;overflow:hidden;width:18px;border-radius:4px;border:1px solid #506074;background:#263444}
+.dialog-chart-run strong{margin-top:9px;font-size:11px}.dialog-chart-run small{color:var(--muted);margin-top:4px}
+<style>
+.drugcol .drug-entry .marked-word{color:#bd8aff;font-weight:750}.marker-toolbar{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:9px}.marker-toolbar button{border-color:#9467cb;background:#42305e;color:#f1e5ff;width:35px;height:32px;padding:3px;font-size:20px;flex:none}.drugcol .drug-entry .marked-word{color:#bd8aff!important;font-weight:800!important}.drugcol .drug-entry{cursor:pointer;border-radius:4px;transition:background .15s,color .15s}.drugcol .drug-entry:hover{background:#214c3e;color:#7ae4b8}.drugcol .drug-entry.drug-active{background:#245d4a;color:#8af2c4;outline:1px solid #39866d}.drugcol .drug-entry:hover .marked-word,.drugcol .drug-entry.drug-active .marked-word{color:#d9b5ff!important}.marked-words-list{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.marked-words-list button{padding:5px 8px;color:#d8b6ff;border-color:#6d508d;font-size:12px}.question-category-label{font-size:15px!important;font-weight:800!important;line-height:1.25;max-width:140px!important}.question-category-cell{width:140px!important}.question-zone{overflow:visible}
+</style><style>
+#editor{width:min(700px,96vw)}
+#meds{min-height:270px;line-height:1.6;tab-size:2;resize:vertical;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
+.drugcol .drug-entry{overflow-wrap:anywhere;hyphens:auto}
+.drugcol .drug-entry.drug-level-1{padding-left:7px;border-left:1px solid #3b4a5b;margin-left:2px}
+.drugcol .drug-entry.drug-level-2{padding-left:12px;border-left:1px solid #3b4a5b;margin-left:5px}
+.drugcol .drug-entry.drug-heading{font-weight:700;color:#d1ddea;border-top:1px solid #405165;padding-top:6px;margin-top:5px}
+.drugcol .drug-entry.drug-heading:first-child{border-top:0;margin-top:0;padding-top:3px}
+
+<style>
+#imagePreview .image-card{position:relative;touch-action:pan-y;border:1px solid transparent;border-radius:9px;padding:5px}
+#imagePreview .image-card.image-dragging{opacity:.55;border-color:var(--blue);background:#26394a}
+#imagePreview .image-card.image-drop-target{outline:2px dashed var(--green);outline-offset:2px}
+#imagePreview .image-drag-handle{display:flex;justify-content:center;align-items:center;gap:5px;width:100%;padding:5px 3px;margin-bottom:4px;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none;color:var(--muted);font-size:12px}
+#imagePreview .image-drag-handle:active{cursor:grabbing}
+</style></head><body><header><div class="brand"><span class="logo"><i></i><i></i><i></i><i></i></span><div><h1>PharmaRecall</h1><small>Deine Pharmakologie-Lernlandkarte</small></div></div><input id="search" placeholder="Medikamentengruppe oder Wirkstoff suchen …"><button id="add" class="primary">+ Gruppe</button><button id="exportTop">Exportieren</button><button id="refreshTop" type="button">↻ Aktualisieren</button></header><main><div class="stats"><div class="stat"><small>Gruppen</small><strong id="sGroups">0</strong></div><div class="stat"><small>Gelernt</small><strong id="sLearned">0</strong></div><div class="stat"><small>Wiederholungen</small><strong id="sReviews">0</strong></div><div class="stat"><small>Heute</small><strong id="sToday">0</strong></div><div class="stat" id="dueCard" role="button" tabindex="0" title="Fällige Kategorien unten ansehen"><small>Fragen heute fällig</small><strong id="sDue">0</strong><small id="sLate">0 überfällig</small></div></div><div class="toolbar"><h2>Gesamtübersicht</h2><span class="legend"><span><i class="dot" style="background:var(--red)"></i>Nicht gewusst</span><span><i class="dot" style="background:var(--yellow)"></i>Teilweise gewusst</span><span><i class="dot" style="background:var(--green)"></i>Gewusst</span></span><div class="weekly-summary" aria-label="Bewertungen der letzten sieben Tage"><div class="weekly-donut" id="weeklyDonut" role="img" aria-label="Keine Bewertungen in den letzten sieben Tagen"></div><div class="weekly-details"><strong>Letzte 7 Tage</strong><span id="weeklyGreen">Grün 0 %</span><span id="weeklyYellow">Gelb 0 %</span><span id="weeklyRed">Rot 0 %</span></div></div><div class="overall-questions" aria-label="Gesamtergebnis der letzten Fragerunde pro Kategorie"><div class="overall-bar" role="img" id="overallBar"><div class="overall-bad" id="overallBad"></div><div class="overall-good" id="overallGood"></div></div><div class="overall-copy"><small>Fragen gesamt</small><strong id="overallPct">–</strong><small id="overallCount">Noch keine Fragerunden</small></div></div><input id="importFile" type="file" accept="application/json" hidden></div><div class="map-wrap"><div class="map"><div class="plot"><div class="axis"><span>12</span><span>9</span><span>6</span><span>3</span><span>0</span></div><div class="grid"></div><div class="cols" id="cols"></div></div><div class="names" id="names"></div><div class="question-zone" id="questionZone"></div><div class="drugs" id="drugs"></div><div class="image-section" id="imageSection"></div></div></div></main>
+<dialog id="editor"><h2 id="editorTitle">Medikamentengruppe</h2><form id="form"><input type="hidden" id="editId"><label>Name der Gruppe</label><input id="groupName" required placeholder="z. B. GPIIb/IIIa-Antagonisten"><label>Kategorie</label><input id="category" placeholder="z. B. Kardiologie"><label>Wirkstoffe / Untergruppen (mit Einrückungen)</label><textarea id="meds" rows="13" placeholder="Agonisten an Opioid-Rezeptoren&#10;  Morphin-Derivate&#10;    Morphin, Codein, Oxycodon&#10;  Synthetische Opioide&#10;    Methadon, Fentanyl&#10;Antagonisten an Opioid-Rezeptoren&#10;  Naloxon, Methylnaltrexon"></textarea><p class="note">Ohne Einrückung = Hauptuntergruppe · 2 Leerzeichen = Untergruppe · 4 Leerzeichen = Wirkstoffe. Bestehende Listen bleiben unverändert.</p><div class="marker-toolbar"><button type="button" id="markSelection" title="Ausgewählten Text violett markieren" aria-label="Ausgewählten Text violett markieren">✎</button></div><div id="markedWordsList" class="marked-words-list"></div><label>Wichtigste Fakten</label><textarea id="keyFacts" placeholder="Prüfungsrelevante Fakten, Merksätze …"></textarea><label>Bilder einfügen</label><input id="imageFiles" type="file" accept="image/*" multiple><div id="imagePreview" class="image-preview"></div><div id="imageSaveStatus" role="status" aria-live="polite" class="note" style="margin-top:8px"></div><label><input type="checkbox" id="learned" style="width:auto"> Bereits gelernt</label><div class="footer"><button type="button" id="cancelEdit">Abbrechen</button><button type="submit" class="primary">Speichern</button></div></form></dialog>
+<dialog id="imageViewer" aria-label="Lernbild groß anzeigen"><div class="viewer-top"><h2 id="viewerTitle">Lernbild</h2><button type="button" id="viewerClose" aria-label="Schließen">✕</button></div><div class="viewer-layout"><div class="viewer-image-area"><img id="viewerImage" alt="Vergrößertes Lernbild"><div class="viewer-nav"><button type="button" id="viewerPrev">←</button><span id="viewerCount"></span><button type="button" id="viewerNext">→</button></div></div><div class="viewer-facts"><h3>Wichtigste Fakten</h3><div id="viewerFacts"></div></div></div></dialog>
+<dialog id="detail"><h2 id="detailTitle"></h2><div id="detailMeta" class="note"></div><div class="actions"><button id="showAnswer">Antwort anzeigen</button><button id="editGroup">Bearbeiten</button><button id="deleteGroup">Löschen</button></div><div id="answer" class="answer hide"></div><div id="detailImages" class="image-preview"></div><p class="note">Wie gut konntest du die Wirkstoffe und wichtigsten Fakten frei nennen?</p><div class="feedback"><button class="red" data-score="red">Nicht gewusst</button><button class="yellow" data-score="yellow">Teilweise</button><button class="green" data-score="green">Gewusst</button></div><div class="footer"><button id="closeDetail">Schließen</button></div></dialog>
+<dialog id="questionsDialog"><h2 id="questionsTitle">Fragenstatistik</h2><div id="questionHistoryChart" class="dialog-chart"></div><form id="questionsForm"><h3>Neue Fragerunde hinzufügen</h3><label for="questionTotal">Anzahl aller Fragen</label><input id="questionTotal" type="number" min="1" step="1" required><label for="questionRight">Davon richtig beantwortet</label><input id="questionRight" type="number" min="0" step="1" required><p class="note" id="questionWrongText"></p><div class="footer"><button type="button" id="questionCancel">Abbrechen</button><button type="submit" class="primary">Speichern</button></div></form></dialog>
+<script>
+const KEY='pharmarecall-v1';let groups;try{const stored=JSON.parse(localStorage.getItem(KEY));groups=Array.isArray(stored)?stored:[]}catch{groups=[]}let current=null;let pendingImages=[];const $=id=>document.getElementById(id);function save(){try{localStorage.setItem(KEY,JSON.stringify(groups));render()}catch(e){alert('Lokale Speicherung fehlgeschlagen: '+e.message+'\nBitte Daten exportieren und die Seite nicht schließen.');throw e}}function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}function localDay(date=new Date()){return [date.getFullYear(),String(date.getMonth()+1).padStart(2,'0'),String(date.getDate()).padStart(2,'0')].join('-')}function dayDiff(a,b){if(!/^\d{4}-\d{2}-\d{2}$/.test(a))return null;const utc=d=>{const [y,m,day]=d.split('-').map(Number);return Date.UTC(y,m-1,day)};return Math.max(0,Math.round((utc(b)-utc(a))/86400000))}function reviewAge(g){const dates=(g.reviews||[]).map(r=>r.date).filter(d=>typeof d==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(d)).sort();if(!dates.length)return '<span style="color:var(--muted)">—</span>';const last=dates[dates.length-1];const today=localDay();if(last===today)return '<span style="color:var(--green)">✓ wiederholt</span>';const utc=d=>Date.UTC(...d.split('-').map((x,i)=>i===1?Number(x)-1:Number(x)));const days=Math.round((utc(today)-utc(last))/86400000);return days>0?'<span style="color:var(--muted)">'+days+' '+(days===1?'Tag':'Tage')+'</span>':'<span style="color:var(--muted)">—</span>'}function renderWeeklySummary(){const end=localDay();const startDate=new Date();startDate.setHours(12,0,0,0);startDate.setDate(startDate.getDate()-6);const start=localDay(startDate);const counts={green:0,yellow:0,red:0};for(const g of groups){for(const r of (g.reviews||[])){if(typeof r.date==='string'&&r.date>=start&&r.date<=end&&Object.hasOwn(counts,r.score))counts[r.score]++}}const total=counts.green+counts.yellow+counts.red;const p=key=>total?100*counts[key]/total:0;const green=p('green'),yellow=p('yellow');const donut=$('weeklyDonut');donut.style.background=total?`conic-gradient(var(--green) 0% ${green}%,var(--yellow) ${green}% ${green+yellow}%,var(--red) ${green+yellow}% 100%)`:'#344252';donut.setAttribute('aria-label',total?`${total} Bewertungen in den letzten 7 Tagen: ${counts.green} gewusst, ${counts.yellow} teilweise gewusst, ${counts.red} nicht gewusst`:'Keine Bewertungen in den letzten 7 Tagen');const rounded={green:Math.round(p('green')),yellow:Math.round(p('yellow')),red:Math.round(p('red'))};$('weeklyGreen').textContent=`Gewusst ${rounded.green} %`;$('weeklyYellow').textContent=`Teilweise ${rounded.yellow} %`;$('weeklyRed').textContent=`Nicht gewusst ${rounded.red} %`}function questionStage(history){let stage=0;for(let i=1;i<history.length;i++){const prev=history[i-1],now=history[i];const elapsed=prev.date&&now.date?dayDiff(prev.date,now.date):null;const due=[1,3,7][stage];const pct=Number(now.total)>0?100*Number(now.correct)/Number(now.total):0;if(elapsed===null||elapsed>due||pct<45){stage=Math.max(0,stage-1)}else{stage=Math.min(2,stage+1)}}return stage}function questionDueInfo(){const today=localDay();const keys=new Set();let due=0,late=0;for(const g of groups){const k=(g.category||'').trim();if(keys.has(k))continue;keys.add(k);const h=(g.questionHistory?.length?g.questionHistory:g.questionStats?.total?[g.questionStats]:[]);if(!h.length||!h.at(-1).date)continue;const age=dayDiff(h.at(-1).date,today);if(age>=[1,3,7][questionStage(h)]){due++;if(age>[1,3,7][questionStage(h)])late++}}return {due,late}}function render(){if(window.closeDrugBubble)window.closeDrugBubble();renderWeeklySummary();const q=$('search').value.toLowerCase();const visible=groups.filter(g=>(g.name+' '+g.meds+' '+g.category).toLowerCase().includes(q)).sort((a,b)=>(a.category||'').trim().localeCompare((b.category||'').trim(),'de'));const categoryGap=34;const boundary=(i)=>i>0&&(visible[i-1].category||'').trim()!==(visible[i].category||'').trim();const offset=(i)=>visible.slice(1,i+1).reduce((n,g,j)=>n+(boundary(j+1)?categoryGap:0),0);const spacer=(i)=>boundary(i)?`style="margin-left:${categoryGap}px"`:'';$('cols').innerHTML=visible.map((g,i)=>`<div class="col" ${spacer(i)} data-id="${g.id}" title="${escapeHtml(g.name)}"><div class="stack">${g.reviews.length?g.reviews.map(r=>`<div class="seg ${r.score}" title="${escapeHtml(r.date)}"></div>`).join(''):'<div class="empty"></div>'}</div></div>`).join('');$('names').innerHTML=visible.map((g,i)=>`<div class="name" ${spacer(i)} data-id="${g.id}"><b>${i+1}</b>${escapeHtml(g.name)}<div class="review-age">${reviewAge(g)}</div><div style="margin-top:5px;color:${g.learned?'var(--green)':'var(--muted)'}">${g.learned?'✓ gelernt':'○ offen'}</div></div>`).join('');$('questionZone').style.height='265px';$('questionZone').style.position='relative';$('questionZone').style.width=(46+visible.length*79+offset(visible.length-1))+'px';const categorySpans=[];visible.forEach((g,i)=>{const key=(g.category||'').trim();let span=categorySpans.find(x=>x.key===key);if(!span){span={key,indices:[],members:[]};categorySpans.push(span)}span.indices.push(i);span.members.push(g)});const ticks=[25,50,75,100,125];$('questionZone').innerHTML=`<div class="question-axis">${ticks.map(n=>`<span class="question-tick" style="bottom:${n/125*170}px">${n}</span>`).join('')}</div><div class="question-grid">${ticks.map(n=>`<div class="question-gridline" style="bottom:${n/125*170}px"></div>`).join('')}</div>`+categorySpans.map(span=>{const midpoint=(Math.min(...span.indices)+Math.max(...span.indices))/2;const left=46+36+midpoint*79+(offset(Math.min(...span.indices))+offset(Math.max(...span.indices)))/2;const existing=span.members.find(g=>g.questionHistory?.length||g.questionStats?.total);let history=existing?.questionHistory?.length?existing.questionHistory:existing?.questionStats?.total?[existing.questionStats]:[];history=history.filter(x=>Number.isInteger(Number(x.total))&&Number(x.total)>0&&Number(x.correct)>=0&&Number(x.correct)<=Number(x.total));const last=history.at(-1);const age=last?.date?dayDiff(last.date,localDay()):null;const stage=questionStage(history);const interval=[1,3,7][stage];const remaining=age===null?null:interval-age;const due=remaining===null?'':remaining>0?`Nächste Runde:<span>${remaining} ${remaining===1?'Tag':'Tage'}</span>`:remaining===0?'Nächste Runde:<span>Heute</span>':`Überfällig:<span>${-remaining} ${-remaining===1?'Tag':'Tage'}</span>`;const label=span.key||'Ohne Kategorie';const bars=history.slice(-1).map((entry,i)=>{const total=Number(entry.total),correct=Number(entry.correct),pct=Math.round(correct/total*100),height=Math.min(total,125)/125*170;return `<div class="question-run" title="${escapeHtml(entry.date||'Datum unbekannt')} · ${correct}/${total} richtig"><div class="question-metrics"><span class="question-side">${total}</span><div class="question-track" style="--bar-height:${height}px"><div class="question-correct" style="height:${pct}%"></div><div class="question-wrong" style="height:${100-pct}%"></div></div><span class="question-side">${pct}%</span></div><small>${history.length}. Runde</small></div>`}).join('');return `<div class="question-category-cell" data-question-category="${escapeHtml(span.key)}" style="left:${left}px;top:0;transform:translateX(-50%)" title="${escapeHtml(label)} · Neue Fragerunde erfassen"><div class="question-bars">${history.length?bars:'<div class="question-empty">+ Fragen</div>'}</div><div class="question-category-label">${escapeHtml(label)}</div>${last?`<div class="question-age">${age===0?'Heute gekreuzt':age===null?'Datum unbekannt':`Vor ${age} ${age===1?'Tag':'Tagen'}`}</div><div class="question-due ${remaining<0?'overdue':remaining===0?'today':''}">${due}</div>`:''}</div>`}).join('');$('drugs').innerHTML=visible.map((g,i)=>`<div class="drugcol" ${spacer(i)}><button type="button" class="drug-eye" aria-label="Alle Wirkstoffe von ${escapeHtml(g.name)} vergrößern" data-eye-group="${g.id}">◉</button>${renderHierarchicalMeds(g)}</div>`).join('');$('imageSection').innerHTML=visible.map((g,i)=>`<div class="image-tile" ${spacer(i)}>${(g.images||[]).length?`<img data-id="${g.id}" data-image-ref="${escapeHtml(g.images[0])}" alt="Bild zu ${escapeHtml(g.name)}"><div>${g.images.length} Bild${g.images.length===1?'':'er'}</div>`:'<span>—</span>'}</div>`).join('');hydratePharmaImages($('imageSection'));$('sGroups').textContent=groups.length;$('sLearned').textContent=groups.filter(g=>g.learned).length;$('sReviews').textContent=groups.reduce((n,g)=>n+g.reviews.length,0);$('sToday').textContent=groups.reduce((n,g)=>n+g.reviews.filter(r=>r.date===localDay()).length,0);const dueInfo=questionDueInfo();$('sDue').textContent=dueInfo.due;$('sLate').textContent=dueInfo.late+' überfällig';document.querySelectorAll('[data-id]').forEach(el=>el.onclick=()=>openDetail(Number(el.dataset.id)));$('imageSection').querySelectorAll('img[data-id]').forEach(img=>{img.onclick=e=>{e.stopPropagation();openImageViewer(Number(img.dataset.id),0)}});document.querySelectorAll('[data-question-category]').forEach(el=>el.onclick=()=>openQuestions(el.dataset.questionCategory));$('drugs').querySelectorAll('.drug-eye').forEach(btn=>btn.onclick=e=>{e.stopPropagation();showDrugColumnBubble(btn)});$('drugs').querySelectorAll('.drug-entry').forEach(el=>el.onclick=e=>{e.stopPropagation();const wasActive=el.classList.contains('drug-active');document.querySelectorAll('.drug-entry.drug-active').forEach(x=>x.classList.remove('drug-active'));if(wasActive){closeDrugBubble()}else{el.classList.add('drug-active');showDrugBubble(el)}})}let questionCurrent=null;function openQuestions(category){const members=groups.filter(g=>(g.category||'').trim()===category);if(!members.length)return;questionCurrent=category;const g=members.find(x=>x.questionHistory?.length||x.questionStats)||members[0];$('questionsTitle').textContent='Fragen · '+(category||'Ohne Kategorie');$('questionTotal').value=g.questionHistory?.at(-1)?.total??g.questionStats?.total??'';$('questionRight').value='';renderQuestionDialogChart(g);updateQuestionWrong();$('questionsDialog').showModal()}function renderQuestionDialogChart(g){const history=(g.questionHistory?.length?g.questionHistory:g.questionStats?.total?[g.questionStats]:[]).filter(x=>Number(x.total)>0&&Number(x.correct)>=0&&Number(x.correct)<=Number(x.total));const ticks=[25,50,75,100,125];$('questionHistoryChart').innerHTML=history.length?`<div class="dialog-chart-plot"><div class="dialog-chart-axis">${ticks.map(n=>`<span style="bottom:${n/125*190}px">${n}</span>`).join('')}</div><div class="dialog-chart-bars">${history.map((entry,i)=>{const total=Number(entry.total),correct=Number(entry.correct),pct=Math.round(correct/total*100);return `<div class="dialog-chart-run"><div class="dialog-chart-metrics"><span>${total}</span><div class="dialog-chart-track" style="height:${Math.max(3,Math.min(total,125)/125*190)}px"><div class="question-correct" style="height:${pct}%"></div><div class="question-wrong" style="height:${100-pct}%"></div></div><span>${pct}%</span></div><strong>${i+1}. Runde</strong><small>${escapeHtml(entry.date||'')}</small></div>`}).join('')}</div></div>`:'<p class="note">Noch keine Fragerunden erfasst.</p>'}function updateQuestionWrong(){const t=Number($('questionTotal').value),r=Number($('questionRight').value);$('questionWrongText').textContent=$('questionTotal').value!==''&&$('questionRight').value!==''&&Number.isInteger(t)&&Number.isInteger(r)&&t>=1&&r>=0&&r<=t?`${t-r} falsch · ${Math.round(100*r/t)} % richtig`:'Bitte gültige Zahlen eingeben (richtig ≤ gesamt).'}$('questionTotal').oninput=updateQuestionWrong;$('questionRight').oninput=updateQuestionWrong;$('questionCancel').onclick=()=>$('questionsDialog').close();$('questionsForm').onsubmit=e=>{e.preventDefault();const total=Number($('questionTotal').value),correct=Number($('questionRight').value);if(!Number.isInteger(total)||total<1||!Number.isInteger(correct)||correct<0||correct>total){alert('Bitte gültige Zahlen eingeben.');return}const members=groups.filter(g=>(g.category||'').trim()===questionCurrent);if(!members.length)return;const old=members.find(g=>g.questionHistory?.length||g.questionStats);const history=old?.questionHistory?.length?[...old.questionHistory]:old?.questionStats?.total?[old.questionStats]:[];history.push({total,correct,date:localDay()});for(const g of members){g.questionHistory=history.map(x=>({...x}));g.questionStats={total,correct,date:localDay()}}$('questionsDialog').close();save()};function openDetail(id){current=id;const g=groups.find(x=>x.id===id);if(!g)return;$('detailTitle').textContent=g.name;$('detailMeta').textContent=(g.category||'Ohne Kategorie')+' · '+g.reviews.length+' Wiederholungen';$('answer').textContent='Wirkstoffe / Untergruppen:\n'+g.meds+'\n\nWichtigste Fakten:\n'+(g.keyFacts??g.mechanism??'');$('detailImages').innerHTML=(g.images||[]).map(src=>`<img data-image-ref="${escapeHtml(src)}" alt="Lernbild">`).join('');hydratePharmaImages($('detailImages'));$('answer').classList.add('hide');$('detail').showModal()}function renderHierarchicalMeds(g){
+ const lines=String(g.meds||'').split('\n').filter(line=>line.trim());
+ const indents=lines.map(line=>(line.match(/^[ \t]*/)||[''])[0].replace(/\t/g,'  ').length);
+ const hierarchical=indents.some(n=>n>0);
+ return lines.map((line,i)=>{
+   const spaces=indents[i];
+   const level=hierarchical?(spaces>=4?2:spaces>=2?1:0):0;
+   const label=line.trim();
+   const content=formatMarkedWords(hideCompactParentheses(label),g.markedWords||g.highlightedWords||[]);
+   return `<div class="drug-entry drug-level-${level}${hierarchical&&level===0?' drug-heading':''}" data-drug-label="${escapeHtml(label)}" data-drug-level="${level}">${content}</div>`;
+ }).join('');
+}
+// Parenthetical notes are stored unchanged, but hidden in the narrow overview.
+function hideCompactParentheses(value){
+ let depth=0,out='';
+ for(const ch of String(value)){
+  if(ch==='('){depth++;continue}
+  if(ch===')'&&depth>0){depth--;continue}
+  if(depth===0)out+=ch;
+ }
+ return out.replace(/\s{2,}/g,' ').trim();
+}
+function restoreBubbleEntry(entry){
+ const clone=entry.cloneNode(true);
+ clone.classList.remove('drug-active');
+ const col=entry.closest('.drugcol');
+ const id=col?.querySelector('[data-eye-group]')?.dataset.eyeGroup;
+ const g=groups.find(x=>String(x.id)===String(id));
+ clone.innerHTML=formatMarkedWords(entry.dataset.drugLabel||'',g?.markedWords||g?.highlightedWords||[]);
+ return clone;
+}
+function formatMarkedWords(line,words){const terms=[...new Set((words||[]).filter(Boolean))].sort((a,b)=>b.length-a.length);if(!terms.length)return escapeHtml(line);let out='',i=0;while(i<line.length){const match=terms.find(t=>line.slice(i,i+t.length).toLocaleLowerCase('de')===t.toLocaleLowerCase('de') && (i===0||!/[\p{L}\p{N}]/u.test(line[i-1])) && (i+t.length===line.length||!/[\p{L}\p{N}]/u.test(line[i+t.length])));if(match){out+='<span class="marked-word">'+escapeHtml(line.slice(i,i+match.length))+'</span>';i+=match.length}else{out+=escapeHtml(line[i]);i++}}return out}
+let editorMarkedWords=[];
+function renderMarkedWords(){const box=$('markedWordsList');box.innerHTML=editorMarkedWords.map((w,i)=>`<button type="button" data-unmark="${i}" title="Markierung entfernen">${escapeHtml(w)} ×</button>`).join('');box.querySelectorAll('[data-unmark]').forEach(b=>b.onclick=()=>{editorMarkedWords.splice(Number(b.dataset.unmark),1);renderMarkedWords()})}
+let savedTextSelection=null;const medsField=$('meds');function captureTextSelection(){if(medsField.selectionStart!==medsField.selectionEnd)savedTextSelection=[medsField.selectionStart,medsField.selectionEnd]}medsField.addEventListener('select',captureTextSelection);medsField.addEventListener('keyup',captureTextSelection);medsField.addEventListener('touchend',()=>setTimeout(captureTextSelection,0));$('markSelection').addEventListener('pointerdown',captureTextSelection);$('markSelection').onclick=()=>{const field=$('meds');const a=savedTextSelection?.[0]??field.selectionStart,b=savedTextSelection?.[1]??field.selectionEnd;const selected=field.value.slice(a,b).trim();if(!selected||selected.includes('\n')){alert('Bitte ein einzelnes Wort oder eine kurze Wortgruppe innerhalb einer Zeile auswählen.');return}if(!editorMarkedWords.some(w=>w.toLocaleLowerCase('de')===selected.toLocaleLowerCase('de')))editorMarkedWords.push(selected);renderMarkedWords();field.focus()};
+function openEditor(id){$('detail').close();const g=groups.find(x=>x.id===id);$('editorTitle').textContent=g?'Gruppe bearbeiten':'Neue Medikamentengruppe';$('editId').value=g?.id||'';$('groupName').value=g?.name||'';$('category').value=g?.category||'';$('meds').value=g?.meds||'';editorMarkedWords=[...(g?.markedWords||[])];savedTextSelection=null;renderMarkedWords();$('keyFacts').value=g?.keyFacts||g?.mechanism||'';pendingImages=[...(g?.images||[])];$('imageSaveStatus').textContent='';renderImagePreview();$('learned').checked=g?.learned||false;$('editor').showModal()}function renderImagePreview(){
+ $('imagePreview').innerHTML=pendingImages.map((src,i)=>`<div class="image-card" data-image-index="${i}"><button type="button" class="image-drag-handle" aria-label="Bild ${i+1} verschieben" title="Ziehen, um die Reihenfolge zu ändern">⠿ <span>${i+1}</span></button><img data-image-ref="${escapeHtml(src)}" alt="Bild ${i+1}"><button type="button" data-remove-image="${i}">Entfernen</button></div>`).join('');
+ $('imagePreview').querySelectorAll('[data-remove-image]').forEach(b=>b.onclick=()=>{pendingImages.splice(Number(b.dataset.removeImage),1);renderImagePreview()});
+ installImageReorder();hydratePharmaImages($('imagePreview'));
+}
+function movePendingImage(from,to){
+ if(!Number.isInteger(from)||!Number.isInteger(to)||from===to||from<0||to<0||from>=pendingImages.length||to>=pendingImages.length)return;
+ const [item]=pendingImages.splice(from,1);pendingImages.splice(to,0,item);renderImagePreview();
+}
+function installImageReorder(){
+ const area=$('imagePreview');let dragging=null;
+ const clear=()=>{area.querySelectorAll('.image-card').forEach(c=>c.classList.remove('image-dragging','image-drop-target'));dragging=null};
+ area.querySelectorAll('.image-drag-handle').forEach(handle=>{
+  handle.addEventListener('pointerdown',e=>{
+   if(e.button!==0||dragging)return;
+   const card=handle.closest('.image-card');dragging={from:Number(card.dataset.imageIndex),to:Number(card.dataset.imageIndex),pointerId:e.pointerId};
+   handle.setPointerCapture(e.pointerId);card.classList.add('image-dragging');e.preventDefault();
+  });
+  handle.addEventListener('pointermove',e=>{
+   if(!dragging||dragging.pointerId!==e.pointerId)return;
+   const target=document.elementFromPoint(e.clientX,e.clientY)?.closest('.image-card');
+   if(target&&area.contains(target))dragging.to=Number(target.dataset.imageIndex);
+   area.querySelectorAll('.image-card').forEach(c=>c.classList.toggle('image-drop-target',Number(c.dataset.imageIndex)===dragging.to));
+  });
+  handle.addEventListener('pointerup',e=>{
+   if(!dragging||dragging.pointerId!==e.pointerId)return;
+   const {from,to}=dragging;clear();movePendingImage(from,to);
+  });
+  handle.addEventListener('pointercancel',clear);
+ });
+}
+// IndexedDB statt localStorage: Bilddateien getrennt von den Lerndaten speichern.
+const pharmaImageDB=new Promise((resolve,reject)=>{const r=indexedDB.open('pharmarecall-images-v1',1);r.onupgradeneeded=()=>{if(!r.result.objectStoreNames.contains('files'))r.result.createObjectStore('files')};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)});
+async function pharmaImagePut(ref,blob){const db=await pharmaImageDB;return new Promise((resolve,reject)=>{const tx=db.transaction('files','readwrite');tx.objectStore('files').put(blob,ref);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error)})}
+async function pharmaImageGet(ref){const db=await pharmaImageDB;return new Promise((resolve,reject)=>{const tx=db.transaction('files','readonly');const req=tx.objectStore('files').get(ref);req.onsuccess=()=>resolve(req.result||null);req.onerror=()=>reject(req.error)})}
+const pharmaImageURLs=new Map();
+async function pharmaImageURL(ref){
+ if(!ref)return '';
+ if(ref.startsWith('data:')||ref.startsWith('blob:')||ref.startsWith('https://'))return ref;
+ if(pharmaImageURLs.has(ref))return pharmaImageURLs.get(ref);
+ let blob=await pharmaImageGet(ref);
+ if(!blob){const cloud=window.pharmaImageCloud;if(!cloud)throw Error('GitHub-Bildzugriff noch nicht verfügbar');blob=await cloud.download(ref);await pharmaImagePut(ref,blob)}
+ const url=URL.createObjectURL(blob);pharmaImageURLs.set(ref,url);return url;
+}
+async function hydratePharmaImages(root=document){
+ for(const img of root.querySelectorAll('img[data-image-ref]')){
+  const ref=img.getAttribute('data-image-ref');try{img.src=await pharmaImageURL(ref)}catch(err){img.alt='Bild nicht geladen';img.title=err.message;console.warn('PharmaRecall Bild:',err)}
+ }
+}
+async function compressPharmaImage(file){
+ if(!file.type.startsWith('image/'))throw Error('Keine Bilddatei');
+ const bitmap=await createImageBitmap(file);
+ const scale=Math.min(1,2000/Math.max(bitmap.width,bitmap.height));
+ const canvas=document.createElement('canvas');canvas.width=Math.max(1,Math.round(bitmap.width*scale));canvas.height=Math.max(1,Math.round(bitmap.height*scale));
+ const ctx=canvas.getContext('2d');if(!ctx)throw Error('Bildverarbeitung nicht verfügbar');
+ ctx.fillStyle='#fff';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(bitmap,0,0,canvas.width,canvas.height);bitmap.close?.();
+ const encode=(type,quality)=>new Promise(resolve=>canvas.toBlob(resolve,type,quality));
+ let blob=await encode('image/webp',.86);if(!blob||blob.type!=='image/webp')blob=await encode('image/jpeg',.86);
+ if(!blob)throw Error('Komprimierung fehlgeschlagen');
+ for(const q of [.78,.7,.62]){if(blob.size<=900000)break;const next=await encode(blob.type,q);if(next&&next.size<blob.size)blob=next}
+ return blob;
+}
+$('imageFiles').onchange=async e=>{
+ const files=Array.from(e.target.files||[]);e.target.value='';
+ const info=$('imageSaveStatus');if(info)info.textContent='Bilder werden komprimiert und lokal gesichert …';
+ for(const f of files){try{
+  const blob=await compressPharmaImage(f);
+  const ref='images/'+crypto.randomUUID()+(blob.type==='image/webp'?'.webp':'.jpg');
+  await pharmaImagePut(ref,blob);pendingImages.push(ref);renderImagePreview();
+  if(info)info.textContent='✓ Bild lokal gespeichert. GitHub-Upload erfolgt bei der Synchronisierung.';
+ }catch(err){if(info)info.textContent='⚠ Bildfehler: '+err.message;alert(f.name+': '+err.message)}}
+};
+$('add').onclick=()=>openEditor(null);$('cancelEdit').onclick=()=>$('editor').close();$('form').onsubmit=e=>{e.preventDefault();const id=Number($('editId').value);const data={name:$('groupName').value.trim(),category:$('category').value.trim(),meds:$('meds').value.trim(),keyFacts:$('keyFacts').value.trim(),markedWords:[...editorMarkedWords],images:[...pendingImages],learned:$('learned').checked};if(id){Object.assign(groups.find(g=>g.id===id),data)}else{groups.push({...data,id:Date.now(),reviews:[]})}try{save();$('editor').close();}catch(err){console.error(err)}};$('showAnswer').onclick=()=>$('answer').classList.toggle('hide');$('editGroup').onclick=()=>openEditor(current);$('deleteGroup').onclick=()=>{if(confirm('Diese Gruppe wirklich löschen?')){groups=groups.filter(g=>g.id!==current);$('detail').close();save()}};$('closeDetail').onclick=()=>$('detail').close();document.querySelectorAll('[data-score]').forEach(b=>b.onclick=()=>{const g=groups.find(x=>x.id===current);g.reviews.push({score:b.dataset.score,date:localDay()});g.learned=true;$('detail').close();save()});$('dueCard').onclick=()=>document.getElementById('questionZone').scrollIntoView({behavior:'smooth',block:'center'});$('dueCard').onkeydown=e=>{if(e.key==='Enter')$('dueCard').click()};$('search').oninput=render;$('exportTop').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(groups,null,2)],{type:'application/json'}));a.download='pharmarecall-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};render();
+</script><style>
+#cloudBtn{background:#28425a;border-color:#426f91;padding:7px 9px;font-size:12px;white-space:nowrap}#cloudStatus{font-size:11px;color:#a3b5c8}#cloudDialog{width:min(510px,95vw)}#cloudDialog p{line-height:1.5;color:#b6c5d5}#cloudDialog .row{display:flex;gap:9px;margin-top:14px;flex-wrap:wrap}#cloudDialog .row button{flex:1}#cloudMsg{font-size:12px;white-space:pre-wrap;margin-top:10px;color:#f1c97c}#cloudWarning{font-size:12px;color:#e7bd73}.cloud-check{display:flex;gap:8px;align-items:center}.cloud-check input{width:auto!important}
+#cloudDialog .cloud-buttons{display:flex;flex-direction:column;gap:9px;margin-top:16px}#cloudDialog .cloud-buttons button{width:100%}#cloudDialog .cloud-check{margin-top:16px;margin-bottom:10px}
+</style>
+<dialog id="cloudDialog"><h2>GitHub-Synchronisierung</h2><label for="cloudToken">GitHub-Token</label><input id="cloudToken" type="password" autocomplete="off" placeholder="github_pat_…"><label class="cloud-check"><input id="cloudRemember" type="checkbox"> Auf diesem Gerät angemeldet bleiben</label><div id="cloudMsg" role="status"></div><div class="cloud-buttons"><button id="cloudConnect" class="primary" type="button">Verbinden</button><button id="cloudUpload" type="button">Manuell hochladen</button><button id="cloudDownload" type="button">GitHub-Daten laden</button><button id="cloudCancel" type="button">Schließen</button></div></dialog>
+<script>
+(()=>{
+'use strict';
+const owner='mwettstein2-cyber',repo='pharmarecall',path='data/medikamente.json';
+const api=`https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
+const VAULT='pharmarecall-token-vault-v2', DEVICE='pharmarecall-device-key-v2', BASE='pharmarecall-cloud-base-v2';
+let token='',connected=false,busy=false,dirty=false,remoteSha=null,baseData=null,changed=0;
+const $c=id=>document.getElementById(id);
+const btn=document.createElement('button');btn.id='cloudBtn';btn.textContent='☁ GitHub';
+const status=document.createElement('span');status.id='cloudStatus';status.textContent='Lokal';
+document.querySelector('header').append(btn,status);
+const msg=t=>$c('cloudMsg').textContent=t;
+const state=t=>status.textContent=t;
+const bytes=s=>new TextEncoder().encode(s);
+const b64=u=>btoa(String.fromCharCode(...u));
+const unb64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+const valid=d=>Array.isArray(d)&&d.every(g=>g&&typeof g.name==='string'&&Array.isArray(g.reviews));
+async function deviceEncrypt(t){const raw=crypto.getRandomValues(new Uint8Array(32)),iv=crypto.getRandomValues(new Uint8Array(12));const key=await crypto.subtle.importKey('raw',raw,'AES-GCM',false,['encrypt']);const ct=new Uint8Array(await crypto.subtle.encrypt({name:'AES-GCM',iv},key,bytes(t)));localStorage.setItem(DEVICE,JSON.stringify({key:b64(raw),iv:b64(iv),ct:b64(ct)}))}
+async function deviceDecrypt(){const v=JSON.parse(localStorage.getItem(DEVICE));const key=await crypto.subtle.importKey('raw',unb64(v.key),'AES-GCM',false,['decrypt']);return new TextDecoder().decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:unb64(v.iv)},key,unb64(v.ct)))}
+const headers=()=>({'Authorization':`Bearer ${token}`,'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'});
+async function request(method,url,body){const r=await fetch(url,{method,headers:{...headers(),...(body?{'Content-Type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{})});if(r.status===404&&method==='GET')return null;let d;try{d=await r.json()}catch{d={}}if(!r.ok)throw Error(`${r.status}: ${d.message||'GitHub-Fehler'}`);return d}
+const b64enc=s=>{const u=bytes(s);let out='';for(let i=0;i<u.length;i+=8192)out+=String.fromCharCode(...u.subarray(i,i+8192));return btoa(out)};
+const b64dec=s=>new TextDecoder().decode(unb64(s.replace(/\s/g,'')));
+async function getRemote(){const r=await request('GET',api+'?t='+Date.now());if(!r)return {sha:null,data:[]};let content=r.content;if(!content&&r.download_url){const d=await fetch(r.download_url,{cache:'no-store'});if(!d.ok)throw Error('Datei konnte nicht gelesen werden');content=b64enc(await d.text())}const parsed=JSON.parse(b64dec(content));if(!valid(parsed))throw Error('GitHub-Datei ist kein gültiges Backup');return {sha:r.sha,data:parsed}}
+function setLocal(data){groups=structuredClone(data);localStorage.setItem(KEY,JSON.stringify(groups));render()}
+function setBase(r){remoteSha=r.sha;baseData=structuredClone(r.data);localStorage.setItem(BASE,JSON.stringify({sha:r.sha,data:r.data}))}
+function same(a,b){return JSON.stringify(a)===JSON.stringify(b)}
+function merge(base,local,remote){const map=a=>new Map(a.map(g=>[String(g.id),g]));const b=map(base),l=map(local),r=map(remote),out=[];const ids=new Set([...b.keys(),...l.keys(),...r.keys()]);for(const id of ids){const old=b.get(id),mine=l.get(id),theirs=r.get(id);if(same(mine,theirs)){if(mine)out.push(mine);continue}if(same(mine,old)){if(theirs)out.push(theirs);continue}if(same(theirs,old)){if(mine)out.push(mine);continue}if(mine&&theirs&&old){const fields=new Set([...Object.keys(old),...Object.keys(mine),...Object.keys(theirs)]),merged={};let conflict=false;for(const f of fields){if(f==='reviews'){const prefix=old.reviews||[],a=mine.reviews||[],z=theirs.reviews||[];if(same(a.slice(0,prefix.length),prefix)&&same(z.slice(0,prefix.length),prefix)){merged.reviews=[...prefix,...a.slice(prefix.length),...z.slice(prefix.length)];continue}}if(same(mine[f],theirs[f]))merged[f]=mine[f];else if(same(mine[f],old[f]))merged[f]=theirs[f];else if(same(theirs[f],old[f]))merged[f]=mine[f];else{conflict=true;break}}if(!conflict){out.push(merged);continue}}return null}return out}
+// Separate GitHub-Dateien für Bilder; nur Pfade werden in medikamente.json gespeichert.
+const uploadedImages=new Set(JSON.parse(localStorage.getItem('pharmarecall-uploaded-images-v1')||'[]'));
+const markImageUploaded=ref=>{uploadedImages.add(ref);localStorage.setItem('pharmarecall-uploaded-images-v1',JSON.stringify([...uploadedImages]))};
+const imageApi=ref=>`https://api.github.com/repos/${owner}/${repo}/contents/${ref.split('/').map(encodeURIComponent).join('/')}`;
+const blobToBase64=async blob=>{const buf=new Uint8Array(await blob.arrayBuffer());let bin='';for(let i=0;i<buf.length;i+=8192)bin+=String.fromCharCode(...buf.subarray(i,i+8192));return btoa(bin)};
+async function uploadImage(ref,blob){
+ const response=await request('PUT',imageApi(ref),{message:'PharmaRecall: Lernbild gespeichert',content:await blobToBase64(blob)});
+ if(!response?.content?.sha)throw Error('GitHub hat den Bild-Upload nicht bestätigt');markImageUploaded(ref);
+}
+async function downloadImage(ref){
+ const r=await request('GET',imageApi(ref)+'?t='+Date.now());
+ if(!r)throw Error('Bilddatei auf GitHub nicht gefunden');
+ let content=r.content;
+ if(!content&&r.download_url){const d=await fetch(r.download_url,{cache:'no-store'});if(!d.ok)throw Error('Bilddownload fehlgeschlagen');return await d.blob()}
+ markImageUploaded(ref);const data=unb64(content.replace(/\s/g,''));return new Blob([data],{type:ref.endsWith('.webp')?'image/webp':'image/jpeg'});
+}
+window.pharmaImageCloud={download:downloadImage};
+async function prepareImages(){
+ let modified=false;
+ for(const g of groups){if(!Array.isArray(g.images))continue;
+  for(let i=0;i<g.images.length;i++){
+   const original=g.images[i];if(typeof original!=='string')continue;
+   if(original.startsWith('data:image/')){
+    const blob=await(await fetch(original)).blob();
+    const ref='images/'+crypto.randomUUID()+(blob.type==='image/webp'?'.webp':'.jpg');
+    await pharmaImagePut(ref,blob);await uploadImage(ref,blob);
+    g.images[i]=ref;modified=true;
+   }else if(original.startsWith('images/')){
+    const blob=await pharmaImageGet(original);
+    if(blob&&!uploadedImages.has(original)){
+     try{await uploadImage(original,blob)}catch(e){if(String(e.message).includes('422'))markImageUploaded(original);else throw e}
+    }
+   }
+  }
+ }
+ if(modified){localStorage.setItem(KEY,JSON.stringify(groups));render()}
+}
+async function push(snapshot,sha){return request('PUT',api,{message:'PharmaRecall: Lernfortschritt aktualisieren',content:b64enc(JSON.stringify(snapshot,null,2)),...(sha?{sha}:{})})}
+async function sync(){if(!connected||busy)return;busy=true;state('↻ Synchronisiere …');try{await prepareImages();const remote=await getRemote();let result;if(baseData===null){if(groups.length&&!same(groups,remote.data)){state('⚠ Datenstand wählen');msg('Lokale und GitHub-Daten unterscheiden sich. Bitte zuerst „GitHub-Daten laden“ oder „Manuell hochladen“ wählen.');return}setLocal(remote.data);setBase(remote);result=remote.data}else{result=merge(baseData,groups,remote.data);if(!result){state('⚠ Konflikt');msg('Änderungen auf beiden Geräten betreffen dieselbe Gruppe. Bitte Daten exportieren und den Konflikt manuell klären. Nichts wurde überschrieben.');return}if(!same(result,remote.data)){const pushed=await push(result,remote.sha);setBase({sha:pushed.content.sha,data:result})}else setBase(remote);setLocal(result)}dirty=false;state('✓ Synchronisiert');$c('cloudActions').style.display='flex'}catch(e){state('⚠ Sync fehlgeschlagen');msg(e.message);console.error(e)}finally{busy=false;if(dirty&&connected)setTimeout(sync,1500)}}
+async function connect(t){token=t;const r=await getRemote();connected=true;btn.textContent='☁ ✓';state('Verbunden');const prior=JSON.parse(localStorage.getItem(BASE)||'null');if(prior&&valid(prior.data)){remoteSha=prior.sha;baseData=prior.data}else{remoteSha=null;baseData=null}return r}
+const oldSave=save;save=function(){oldSave();changed++;dirty=true;if(connected)setTimeout(sync,350)};
+btn.onclick=()=>{msg('');$c('cloudDialog').showModal()};
+$c('cloudCancel').onclick=()=>$c('cloudDialog').close();
+$c('cloudConnect').onclick=async()=>{const raw=$c('cloudToken').value.trim(),remember=$c('cloudRemember').checked;msg('Verbinde …');if(!raw){msg('Bitte GitHub-Token eingeben.');return}try{await connect(raw);if(remember)await deviceEncrypt(raw);else localStorage.removeItem(DEVICE);localStorage.removeItem(VAULT);$c('cloudToken').value='';$c('cloudDialog').close();await sync()}catch(e){connected=false;token='';msg('Anmeldung fehlgeschlagen: '+e.message)}};
+$c('cloudUpload').onclick=async()=>{if(!connected){msg('Bitte zuerst anmelden.');return}if(busy)return;try{await prepareImages();const remote=await getRemote();if(!confirm('ACHTUNG: GitHub-Daten durch diesen lokalen Stand ersetzen? Änderungen anderer Geräte könnten verloren gehen.'))return;const pushed=await push(groups,remote.sha);setBase({sha:pushed.content.sha,data:groups});dirty=false;state('✓ Hochgeladen');$c('cloudDialog').close()}catch(e){msg('Upload fehlgeschlagen: '+e.message)}};
+$c('cloudDownload').onclick=async()=>{if(!connected)return;try{const remote=await getRemote();if(!confirm('Lokale Daten durch GitHub-Daten ersetzen? Nicht hochgeladene Änderungen gehen verloren.'))return;setLocal(remote.data);setBase(remote);dirty=false;state('✓ Aktualisiert');$c('cloudDialog').close()}catch(e){msg(e.message)}};
+$c('refreshTop').onclick=async()=>{if(!connected){btn.click();return}await sync()};
+window.addEventListener('focus',()=>{if(connected&&!busy)sync()});
+window.addEventListener('beforeunload',e=>{if(connected&&(busy||dirty)){e.preventDefault();e.returnValue=''}});
+(async()=>{if(!localStorage.getItem(DEVICE))return;try{await connect(await deviceDecrypt());await sync()}catch(e){connected=false;token='';state('Anmeldung erforderlich')}})();
+})();
+</script><style>.overall-questions{display:flex;align-items:center;gap:10px;margin-left:8px;padding-left:12px;border-left:1px solid var(--line);min-width:150px}.overall-bar{height:72px;width:21px;display:flex;flex-direction:column;border-radius:5px;overflow:hidden;background:#344252;border:1px solid #506074;flex:none}.overall-bad{background:var(--red)}.overall-good{background:var(--green)}.overall-copy{display:flex;flex-direction:column;gap:3px}.overall-copy strong{font-size:20px;color:var(--green)}.overall-copy small{font-size:10px;line-height:1.3}.stat{padding-top:9px!important;padding-bottom:9px!important}.stat strong{font-size:22px!important}.plot{height:296px!important}.seg{height:23px!important}.weekly-donut{width:74px!important;height:74px!important}.toolbar{gap:8px!important}@media(max-width:700px){.plot{height:255px!important}.overall-questions{margin-left:0;padding-left:8px}.overall-bar{height:65px}}</style><script>(function(){function updateOverall(){if(typeof groups==='undefined')return;const latest=new Map();for(const g of groups){const key=String(g.category||'').trim()||'Ohne Kategorie';const hist=Array.isArray(g.questionHistory)&&g.questionHistory.length?g.questionHistory:(g.questionStats?.total?[g.questionStats]:[]);for(let i=0;i<hist.length;i++){const h=hist[i],total=Number(h.total),correct=Number(h.correct);if(!Number.isFinite(total)||total<=0||!Number.isFinite(correct)||correct<0||correct>total)continue;const date=typeof h.date==='string'?h.date:'';const prior=latest.get(key);if(!prior||date>prior.date||(date===prior.date&&i>=prior.i))latest.set(key,{total,correct,date,i});}}let total=0,correct=0;for(const h of latest.values()){total+=h.total;correct+=h.correct}const pct=total?100*correct/total:0;document.getElementById('overallGood').style.height=pct+'%';document.getElementById('overallBad').style.height=(total?100-pct:0)+'%';document.getElementById('overallPct').textContent=total?Math.round(pct)+' %':'–';document.getElementById('overallCount').textContent=total?`${correct} von ${total} richtig · ${latest.size} Kategorien`:'Noch keine Fragerunden';document.getElementById('overallBar').setAttribute('aria-label',total?`${Math.round(pct)} Prozent richtig`:'Keine Fragen');}const oldRender=render;render=function(...args){const result=oldRender.apply(this,args);updateOverall();return result};updateOverall();})();</script><script>
+(()=>{
+let viewerGroup=null,viewerIndex=0;
+const el=id=>document.getElementById(id);
+function showViewerImage(){
+ if(!viewerGroup)return;
+ const imgs=viewerGroup.images||[];
+ if(!imgs.length)return;
+ viewerIndex=(viewerIndex+imgs.length)%imgs.length;
+ pharmaImageURL(imgs[viewerIndex]).then(url=>{if(viewerGroup&&imgs[viewerIndex])el('viewerImage').src=url}).catch(e=>alert('Bild konnte nicht geladen werden: '+e.message));
+ el('viewerCount').textContent=(viewerIndex+1)+' / '+imgs.length;
+ el('viewerPrev').disabled=imgs.length<2;
+ el('viewerNext').disabled=imgs.length<2;
+}
+window.openImageViewer=(id,index=0)=>{
+ const g=groups.find(g=>String(g.id)===String(id));
+ if(!g||!Array.isArray(g.images)||!g.images.length)return;
+ viewerGroup=g;viewerIndex=index;
+ el('viewerTitle').textContent=g.name;
+ el('viewerFacts').textContent=g.keyFacts??g.mechanism??'Keine wichtigsten Fakten eingetragen.';
+ showViewerImage();el('imageViewer').showModal();
+};
+el('viewerPrev').onclick=()=>{viewerIndex--;showViewerImage()};
+el('viewerNext').onclick=()=>{viewerIndex++;showViewerImage()};
+el('viewerClose').onclick=()=>el('imageViewer').close();
+el('imageViewer').addEventListener('click',e=>{if(e.target===el('imageViewer'))el('imageViewer').close()});
+})();
+</script>
+<style>
+#drugBubble{position:fixed;z-index:2000;display:none;max-width:min(370px,85vw);min-width:210px;padding:17px 20px;background:#fff;color:#17202a;border:1px solid #e1e5eb;border-radius:16px;box-shadow:0 12px 38px #0008;font-size:17px;line-height:1.55;overflow-wrap:anywhere;white-space:pre-wrap;pointer-events:auto}
+#drugBubble:before{content:"";position:absolute;width:12px;height:12px;background:#fff;transform:rotate(45deg);border-left:1px solid #e1e5eb;border-bottom:1px solid #e1e5eb;left:-7px;top:24px}
+#drugBubble.left-side:before{left:auto;right:-7px;border:0;border-top:1px solid #e1e5eb;border-right:1px solid #e1e5eb}
+#drugBubble .marked-word{color:#8b3dd0!important;font-weight:800}
+#drugBubble .bubble-close{position:absolute;right:7px;top:5px;background:transparent;color:#485465;border:0;padding:2px 7px;font-size:19px}
+#drugBubble .bubble-content{padding-right:0;max-height:min(68vh,620px);overflow-y:auto;white-space:normal}
+#drugBubble .bubble-content .drug-entry{display:block;padding:6px 2px;border-bottom:0;line-height:1.5;overflow-wrap:anywhere}
+#drugBubble .bubble-content .drug-level-1{padding-left:16px;border-left:0}
+#drugBubble .bubble-content .drug-level-1::before{content:"• ";font-weight:900;color:#17202a}
+.drugcol .drug-entry.drug-level-1::before{content:"• ";font-weight:900;color:#d1ddea}
+#drugBubble .bubble-content .drug-level-2{padding-left:30px;border-left:0}
+#drugBubble .bubble-content .drug-heading{font-weight:750;border-top:0;margin-top:7px}
+#drugBubble .bubble-content .bubble-group-title{font-weight:800;font-size:19px;margin:0 20px 12px 0}
+.drugcol .drug-eye{display:block;margin:0 auto 9px;padding:2px 8px;min-width:31px;height:26px;line-height:1;background:#233b48;border:1px solid #416377;border-radius:7px;color:#8fdcc8;font-size:18px;cursor:pointer}
+.drugcol .drug-eye:hover,.drugcol .drug-eye:focus-visible{background:#286454;color:#fff}
+</style>
+<div id="drugBubble" role="dialog" aria-label="Wirkstoffe vergrößert"><div class="bubble-content"></div></div>
+<script>
+(()=>{
+ const bubble=document.getElementById('drugBubble');let active=null;
+ function close(){bubble.style.display='none';active=null;document.querySelectorAll('.drug-entry.drug-active').forEach(el=>el.classList.remove('drug-active'))}
+ function place(){if(!active)return;const r=active.getBoundingClientRect();const width=bubble.offsetWidth,height=bubble.offsetHeight;const spaceRight=innerWidth-r.right;const leftSide=spaceRight<width+20&&r.left>width+20;bubble.classList.toggle('left-side',leftSide);let x=leftSide?r.left-width-12:r.right+12;x=Math.max(10,Math.min(x,innerWidth-width-10));let y=Math.max(10,Math.min(r.top-15,innerHeight-height-10));bubble.style.left=x+'px';bubble.style.top=y+'px'}
+ window.showDrugBubble=el=>{
+   const entries=[...el.closest('.drugcol').querySelectorAll('.drug-entry')];
+   const index=entries.indexOf(el);
+   if(index<0)return;
+   const level=Number(el.dataset.drugLevel||0);
+   // Clicking a medication shows its immediate subgroup and all medications therein.
+   // Clicking a subgroup or top-level heading shows its complete descendant block.
+   let start=index;
+   // A level-1 subgroup opens itself and its own medicines, not its level-0 parent.
+   // A level-2 medicine opens the nearest level-1 subgroup (or level-0 if absent).
+   if(level>=2){
+     for(let i=index-1;i>=0;i--){
+       const candidate=Number(entries[i].dataset.drugLevel||0);
+       if(candidate<level){start=i;break}
+     }
+   }
+   const parentLevel=Number(entries[start].dataset.drugLevel||0);
+   let stop=start+1;
+   while(stop<entries.length&&Number(entries[stop].dataset.drugLevel||0)>parentLevel)stop++;
+   // Flat legacy lists still open as a single entry.
+   const content=bubble.querySelector('.bubble-content');
+   content.replaceChildren();
+   for(const entry of entries.slice(start,stop)){
+     content.appendChild(restoreBubbleEntry(entry));
+   }
+   active=el;bubble.style.display='block';place();
+ };
+ window.showDrugColumnBubble=btn=>{const col=btn.closest('.drugcol');if(!col)return;const id=btn.dataset.eyeGroup;const g=groups.find(x=>String(x.id)===String(id));close();active=btn;const heading=document.createElement('div');heading.className='bubble-group-title';heading.textContent=g?.name||'Wirkstoffe / Untergruppen';const content=bubble.querySelector('.bubble-content');content.replaceChildren(heading);col.querySelectorAll('.drug-entry').forEach(entry=>{content.appendChild(restoreBubbleEntry(entry))});bubble.style.display='block';place()};
+ window.closeDrugBubble=close;
+
+ document.addEventListener('pointerdown',e=>{if(active&&!bubble.contains(e.target)&&!e.target.closest('.drug-entry')&&!e.target.closest('.drug-eye'))close()});
+ window.addEventListener('resize',place);
+ document.addEventListener('scroll',()=>{if(active)place()},true);
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&active)close()});
+})();
+</script>
+</body></html>
