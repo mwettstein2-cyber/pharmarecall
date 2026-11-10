@@ -533,6 +533,18 @@
         "score": "green",
         "date": "2026-11-10"
       }
-    ]
+    ],
+    "questionHistory": [
+      {
+        "total": 16,
+        "correct": 12,
+        "date": "2026-11-10"
+      }
+    ],
+    "questionStats": {
+      "total": 16,
+      "correct": 12,
+      "date": "2026-11-10"
+    }
   }
 ]
