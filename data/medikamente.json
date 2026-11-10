@@ -515,7 +515,7 @@
     "name": "Muskelrelaxanzien",
     "category": "Muskelrelaxanzien",
     "meds": "Zentrale Muskelrelaxanzien:\n    Diazepam, Tizanidin, Baclofen\nPeriphere Muskelrelaxanzien:\n  Nicht-Depolarisierende Muskelrelaxantien (Kompetitiver Antagonismus am nACh/Nicotinergem Acethylcholin Rezeptor/ Curare Typ):\n    Rucoronium\n  Depolarisierenden Muskelrelaxanzien (dauerhafte aktivierung am nAChR):\n    Suxamethonium „Succenylcholin“\n  Myothrope Muskelrelaxantien:\n    Dantrolen\n  Botulinum-Toxin A und B (keine ACh ausschüttung durch splice)",
-    "keyFacts": "—> Dantrolen kenn eine Maligne Hyperthermie auslösen\n—> Suxamethonium kann initiale Faszikulationen auslösen Curare Typ (Rucoronium) nicht\n—> Dantrolen wirkt direkt an der Muskelzelle und dicht über die Motorische Endplatte",
+    "keyFacts": "—> Dantrolen ist bei Maligne Hyperthermie (z.B durch Suxamethonium) indiziert\n—> Suxamethonium kann initiale Faszikulationen auslösen Curare Typ (Rucoronium) nicht\n—> Dantrolen wirkt direkt an der Muskelzelle und dicht über die Motorische Endplatte",
     "markedWords": [
       "Rucoronium",
       "Suxamethonium",
