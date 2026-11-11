@@ -365,7 +365,7 @@
   {
     "name": "RAAS Inhibitoren",
     "category": "Antihypertonika",
-    "meds": "ACE Inhibitoren: Enalapril, Lisinopril, Captopril, Ramipril\nSartane: Candesartan, Valsartan, Losartan\nDirekte Renin Inhibitoren: Aliskiren",
+    "meds": "ACE Inhibitoren: \n    Enalapril, Lisinopril, Captopril, Ramipril\nSartane: \n    Candesartan, Valsartan, Losartan\nDirekte Renin Inhibitoren: \n    Aliskiren",
     "mechanism": "",
     "learned": true,
     "id": 1793897206116,
