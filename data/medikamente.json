@@ -2,7 +2,7 @@
   {
     "name": "Thrombozytenaggregationshemmer",
     "category": "Antikoagulanzien",
-    "meds": "COX Hemmer: Acethylsalicylsäure (ASS)\nADP Antagonisten: Clopidogrel, Ticagrelor, Prasugrel\nGlykoprotein IIb/IIIa Antagnositen: Tirofiban, Eptifibatid, Abciximab",
+    "meds": "COX Hemmer: \n    Acethylsalicylsäure (ASS)\nADP Antagonisten: \n    Clopidogrel, Ticagrelor, Prasugrel\nGlykoprotein IIb/IIIa Antagnositen: \n    Tirofiban, Eptifibatid, Abciximab",
     "mechanism": "",
     "learned": true,
     "id": 1792941750868,
@@ -39,7 +39,8 @@
     },
     "keyFacts": "",
     "highlightedMeds": [],
-    "images": []
+    "images": [],
+    "markedWords": []
   },
   {
     "name": "Oralen Antikoagulanzien",
