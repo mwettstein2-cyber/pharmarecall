@@ -594,7 +594,7 @@
     "name": "Muskelrelaxanzien",
     "category": "Muskelrelaxanzien",
     "meds": "Zentrale Muskelrelaxanzien:\n    Diazepam, Tizanidin, Baclofen\nPeriphere Muskelrelaxanzien:\n  Nicht-Depolarisierende Muskelrelaxantien (Kompetitiver Antagonismus am nACh/Nicotinergem Acethylcholin Rezeptor/ Curare Typ):\n    Rucoronium\n  Depolarisierenden Muskelrelaxanzien (dauerhafte aktivierung am nAChR):\n    Suxamethonium „Succenylcholin“\n  Myothrope Muskelrelaxantien:\n    Dantrolen\n  Botulinum-Toxin A und B (keine ACh ausschüttung durch splice)",
-    "keyFacts": "—> Dantrolen ist bei Maligne Hyperthermie (z.B durch Suxamethonium) indiziert\n—> Suxamethonium kann initiale Faszikulationen auslösen Curare Typ (Rucoronium) nicht\n—> Dantrolen wirkt direkt an der Muskelzelle und dicht über die Motorische Endplatte\n—> nicht-Depolarisierende Muskelrelaxantien setzen Histamin frei\n—> Succinylcholin kann eine Hyperkaliämie verursachen\n—> Muskelrelaxantien vom Curare Typ können durch Cholinesterase Hemmer antagonisiert werden",
+    "keyFacts": "—> Dantrolen ist bei Maligne Hyperthermie (z.B durch Suxamethonium) indiziert\n—> Suxamethonium kann initiale Faszikulationen auslösen Curare Typ (Rucoronium) nicht\n—> Dantrolen wirkt direkt an der Muskelzelle und dicht über die Motorische Endplatte\n—> nicht-Depolarisierende Muskelrelaxantien setzen Histamin frei\n—> Succinylcholin kann eine Hyperkaliämie verursachen\n—> Muskelrelaxantien vom Curare Typ können durch Cholinesterase Hemmer antagonisiert werden\n—> Elektromechanischekopplung findet erst ab der Sarkolemm Membran statt",
     "markedWords": [
       "Rucoronium",
       "Suxamethonium",
@@ -604,7 +604,8 @@
     "images": [
       "images/ca28b980-3594-45cc-9e1d-b05f47b18bfc.jpg",
       "images/5d7023dc-4394-4c91-b70d-52e064c990dd.jpg",
-      "images/eecdfd79-a6e0-4da6-84d0-f107a29f5c7c.jpg"
+      "images/eecdfd79-a6e0-4da6-84d0-f107a29f5c7c.jpg",
+      "images/123eb4ea-8580-4765-aa88-5da18d669408.jpg"
     ],
     "learned": true,
     "id": 1794318168039,
