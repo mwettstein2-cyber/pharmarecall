@@ -249,7 +249,7 @@
   {
     "name": "Kalziumkanalblocker/Calciumkanalblocker",
     "category": "Antihypertonika",
-    "meds": "Dihydropyridine (Gefäßselektive): Nifedipin (kurzwirksam)\nNitrendipin, Lercandipin, Amliodipin (Langwirksam)\nNicht Gefäßselektive: Diltiazem, Verapamil",
+    "meds": "Gefäßselektive / Dihydropyridine: \n  Kurzwirksam:\n    Nifedipin\n  Langwirksam:\n    Nitrendipin, Lercandipin, Amliodipin\nNicht Gefäßselektive: \n    Diltiazem, Verapamil",
     "mechanism": "",
     "learned": true,
     "id": 1793887804537,
@@ -279,6 +279,11 @@
         "correct": 62,
         "date": "2026-11-07"
       }
+    ],
+    "keyFacts": "",
+    "markedWords": [],
+    "images": [
+      "images/ff2c542e-87e4-497a-849c-3e793d2bb65a.jpg"
     ]
   },
   {
