@@ -680,9 +680,15 @@
   {
     "name": "Toxicologie",
     "category": "Toxicologie",
-    "meds": "Cyanid (hemmt komplex 4 der athmungskette) Methämoglobin (Fe3+, bindet Sauerstoff zu stark): \n    Hydroxocobalamin, Natriumthiosulfat, 4-DMAP\nMethämoglobin (Fe3+, bindet Sauerstoff zu stark):\n    Methylenblau / Tholoniumchlorid \nOrganophosphate (Hemmen die Acethylcholinesterase, ACh ^ steigt): \n    Atropin, Obidoxim, cholinerges Toxidrom\nMethanol und Ethylenglykol: \n    toxische Metaboliten, Fomepizol, Ethanol, Dialyse\nSchwermetalle: \n    insbesondere Blei, Arsen und Thallium",
-    "keyFacts": "—> Kohlenmonoxid hat 250 fache Affinität zum Häm\n—> Methylenblau und Tholonium hemmen beide das Methämoglobin",
-    "markedWords": [],
+    "meds": "Cyanid (hemmt komplex 4 der athmungskette) Methämoglobin (Fe3+, bindet Sauerstoff zu stark): \n    Hydroxocobalamin, Natriumthiosulfat, 4-DMAP\nMethämoglobin (Fe3+, bindet Sauerstoff zu stark):\n    Methylenblau / Tholoniumchlorid \nOrganophosphate / Alkylphosphate (Hemmen die Acethylcholinesterase, ACh ^ steigt): \n    Atropin, Obidoxim, cholinerges Toxidrom\nMethanol und Ethylenglykol: \n    toxische Metaboliten, Fomepizol, Ethanol, Dialyse\nSchwermetalle: \n    insbesondere Blei, Arsen und Thallium",
+    "keyFacts": "—> Kohlenmonoxid hat 250 fache Affinität zum Häm\n—> Methylenblau und Tholonium hemmen beide das Methämoglobin\n—> Obidoxim reaktiviert die Avethylcholinesterase\n—> Fomepizol bei Ethylenglykol",
+    "markedWords": [
+      "4-DMAP",
+      "Methylenblau / Tholoniumchlorid",
+      "Fomepizol",
+      "Methämoglobin",
+      "Cyanid"
+    ],
     "images": [
       "images/461b3e25-2212-4e81-9197-899cddec21e1.jpg"
     ],
