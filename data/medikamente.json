@@ -562,7 +562,19 @@
     ],
     "learned": true,
     "id": 1794340741614,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 44,
+        "correct": 21,
+        "date": "2026-11-11"
+      }
+    ],
+    "questionStats": {
+      "total": 44,
+      "correct": 21,
+      "date": "2026-11-11"
+    }
   },
   {
     "name": "Inotropika (Herzinsuffiziens)",
@@ -581,6 +593,18 @@
     ],
     "learned": true,
     "id": 1794349281469,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 44,
+        "correct": 21,
+        "date": "2026-11-11"
+      }
+    ],
+    "questionStats": {
+      "total": 44,
+      "correct": 21,
+      "date": "2026-11-11"
+    }
   }
 ]
