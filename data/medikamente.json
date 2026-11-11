@@ -415,7 +415,7 @@
   {
     "name": "Lipidsenker",
     "category": "Lipidsenker",
-    "meds": "Cholesterin Resorptionshemmer: Ezetemib\nHMG-CoA-Reduktase-Hemmer: Statine\nGallensäurekomplexbildner: Colestyramin\nFibrate\nPCSK9-Hemmer: Evolocumab, Alirocumab\nPCSK9-Translatoren: Inclisiran",
+    "meds": "Cholesterin Resorptionshemmer: \n    Ezetemib\nHMG-CoA-Reduktase-Hemmer: \n    Statine\nGallensäurekomplexbildner: \n    Colestyramin\nFibrate\nPCSK9-Hemmer: \n    Evolocumab, Alirocumab\nPCSK9-Translatoren: \n    Inclisiran",
     "mechanism": "",
     "learned": true,
     "id": 1793984301032,
