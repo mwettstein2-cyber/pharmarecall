@@ -620,12 +620,17 @@
         "total": 16,
         "correct": 12,
         "date": "2026-11-10"
+      },
+      {
+        "total": 16,
+        "correct": 14,
+        "date": "2026-11-11"
       }
     ],
     "questionStats": {
       "total": 16,
-      "correct": 12,
-      "date": "2026-11-10"
+      "correct": 14,
+      "date": "2026-11-11"
     }
   },
   {
