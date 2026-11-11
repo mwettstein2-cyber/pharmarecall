@@ -680,7 +680,7 @@
   {
     "name": "Toxicologie",
     "category": "Toxicologie",
-    "meds": "Cyanid (hemmt komplex 4 der athmungskette) und Methämoglobin (Fe3+, bindet auerstoff zu stark): \n    Hydroxocobalamin, Natriumthiosulfat, 4-DMAP, Methylenblau\nOrganophosphate (Hemmen die Acethylcholinesterase, ACh ^ steigt): \n    Atropin, Obidoxim, cholinerges Toxidrom\nMethanol und Ethylenglykol: \n    toxische Metaboliten, Fomepizol, Ethanol, Dialyse\nSchwermetalle: \n    insbesondere Blei, Arsen und Thallium",
+    "meds": "Cyanid (hemmt komplex 4 der athmungskette) und Methämoglobin (Fe3+, bindet Sauerstoff zu stark): \n    Hydroxocobalamin, Natriumthiosulfat, 4-DMAP, Methylenblau\nOrganophosphate (Hemmen die Acethylcholinesterase, ACh ^ steigt): \n    Atropin, Obidoxim, cholinerges Toxidrom\nMethanol und Ethylenglykol: \n    toxische Metaboliten, Fomepizol, Ethanol, Dialyse\nSchwermetalle: \n    insbesondere Blei, Arsen und Thallium",
     "keyFacts": "—> Kohlenmonoxid hat 250 fache Affinität zum Häm",
     "markedWords": [],
     "images": [
