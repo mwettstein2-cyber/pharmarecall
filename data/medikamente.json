@@ -680,13 +680,13 @@
   {
     "name": "Toxicologie",
     "category": "Toxicologie",
-    "meds": "",
+    "meds": "Cyanid und Methämoglobin: \n    Hydroxocobalamin, Natriumthiosulfat, 4-DMAP, Methylenblau\nOrganophosphate: \n    Atropin, Obidoxim, cholinerges Toxidrom\nMethanol und Ethylenglykol: \n    toxische Metaboliten, Fomepizol, Ethanol, Dialyse\nSchwermetalle: \n    insbesondere Blei, Arsen und Thallium",
     "keyFacts": "",
     "markedWords": [],
     "images": [
       "images/461b3e25-2212-4e81-9197-899cddec21e1.jpg"
     ],
-    "learned": false,
+    "learned": true,
     "id": 1794404275461,
     "reviews": []
   }
