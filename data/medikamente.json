@@ -758,6 +758,18 @@
     ],
     "learned": true,
     "id": 1794497702625,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 16,
+        "correct": 12,
+        "date": "2026-11-12"
+      }
+    ],
+    "questionStats": {
+      "total": 16,
+      "correct": 12,
+      "date": "2026-11-12"
+    }
   }
 ]
