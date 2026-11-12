@@ -671,7 +671,7 @@
     "name": "Inotropika (Herzinsuffiziens)",
     "category": "Inotropika und Antianginosa",
     "meds": "Therapeutika der Chronischen Herzinsuffiziens:\n  Herzglykoside (hemmung der Na/K ATPase):\n    Digitoxin, Digoxin\n  Sonstige:\n    If-Kanalblocker\nTherapeutika der Akuten Herzinsuffiziens:\n  beta-Sympathomimetika\n    Dobutamin, Dopamin, Adrenalin, Noradrenalin\n  Phosphodiesterase-3-Hemmer:\n    Milrinon\n  Kalzium-Sensitivierer\n    Levosimendan",
-    "keyFacts": "—> Herzglykoside hemmen die Na/Ka ATPase\n—> Herzglykoside bremsen den AV-Knoten",
+    "keyFacts": "—> Herzglykoside hemmen die Na/Ka ATPase\n—> Digitoxin und Digoxin bremsen den AV-Knoten\n—> Herzglykoside sind Reservemedikamente \n—> Digitoxin und Digoxin haben nur einen kleinen First-Pass Effekt",
     "markedWords": [
       "Milrinon",
       "Levosimendan",
