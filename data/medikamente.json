@@ -717,7 +717,7 @@
   {
     "name": "Toxicologie",
     "category": "Toxicologie",
-    "meds": "Cyanid (hemmt komplex 4 der athmungskette) Methämoglobin (Fe3+, bindet Sauerstoff zu stark): \n    Hydroxocobalamin, Natriumthiosulfat, 4-DMAP\nMethämoglobin (Fe3+, bindet Sauerstoff zu stark):\n    Methylenblau / Tholoniumchlorid \nOrganophosphate / Alkylphosphate / Pirimicarb (Hemmen die Acethylcholinesterase, ACh ^ steigt): \n    Atropin, Obidoxim, cholinerges Toxidrom\nMethanol und Ethylenglykol: \n    toxische Metaboliten, Fomepizol, Ethanol, Dialyse\nSchwermetalle: \n    insbesondere Blei, Arsen und Thallium",
+    "meds": "Cyanid (hemmt komplex 4 der Athmungskette): \n    Hydroxocobalamin, Natriumthiosulfat, 4-DMAP\nMethämoglobin (Fe3+, bindet Sauerstoff zu stark):\n    Methylenblau / Tholoniumchlorid \nOrganophosphate / Alkylphosphate / Pirimicarb (Hemmen die Acethylcholinesterase, ACh ^ steigt): \n    Atropin, Obidoxim, cholinerges Toxidrom\nMethanol und Ethylenglykol: \n    toxische Metaboliten, Fomepizol, Ethanol, Dialyse\nSchwermetalle: \n    insbesondere Blei, Arsen und Thallium",
     "keyFacts": "—> Kohlenmonoxid hat 250 fache Affinität zum Häm\n—> Methylenblau und Tholonium hemmen beide das Methämoglobin\n—> Obidoxim reaktiviert die Avethylcholinesterase\n—> Fomepizol bei Ethylenglykol\n—> aktivkohle oral bringt nix",
     "markedWords": [
       "4-DMAP",
