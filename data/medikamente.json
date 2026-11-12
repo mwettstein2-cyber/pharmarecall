@@ -745,5 +745,19 @@
       "correct": 49,
       "date": "2026-11-11"
     }
+  },
+  {
+    "name": "Lokalanästhetika",
+    "category": "Lokalanästhetika",
+    "meds": "Lokalanästhetika vom Estertyp:\n    Cocain \nLokalanästhetika vom Amidtyp (blocker an Spannungsabhängigen Na+ Knälen Intrezellulär):\n    Lidocain, Bupivacain, Articain",
+    "keyFacts": "",
+    "markedWords": [],
+    "images": [
+      "images/dda88bdb-c585-4050-ab78-4cc43d4af75d.jpg",
+      "images/9ce8bb19-3ada-4172-ae4d-26387a4f2993.jpg"
+    ],
+    "learned": true,
+    "id": 1794497702625,
+    "reviews": []
   }
 ]
