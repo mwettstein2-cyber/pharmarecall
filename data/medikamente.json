@@ -771,5 +771,21 @@
       "correct": 12,
       "date": "2026-11-12"
     }
+  },
+  {
+    "name": "Lifestyle Drugs",
+    "category": "Lifestyle Drugs",
+    "meds": "Erektile Dysfunktion Medikamente (Gefäßerweiterung):\n  Prostaglandin Analoga (verhindern de abbau von cAMP):\n    Alprostadil\n  PDE 5 Inhibitoren:\n    Sildenafil, Tadalafil \nAdipositas Medikamente:\n  Lipasehemmer (Gastrointestinale Lipase spaltet keine Fette mehr für die Aufnahme):\n    Orlistat\n  GLP1 Analoga:\n    Liraglutid, Semaglutid\nCanabinoide:\n  Rezeptor Agonisten:\n    Dronabinol\n  Rezeptor Antagonisten:\n    Rimonabant",
+    "keyFacts": "",
+    "markedWords": [
+      "Alprostadil",
+      "Orlistat"
+    ],
+    "images": [
+      "images/0154698a-8128-48a2-ab95-818c5a72caa1.jpg"
+    ],
+    "learned": false,
+    "id": 1794509096480,
+    "reviews": []
   }
 ]
