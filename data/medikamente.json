@@ -744,12 +744,17 @@
         "total": 77,
         "correct": 49,
         "date": "2026-11-11"
+      },
+      {
+        "total": 77,
+        "correct": 51,
+        "date": "2026-11-12"
       }
     ],
     "questionStats": {
       "total": 77,
-      "correct": 49,
-      "date": "2026-11-11"
+      "correct": 51,
+      "date": "2026-11-12"
     }
   },
   {
