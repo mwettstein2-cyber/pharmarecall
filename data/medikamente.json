@@ -776,12 +776,13 @@
     "name": "Lifestyle Drugs",
     "category": "Lifestyle Drugs",
     "meds": "Erektile Dysfunktion Medikamente (Gefäßerweiterung):\n  Prostaglandin Analoga (verhindern de abbau von cAMP):\n    Alprostadil\n  PDE 5 Inhibitoren:\n    Sildenafil, Tadalafil \nAdipositas Medikamente:\n  Lipasehemmer (Gastrointestinale Lipase spaltet keine Fette mehr für die Aufnahme):\n    Orlistat\n  GLP1 Analoga:\n    Liraglutid, Semaglutid\nCanabinoide:\n  Rezeptor Agonisten:\n    Dronabinol\n  Rezeptor Antagonisten:\n    Rimonabant",
-    "keyFacts": "",
+    "keyFacts": "—> Sildenafil kann unerwünscht die PDE 6 hemmen in der Netzhaut wodurch sehstörungen entstehen\n—> Dronabinol hemmt nicht die Gewichtszunahme",
     "markedWords": [
       "Alprostadil",
       "Orlistat"
     ],
     "images": [
+      "images/92e6b689-cb88-4539-b3fc-2d4a70cd116d.jpg",
       "images/0154698a-8128-48a2-ab95-818c5a72caa1.jpg"
     ],
     "learned": false,
