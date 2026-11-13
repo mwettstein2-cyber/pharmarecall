@@ -933,5 +933,16 @@
       "correct": 21,
       "date": "2026-11-13"
     }
+  },
+  {
+    "name": "Parasympathomimetika und Parasympatholytika",
+    "category": "Parasympathomimetika und Parasympatholytika",
+    "meds": "Muskarin-Rezeptor:\n  Agonisten (Parasympathomimetika):\n    Pilocarpin\n  Antagonisten (Parasympatholytika):\n    Butylscopolamin, Scopolamin\nCholinesterase Hemmer (Parasympathomimetika):\n    Physostigmin, Neostigmin",
+    "keyFacts": "—> Muskarinrezeptoren sind Gi und Gq gekoppelt",
+    "markedWords": [],
+    "images": [],
+    "learned": false,
+    "id": 1794597518026,
+    "reviews": []
   }
 ]
