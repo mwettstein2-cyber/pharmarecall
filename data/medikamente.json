@@ -153,7 +153,7 @@
   {
     "name": "Diabetis Typ2 (Antidiabetika)",
     "category": "Antidiabetika",
-    "meds": "Biguanine (Hemmung der Glukoneogenese, Insulinsensitivität ^\r): \n    Metformin\nBlocker ATP-Sensitiver Kaliumkanäle (Insulinausschüzzung ^):\n  Sulfonylharnstoffe: \n    Glibenklamid, Glimepirid\n  Glinide: \n    Nateglinid, Repaglinid\nGLP-1R-Agonist: \n    Exenatid, Liraglutid, Semaglutid, Dulaglotid\nSGLT-2-Inhibitoren: \n    Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer (Hemmung der Glukose Aufnahme im Darm): \n    Arcabose",
+    "meds": "Biguanine (Hemmung der Glukoneogenese, Insulinsensitivität ^\n): \n    Metformin\nBlocker ATP-Sensitiver Kaliumkanäle (Insulinausschüzzung ^):\n  Sulfonylharnstoffe: \n    Glibenklamid, Glimepirid\n  Glinide (kurz wirkend): \n    Nateglinid, Repaglinid\nGLP-1R-Agonist: \n    Exenatid, Liraglutid, Semaglutid, Dulaglotid\nSGLT-2-Inhibitoren: \n    Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer (Hemmung der Glukose Aufnahme im Darm): \n    Arcabose",
     "mechanism": "",
     "learned": true,
     "id": 1793369153654,
@@ -180,7 +180,7 @@
       "correct": 37,
       "date": "2026-11-03"
     },
-    "keyFacts": "",
+    "keyFacts": "—> Biguanide hemmen die Glucoseaufnahme aus dem Darm",
     "markedWords": [
       "Semaglutid",
       "Empagliflozin"
