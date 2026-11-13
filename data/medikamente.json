@@ -118,7 +118,7 @@
   {
     "name": "Diabetis Typ 1",
     "category": "Antidiabetika",
-    "meds": "Normalinsulin, Humaninsulin\nVerzögerten Insuline: NPH-Insulin, Zink Insulin\nInsulin Analoga: Insulin Lispro, Insulin Glargin",
+    "meds": "Normalinsulin, Humaninsulin\nVerzögerten Insuline: \n    NPH-Insulin, Zink Insulin\nInsulin Analoga: \n    Insulin Lispro, Insulin Glargin",
     "mechanism": "",
     "learned": true,
     "id": 1793276501471,
@@ -148,7 +148,13 @@
       "total": 60,
       "correct": 37,
       "date": "2026-11-03"
-    }
+    },
+    "keyFacts": "—> Insulin Lispro, Wirkungseintritt: 15min , Wirkdauer: 2-5h, Halbwertszeit: 1h",
+    "markedWords": [],
+    "images": [
+      "images/9e9b4a1f-537a-4930-911f-a471ff9d9255.jpg",
+      "images/89c1994f-bb7c-4733-b098-d0eb9198c6be.jpg"
+    ]
   },
   {
     "name": "Diabetis Typ2 (Antidiabetika)",
