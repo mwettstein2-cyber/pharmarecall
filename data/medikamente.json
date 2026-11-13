@@ -159,7 +159,7 @@
   {
     "name": "Diabetis Typ2 (Antidiabetika)",
     "category": "Antidiabetika",
-    "meds": "Biguanine (Hemmung der Glukoneogenese, Insulinsensitivität ^): \n    Metformin\nBlocker ATP-Sensitiver Kaliumkanäle (Insulinausschüzzung ^):\n  Sulfonylharnstoffe: \n    Glibenklamid, Glimepirid\n  Glinide (kurz wirkend): \n    Nateglinid, Repaglinid\nGLP-1R-Agonist: \n    Exenatid, Liraglutid, Semaglutid, Dulaglotid\nSGLT-2-Inhibitoren: \n    Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer (Hemmung der Glukose Aufnahme im Darm): \n    Arcabose",
+    "meds": "Biguanine (Hemmung der Glukoneogenese, Insulinsensitivität ^): \n    Metformin\nBlocker ATP-Sensitiver Kaliumkanäle (Insulinausschüzzung ^):\n  Sulfonylharnstoffe: \n    Glibenklamid, Glimepirid\n  Glinide (kurz wirkend): \n    Nateglinid, Repaglinid\nGLP-1R-Agonist: \n    Exenatid, Liraglutid, Semaglutid, Dulaglotid\nDPP4-Hemmer (GLP1 bleibt länger Aktiv:\n    Saxagliptin\nSGLT-2-Inhibitoren: \n    Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer (Hemmung der Glukose Aufnahme im Darm): \n    Arcabose",
     "mechanism": "",
     "learned": true,
     "id": 1793369153654,
