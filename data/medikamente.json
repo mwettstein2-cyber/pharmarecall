@@ -961,5 +961,16 @@
       "correct": 13,
       "date": "2026-11-13"
     }
+  },
+  {
+    "name": "Sympathomimetika",
+    "category": "Sympathomimetika",
+    "meds": "",
+    "keyFacts": "",
+    "markedWords": [],
+    "images": [],
+    "learned": false,
+    "id": 1794606601812,
+    "reviews": []
   }
 ]
