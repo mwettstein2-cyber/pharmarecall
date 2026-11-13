@@ -159,7 +159,7 @@
   {
     "name": "Diabetis Typ2 (Antidiabetika)",
     "category": "Antidiabetika",
-    "meds": "Biguanine (Hemmung der Glukoneogenese, Insulinsensitivität ^\n): \n    Metformin\nBlocker ATP-Sensitiver Kaliumkanäle (Insulinausschüzzung ^):\n  Sulfonylharnstoffe: \n    Glibenklamid, Glimepirid\n  Glinide (kurz wirkend): \n    Nateglinid, Repaglinid\nGLP-1R-Agonist: \n    Exenatid, Liraglutid, Semaglutid, Dulaglotid\nSGLT-2-Inhibitoren: \n    Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer (Hemmung der Glukose Aufnahme im Darm): \n    Arcabose",
+    "meds": "Biguanine (Hemmung der Glukoneogenese, Insulinsensitivität ^): \n    Metformin\nBlocker ATP-Sensitiver Kaliumkanäle (Insulinausschüzzung ^):\n  Sulfonylharnstoffe: \n    Glibenklamid, Glimepirid\n  Glinide (kurz wirkend): \n    Nateglinid, Repaglinid\nGLP-1R-Agonist: \n    Exenatid, Liraglutid, Semaglutid, Dulaglotid\nSGLT-2-Inhibitoren: \n    Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer (Hemmung der Glukose Aufnahme im Darm): \n    Arcabose",
     "mechanism": "",
     "learned": true,
     "id": 1793369153654,
@@ -186,12 +186,15 @@
       "correct": 37,
       "date": "2026-11-03"
     },
-    "keyFacts": "—> Biguanide hemmen die Glucoseaufnahme aus dem Darm",
+    "keyFacts": "—> Biguanide hemmen die Glucoseaufnahme aus dem Darm\n—> Exenatid kann nicht Oral Aufgenommen werden",
     "markedWords": [
       "Semaglutid",
-      "Empagliflozin"
+      "Empagliflozin",
+      "Exenatid"
     ],
-    "images": []
+    "images": [
+      "images/3865df5a-8ae6-47fb-80d3-65dd873b3bbc.jpg"
+    ]
   },
   {
     "name": "Antisympathotonika",
