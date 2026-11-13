@@ -359,9 +359,9 @@
     ]
   },
   {
-    "name": "Beta-Blocker",
+    "name": "Beta-Blocker (Sympatholytika)",
     "category": "Antihypertonika",
-    "meds": "Kardioselektive (b1): Bisoprolol, Metoprolol, Nebivolol, Artenolol\nUnselektive Betablocker: Propanolol, Timolol, Carvedilol",
+    "meds": "Kardioselektive (b1): \n    Bisoprolol, Metoprolol, Nebivolol, Artenolol\nUnselektive Betablocker: \n    Propanolol, Timolol, Carvedilol",
     "mechanism": "BISOn in METro schaut NEBenbei ARTE",
     "learned": true,
     "id": 1793891146037,
@@ -409,7 +409,8 @@
         "correct": 63,
         "date": "2026-11-12"
       }
-    ]
+    ],
+    "markedWords": []
   },
   {
     "name": "RAAS Inhibitoren",
