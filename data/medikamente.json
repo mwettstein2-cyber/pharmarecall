@@ -968,7 +968,9 @@
     "meds": "",
     "keyFacts": "",
     "markedWords": [],
-    "images": [],
+    "images": [
+      "images/02a4b460-7ee7-4ee5-8545-b404d8c3e478.jpg"
+    ],
     "learned": false,
     "id": 1794606601812,
     "reviews": []
