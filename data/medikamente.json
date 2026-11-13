@@ -965,7 +965,7 @@
   {
     "name": "Sympathomimetika",
     "category": "Sympathomimetika",
-    "meds": "NA-Transporter:\n  Amphetamine (hemmen die NA wiederaufnahme):\n    Methylamphetamin",
+    "meds": "Rezeptoren:\n  alpha: \n    a1 = Gq = Gefäße eng\n    a2 = Gi = NA hemmer\n  beta\n    b1 = Gs = Inotrop\n    b2 = Gs = relaxation Bronchien und Gefäße\nNA-Wiederaufnahme Hemmer (indirekte Sympathomimetika):\n  Amphetamine (hemmen die NA wiederaufnahme):\n    Methylamphetamin\n  Cocain",
     "keyFacts": "",
     "markedWords": [],
     "images": [
