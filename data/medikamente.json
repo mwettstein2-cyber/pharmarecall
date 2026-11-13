@@ -938,10 +938,10 @@
     "name": "Parasympathomimetika und Parasympatholytika",
     "category": "Parasympathomimetika und Parasympatholytika",
     "meds": "Muskarin-Rezeptor:\n  Agonisten (Parasympathomimetika):\n    Pilocarpin\n  Antagonisten (Parasympatholytika):\n    Butylscopolamin, Scopolamin\nCholinesterase Hemmer (Parasympathomimetika):\n    Physostigmin, Neostigmin",
-    "keyFacts": "—> Muskarinrezeptoren sind Gi und Gq gekoppelt",
+    "keyFacts": "—> Muskarinrezeptoren sind Gi und Gq gekoppelt\n—> Pilocarpin setzt man beim Glaukom ein\n—> Butylscopolamin kann nicht durch die Blut/Hirn Schranke\n—> Butylscopolamin hat eine Geringe Bioverfügbarkeit\n—>",
     "markedWords": [],
     "images": [],
-    "learned": false,
+    "learned": true,
     "id": 1794597518026,
     "reviews": []
   }
