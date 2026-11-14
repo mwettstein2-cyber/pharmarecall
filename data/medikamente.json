@@ -146,8 +146,8 @@
     ],
     "questionStats": {
       "total": 60,
-      "correct": 46,
-      "date": "2026-11-13"
+      "correct": 53,
+      "date": "2026-11-14"
     },
     "keyFacts": "—> Insulin Lispro, Wirkungseintritt: 15min , Wirkdauer: 2-5h, Halbwertszeit: 1h",
     "markedWords": [],
@@ -165,6 +165,11 @@
         "total": 60,
         "correct": 46,
         "date": "2026-11-13"
+      },
+      {
+        "total": 60,
+        "correct": 53,
+        "date": "2026-11-14"
       }
     ]
   },
@@ -199,8 +204,8 @@
     ],
     "questionStats": {
       "total": 60,
-      "correct": 46,
-      "date": "2026-11-13"
+      "correct": 53,
+      "date": "2026-11-14"
     },
     "keyFacts": "—> Biguanide hemmen die Glucoseaufnahme aus dem Darm\n—> Exenatid kann nicht Oral Aufgenommen werden\n—> Liraglutid wirkt länger als Exenatid und bindet besser am GLP1\n—> SGLT2 hemmer immernoch off Label bei DB typ 1",
     "markedWords": [
@@ -223,6 +228,11 @@
         "total": 60,
         "correct": 46,
         "date": "2026-11-13"
+      },
+      {
+        "total": 60,
+        "correct": 53,
+        "date": "2026-11-14"
       }
     ]
   },
