@@ -1015,15 +1015,17 @@
     "name": "Kinase-Inhibitoren / Zielgerichtete Tumortherapie",
     "category": "Kinase-Inhibitoren",
     "meds": "BCR-ABL-Antagonisten:\n    Imatinib",
-    "keyFacts": "",
-    "markedWords": [],
+    "keyFacts": "—> verursacht eine Leukopänie\n—> kommt zum einsatz bei Leukämie",
+    "markedWords": [
+      "Imatinib"
+    ],
     "images": [
       "images/89f96a0f-c53e-43eb-a476-1fc0a50b27a8.jpg",
       "images/de4ff8df-3385-42eb-899f-f4f6b3500805.jpg",
       "images/7ec68de1-fbca-4917-bcc7-a66e68499329.jpg",
       "images/99bcb268-ec6e-44c0-b101-43862463c4a0.jpg"
     ],
-    "learned": false,
+    "learned": true,
     "id": 1794673009644,
     "reviews": [],
     "questionHistory": [
