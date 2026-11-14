@@ -336,7 +336,7 @@
     "category": "Antihypertonika",
     "meds": "Gefäßselektive / Dihydropyridine: \n  Kurzwirksam:\n    Nifedipin\n  Langwirksam:\n    Nitrendipin, Lercandipin, Amliodipin\nNicht Gefäßselektive: \n    Diltiazem, Verapamil",
     "mechanism": "",
-    "learned": true,
+    "learned": false,
     "id": 1793887804537,
     "reviews": [
       {
