@@ -720,6 +720,7 @@
       "Celecoxib"
     ],
     "images": [
+      "images/2becdaf4-8b20-4cb6-b2ae-3f0bb893527e.jpg",
       "images/b999b6f0-8101-4ba1-8554-d58d9ba3e382.jpg"
     ],
     "learned": true,
@@ -759,7 +760,8 @@
       "total": 69,
       "correct": 60,
       "date": "2026-11-12"
-    }
+    },
+    "markedFacts": []
   },
   {
     "name": "Muskelrelaxanzien",
