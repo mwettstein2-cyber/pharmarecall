@@ -1057,7 +1057,8 @@
     "meds": "Blut/Gas Verteilungkoeffizient:\n  Niedrig: Schnelle ein- und aus-leitung\nInhalationsnarkotika:\n  Halogenierte Kohlenwasserstoffe:\n    Sevofluran, Desfluran\nInjektionsnarkotika:\n    Propofol, Etomidat, Ketamin",
     "keyFacts": "—> Desfluran hat den Niedrigsten Blut/Gaß Koeffizienten direkt nach Xenon\n—> Sevofluran macht als Nebenwirkung Verstärkte Muskelrelaxation\n—> Etomidat wirkt in erster Linie Hypnotisch wie eigentlich alle Narkotika\n—> Hydrophilie ist nicht gut für die Wirkung von Narkotikan",
     "markedWords": [
-      "Desfluran"
+      "Desfluran",
+      "Etomidat"
     ],
     "markedFacts": [],
     "images": [
