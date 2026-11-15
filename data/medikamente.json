@@ -764,7 +764,7 @@
     "name": "Antianginosa (Koronare Durchblutungsstörungen)",
     "category": "Inotropika und Antianginosa",
     "meds": "Nitrovasodilatoren / NO-Donatoren:\n    Glyceroltrinitrat, Nitroprussidnatrium, Molsidomin\nIf-Kanalblocker:\n    Ivabradin",
-    "keyFacts": "—> No Donatoren machen Kopfschmerzen",
+    "keyFacts": "—> NO Donatoren machen Kopfschmerzen",
     "markedWords": [
       "Ivabradin",
       "Molsidomin"
@@ -796,7 +796,8 @@
       "total": 44,
       "correct": 32,
       "date": "2026-11-12"
-    }
+    },
+    "markedFacts": []
   },
   {
     "name": "Inotropika (Herzinsuffiziens)",
