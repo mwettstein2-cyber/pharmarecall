@@ -255,6 +255,10 @@
       {
         "score": "yellow",
         "date": "2026-11-12"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-15"
       }
     ],
     "questionStats": {
