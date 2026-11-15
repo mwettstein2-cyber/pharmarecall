@@ -990,7 +990,7 @@
     "name": "Sympathomimetika",
     "category": "Sympathomimetika",
     "meds": "Rezeptoren:\n  alpha: \n    a1 = Gq = Gefäße eng\n    a2 = Gi = NA hemmer\n  beta\n    b1 = Gs = Inotrop, Chronotrop\n    b2 = Gs = relaxation Bronchien und Gefäße\nNA-Wiederaufnahme Hemmer (indirekte Sympathomimetika):\n  Ephedrin\n  Amphetamine (hemmen die NA wiederaufnahme):\n    Methylamphetamin\n  Cocain",
-    "keyFacts": "—> Cocain hemmt nicht die Commt\n—> Ephedrin steigert die Herzfrequenz",
+    "keyFacts": "—> Cocain hemmt nicht die Commt\n—> Ephedrin steigert die Herzfrequenz!\n—> Xylomethazolin hilft nicht bei Hypothonen zuständen!",
     "markedWords": [],
     "images": [
       "images/086c01f6-8771-4f25-b2ae-2992bbd19a0b.jpg",
