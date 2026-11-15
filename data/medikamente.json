@@ -1215,5 +1215,20 @@
       "correct": 5,
       "date": "2026-11-15"
     }
+  },
+  {
+    "name": "Osteoporose und Kalziumhomöostase",
+    "category": "Osteoporose und Kalziumhomöostase",
+    "meds": "Pharmaka, die den Knochenabbau hemmen\n  Bisphosphonate\n  RANKL-Inhibitoren\n    Denosumab",
+    "keyFacts": "—> Denosumab ist für Postmenopausale Frauen\n—> Desonumab hemmt Osteoklasten\n—> Desonumab imitiert die wirkung von Osteoprogerin",
+    "markedWords": [
+      "Denosumab",
+      "Bisphosphonate"
+    ],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1794786404451,
+    "reviews": []
   }
 ]
