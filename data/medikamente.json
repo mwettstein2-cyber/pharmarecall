@@ -1242,5 +1242,20 @@
       "correct": 3,
       "date": "2026-11-16"
     }
+  },
+  {
+    "name": "Antiemetika Antivertiginosa",
+    "category": "Antiemetika Antivertiginosa",
+    "meds": "Serotonin 5-HT3-Rezeptorantagonisten (Ligandengesteuerte Ionenkanäle):\n    Ondansetron\nNK1-Rezeptorantagonisten:\n    Aprepitant",
+    "keyFacts": "",
+    "markedWords": [
+      "Ondansetron",
+      "Aprepitant"
+    ],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1794789683927,
+    "reviews": []
   }
 ]
