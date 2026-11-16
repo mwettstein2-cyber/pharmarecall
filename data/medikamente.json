@@ -1288,8 +1288,10 @@
       "Aprepitant"
     ],
     "markedFacts": [],
-    "images": [],
-    "learned": false,
+    "images": [
+      "images/c7220d55-f31b-44bd-8bd1-c0486632eaa1.jpg"
+    ],
+    "learned": true,
     "id": 1794789683927,
     "reviews": [],
     "questionHistory": [
