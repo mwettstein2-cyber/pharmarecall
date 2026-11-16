@@ -1216,7 +1216,7 @@
     "name": "Gicht",
     "category": "Gicht",
     "meds": "Urikostatika:\n  Xanthinoxidase Hemmer:\n    Allopurinol, Febuxostat\nUrolytika:\n    Rasburicase\nColchicin (Hemmt Neutros)\nUrikosurika:\n    Benzbromaron\nAnti-IL-1-beta \n    Canakinumab",
-    "keyFacts": "—> Xanthionoxidase Verstoffwechselt 6MP nicht\n—> Canakinumab wird bei einem akuten Gichtanfall eingesetzt",
+    "keyFacts": "—> Xanthionoxidase Verstoffwechselt 6MP nicht\n—> Canakinumab wird bei einem akuten Gichtanfall eingesetzt\n—> Febuxostat wird nicht Empfohlen bei KHK",
     "markedWords": [
       "Canakinumab",
       "Colchicin"
