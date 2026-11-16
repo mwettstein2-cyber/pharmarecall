@@ -1238,12 +1238,17 @@
         "total": 14,
         "correct": 5,
         "date": "2026-11-15"
+      },
+      {
+        "total": 14,
+        "correct": 13,
+        "date": "2026-11-16"
       }
     ],
     "questionStats": {
       "total": 14,
-      "correct": 5,
-      "date": "2026-11-15"
+      "correct": 13,
+      "date": "2026-11-16"
     }
   },
   {
