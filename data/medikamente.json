@@ -1203,7 +1203,6 @@
     "markedFacts": [],
     "images": [
       "images/f4030547-d306-4efb-a37d-bf96e4a7fe01.jpg",
-      "images/9a10e840-9aee-4dd6-a124-a27805cf1bfd.jpg",
       "images/bfe5f41b-7b5c-4784-a194-f6123cfff4d2.jpg"
     ],
     "learned": true,
@@ -1230,7 +1229,8 @@
       "total": 10,
       "correct": 10,
       "date": "2026-11-15"
-    }
+    },
+    "audioNotes": []
   },
   {
     "name": "Gicht",
