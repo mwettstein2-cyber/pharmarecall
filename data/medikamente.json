@@ -1264,7 +1264,9 @@
       "Denosumab",
       "Bisphosphonate"
     ],
-    "markedFacts": [],
+    "markedFacts": [
+      "Desonumab hemmt Osteoklasten"
+    ],
     "images": [],
     "learned": true,
     "id": 1794786404451,
