@@ -1324,8 +1324,10 @@
       "Antazida sind Basisch und puffern H+, pH ^",
       "PPI H+/K+ATPase binden an alpha Untereinheit irreversibel"
     ],
-    "images": [],
-    "learned": false,
+    "images": [
+      "images/eb02f8f3-59b5-419e-9b8d-eed79771b1eb.jpg"
+    ],
+    "learned": true,
     "id": 1794843011294,
     "reviews": [],
     "questionHistory": [
