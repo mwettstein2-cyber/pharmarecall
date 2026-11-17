@@ -1299,7 +1299,12 @@
     ],
     "learned": true,
     "id": 1794789683927,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "green",
+        "date": "2026-11-17"
+      }
+    ],
     "questionHistory": [
       {
         "total": 11,
