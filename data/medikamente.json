@@ -1329,7 +1329,12 @@
     ],
     "learned": true,
     "id": 1794843011294,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-11-17"
+      }
+    ],
     "questionHistory": [
       {
         "total": 27,
