@@ -1142,12 +1142,17 @@
         "total": 28,
         "correct": 18,
         "date": "2026-11-15"
+      },
+      {
+        "total": 28,
+        "correct": 20,
+        "date": "2026-11-18"
       }
     ],
     "questionStats": {
       "total": 28,
-      "correct": 18,
-      "date": "2026-11-15"
+      "correct": 20,
+      "date": "2026-11-18"
     },
     "markedFacts": []
   },
