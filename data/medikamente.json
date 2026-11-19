@@ -1525,5 +1525,20 @@
     "learned": true,
     "id": 1795114257376,
     "reviews": []
+  },
+  {
+    "name": "Virostatika: Influenza und Humane Herpes-Viren (HHV)",
+    "category": "Antiinfektiva",
+    "meds": "Influenza Virostatika\n  Neuraminidase-Inhibitoren\n    Oseltamivir, Zanamivir\nHuman Herpes-Viren (HHV) Virostatika\n  Nukleosidische Purin-Analoga\n    Aciclovir",
+    "keyFacts": "",
+    "markedWords": [
+      "Oseltamivir"
+    ],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1795114614602,
+    "reviews": []
   }
 ]
