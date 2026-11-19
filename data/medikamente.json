@@ -1444,8 +1444,10 @@
     "markedFacts": [
       "Morbus Chron 5-Aminosalicylsäure, Salazosulfapyridin"
     ],
-    "images": [],
-    "learned": false,
+    "images": [
+      "images/bf96d3ef-704e-44e5-bfb9-9876d6f9af9b.jpg"
+    ],
+    "learned": true,
     "id": 1795049134467,
     "reviews": [],
     "questionHistory": [
