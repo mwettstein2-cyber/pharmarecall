@@ -623,7 +623,7 @@
       "correct": 22,
       "date": "2026-11-18"
     },
-    "keyFacts": "- HMG-CoA Reduktasehemmer kann man zusammen mit Ezetimib geben\n- Fibrate sind die stärksten Triglycerid Senker\n- Fibrate können Gallensteine machen\n- Fibrate machen die höchste HDL-C erhöhung",
+    "keyFacts": "- HMG-CoA Reduktasehemmer kann man zusammen mit Ezetimib geben\n- Fibrate sind die stärksten Triglycerid Senker\n- Fibrate können Gallensteine machen\n- Fibrate machen die höchste HDL-C erhöhung\n—> HMG-CoA Reduktasehemmer steigern als Nebenwirkung die Plasmatransaminasen",
     "images": [
       "images/f95aa202-7db1-44a3-87c1-5252b55b198a.jpg",
       "images/508a1eb8-e696-460a-af60-ce12c26ede30.jpg"
@@ -633,7 +633,9 @@
       "Statine"
     ],
     "audioNotes": [],
-    "markedFacts": []
+    "markedFacts": [
+      "HMG-CoA Reduktasehemmer steigern als Nebenwirkung die Plasmatransaminasen"
+    ]
   },
   {
     "name": "Diuretika",
