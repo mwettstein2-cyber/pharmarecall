@@ -1500,14 +1500,14 @@
   },
   {
     "name": "Tuberkulostatika und Antimykotika",
-    "category": "Aniinfektiva",
+    "category": "Antiinfektiva",
     "meds": "Tuberkulostatika\nAntimykotika\n  Triazole\n    Fluconazol\nPorenbildner\n    Amphotericin B\nGlucansynthese-Inhibitoren\n    Caspofungin",
     "keyFacts": "",
     "markedWords": [],
     "audioNotes": [],
     "markedFacts": [],
     "images": [],
-    "learned": false,
+    "learned": true,
     "id": 1795113861228,
     "reviews": []
   },
