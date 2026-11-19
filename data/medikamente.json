@@ -1497,5 +1497,18 @@
       "correct": 10,
       "date": "2026-11-19"
     }
+  },
+  {
+    "name": "Tuberkulostatika und Antimykotika",
+    "category": "Aniinfektiva",
+    "meds": "Tuberkulostatika\nAntimykotika\n  Triazole\n    Fluconazol\nPorenbildner\n    Amphotericin B\nGlucansynthese-Inhibitoren\n    Caspofungin",
+    "keyFacts": "",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": false,
+    "id": 1795113861228,
+    "reviews": []
   }
 ]
