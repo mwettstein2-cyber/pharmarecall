@@ -1528,7 +1528,9 @@
     ],
     "audioNotes": [],
     "markedFacts": [],
-    "images": [],
+    "images": [
+      "images/2bd4d071-435d-45c8-ab9f-bc01fb4a72fa.jpg"
+    ],
     "learned": true,
     "id": 1795114257376,
     "reviews": []
