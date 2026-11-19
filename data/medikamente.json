@@ -1275,7 +1275,10 @@
       "Canakinumab",
       "Colchicin"
     ],
-    "markedFacts": [],
+    "markedFacts": [
+      "Febuxostat wird nicht Empfohlen bei KHK",
+      "Canakinumab wird bei einem akuten Gichtanfall eingesetzt"
+    ],
     "images": [
       "images/976e2f54-a4b7-402a-b4e9-187cb39c1bcd.jpg"
     ],
@@ -1312,7 +1315,8 @@
       "total": 14,
       "correct": 12,
       "date": "2026-11-19"
-    }
+    },
+    "audioNotes": []
   },
   {
     "name": "Osteoporose und Kalziumhomöostase",
