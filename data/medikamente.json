@@ -1540,5 +1540,21 @@
     "learned": true,
     "id": 1795114614602,
     "reviews": []
+  },
+  {
+    "name": "Hepatitis-C und Malaria",
+    "category": "Antiinfektiva",
+    "meds": "Hepatitis-C\n    Ribavirin\n    NS3/NS4, NS5A, NS5B -Inhibitoren\nMalaria\n  Chinoline\n    Chloroquin, Mefloquin, Primaquin\n  Artemisine\n  Atovaquon",
+    "keyFacts": "",
+    "markedWords": [
+      "Artemisine",
+      "Malaria"
+    ],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1795114933849,
+    "reviews": []
   }
 ]
