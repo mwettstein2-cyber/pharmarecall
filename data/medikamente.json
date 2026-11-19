@@ -1431,5 +1431,22 @@
       "correct": 20,
       "date": "2026-11-17"
     }
+  },
+  {
+    "name": "Intestinale Antiphlogistika",
+    "category": "Intestinale Antiphlogistika",
+    "meds": "Aminosalizylate (5-Aminosalicylsäure):\n    Sulfasalazin, Mesalazin\nGlukokortikoide:\n    Prednisolon, Budesonid",
+    "keyFacts": "—> Morbus Chron 5-Aminosalicylsäure, Salazosulfapyridin",
+    "markedWords": [
+      "Sulfasalazin"
+    ],
+    "audioNotes": [],
+    "markedFacts": [
+      "Morbus Chron 5-Aminosalicylsäure, Salazosulfapyridin"
+    ],
+    "images": [],
+    "learned": false,
+    "id": 1795049134467,
+    "reviews": []
   }
 ]
