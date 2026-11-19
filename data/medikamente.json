@@ -1503,7 +1503,9 @@
     "category": "Antiinfektiva",
     "meds": "Tuberkulostatika\nAntimykotika\n  Triazole\n    Fluconazol\nPorenbildner\n    Amphotericin B\nGlucansynthese-Inhibitoren\n    Caspofungin",
     "keyFacts": "",
-    "markedWords": [],
+    "markedWords": [
+      "Triazole"
+    ],
     "audioNotes": [],
     "markedFacts": [],
     "images": [],
