@@ -1447,6 +1447,18 @@
     "images": [],
     "learned": false,
     "id": 1795049134467,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 18,
+        "correct": 10,
+        "date": "2026-11-19"
+      }
+    ],
+    "questionStats": {
+      "total": 18,
+      "correct": 10,
+      "date": "2026-11-19"
+    }
   }
 ]
