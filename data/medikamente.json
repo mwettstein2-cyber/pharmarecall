@@ -687,12 +687,17 @@
         "total": 37,
         "correct": 32,
         "date": "2026-11-12"
+      },
+      {
+        "total": 37,
+        "correct": 30,
+        "date": "2026-11-19"
       }
     ],
     "questionStats": {
       "total": 37,
-      "correct": 32,
-      "date": "2026-11-12"
+      "correct": 30,
+      "date": "2026-11-19"
     },
     "highlightedMeds": [],
     "markedWords": [
