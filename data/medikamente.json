@@ -1510,5 +1510,20 @@
     "learned": false,
     "id": 1795113861228,
     "reviews": []
+  },
+  {
+    "name": "Retrivieren Virostatika",
+    "category": "Antiinfektiva",
+    "meds": "Antiretrovirale Arzneimittel\n  Protease-Inhibitoren\n    Ritonavir, Lopinavir\n  Entry-Inhibitoren:\n    Maraviroc (CCR5-Antagonist)",
+    "keyFacts": "",
+    "markedWords": [
+      "Maraviroc"
+    ],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1795114257376,
+    "reviews": []
   }
 ]
