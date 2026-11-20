@@ -1441,7 +1441,9 @@
     "category": "Gastritis und Ulkusmittel",
     "meds": "Protonenpumpen Inhibitoren (PPI):\n    Esomeprazol, Pantoprazol, Omeprazol\nAntazida: \n    Hydrotalcit\nHistamin H2-Rezeptorantagonisten:\n    Rantidin, Famotidin\nProstaglandin-Analoga:\n    Misoprostol",
     "keyFacts": "—> Antazida sind Basisch und puffern H+, pH ^\n—> PPI H+/K+ATPase binden an alpha Untereinheit irreversibel\n—> H2 Rezeptoren steigern cAMP\n—> Protonenpumpen Inhibitoren sind von ihrer wirkung her nicht auf ihre halbwertszeit beschränkt",
-    "markedWords": [],
+    "markedWords": [
+      "Pantoprazol"
+    ],
     "audioNotes": [],
     "markedFacts": [
       "Antazida sind Basisch und puffern H+, pH ^",
