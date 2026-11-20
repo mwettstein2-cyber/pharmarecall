@@ -1486,7 +1486,7 @@
     "name": "Intestinale Antiphlogistika",
     "category": "Intestinale Antiphlogistika",
     "meds": "Aminosalizylate (5-Aminosalicylsäure):\n    Sulfasalazin, Mesalazin\nGlukokortikoide:\n    Prednisolon, Budesonid",
-    "keyFacts": "—> Morbus Chron 5-Aminosalicylsäure, Salazosulfapyridin",
+    "keyFacts": "—> Morbus Chron 5-Aminosalicylsäure, Salazosulfapyridin\n—> Mesalazin ist der Aktive Metabolit von Sulfasalazin",
     "markedWords": [
       "Sulfasalazin"
     ],
