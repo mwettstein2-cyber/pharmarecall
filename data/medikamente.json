@@ -1373,12 +1373,17 @@
         "total": 7,
         "correct": 4,
         "date": "2026-11-17"
+      },
+      {
+        "total": 7,
+        "correct": 6,
+        "date": "2026-11-20"
       }
     ],
     "questionStats": {
       "total": 7,
-      "correct": 4,
-      "date": "2026-11-17"
+      "correct": 6,
+      "date": "2026-11-20"
     },
     "audioNotes": []
   },
