@@ -1518,7 +1518,19 @@
     ],
     "learned": true,
     "id": 1795113861228,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 56,
+        "correct": 28,
+        "date": "2026-11-20"
+      }
+    ],
+    "questionStats": {
+      "total": 56,
+      "correct": 28,
+      "date": "2026-11-20"
+    }
   },
   {
     "name": "Virostatika: Retrovieren",
@@ -1535,7 +1547,19 @@
     ],
     "learned": true,
     "id": 1795114257376,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 56,
+        "correct": 28,
+        "date": "2026-11-20"
+      }
+    ],
+    "questionStats": {
+      "total": 56,
+      "correct": 28,
+      "date": "2026-11-20"
+    }
   },
   {
     "name": "Virostatika: Influenza und Humane Herpes-Viren (HHV)",
@@ -1552,7 +1576,19 @@
     ],
     "learned": true,
     "id": 1795114614602,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 56,
+        "correct": 28,
+        "date": "2026-11-20"
+      }
+    ],
+    "questionStats": {
+      "total": 56,
+      "correct": 28,
+      "date": "2026-11-20"
+    }
   },
   {
     "name": "Hepatitis-C und Malaria",
@@ -1568,6 +1604,18 @@
     "images": [],
     "learned": true,
     "id": 1795114933849,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 56,
+        "correct": 28,
+        "date": "2026-11-20"
+      }
+    ],
+    "questionStats": {
+      "total": 56,
+      "correct": 28,
+      "date": "2026-11-20"
+    }
   }
 ]
