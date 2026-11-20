@@ -1417,12 +1417,17 @@
         "total": 11,
         "correct": 10,
         "date": "2026-11-17"
+      },
+      {
+        "total": 11,
+        "correct": 9,
+        "date": "2026-11-20"
       }
     ],
     "questionStats": {
       "total": 11,
-      "correct": 10,
-      "date": "2026-11-17"
+      "correct": 9,
+      "date": "2026-11-20"
     },
     "audioNotes": [
       {
