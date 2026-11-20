@@ -1474,12 +1474,17 @@
         "total": 27,
         "correct": 20,
         "date": "2026-11-17"
+      },
+      {
+        "total": 27,
+        "correct": 18,
+        "date": "2026-11-20"
       }
     ],
     "questionStats": {
       "total": 27,
-      "correct": 20,
-      "date": "2026-11-17"
+      "correct": 18,
+      "date": "2026-11-20"
     }
   },
   {
