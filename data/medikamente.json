@@ -1541,7 +1541,7 @@
     "name": "Virostatika: Influenza und Humane Herpes-Viren (HHV)",
     "category": "Antiinfektiva",
     "meds": "Influenza Virostatika\n  Neuraminidase-Inhibitoren\n    Oseltamivir, Zanamivir\nHuman Herpes-Viren (HHV) Virostatika\n  Nukleosidische Purin-Analoga\n    Aciclovir",
-    "keyFacts": "",
+    "keyFacts": "—> Oseltamivir ist ein Prodrug",
     "markedWords": [
       "Oseltamivir"
     ],
