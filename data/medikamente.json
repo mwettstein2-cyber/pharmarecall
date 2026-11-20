@@ -1558,7 +1558,7 @@
     "name": "Hepatitis-C und Malaria",
     "category": "Antiinfektiva",
     "meds": "Hepatitis-C\n    Ribavirin\n    NS3/NS4, NS5A, NS5B -Inhibitoren\nMalaria\n  Chinoline\n    Chloroquin, Mefloquin, Primaquin\n  Artemisine\n  Atovaquon",
-    "keyFacts": "—> Chinole hemmen die demineralisierung von Häm zu Hämozin",
+    "keyFacts": "—> Chinole hemmen die demineralisierung von Häm zu Hämozin\n—> Primaquin wird über Cyp aktiviert",
     "markedWords": [
       "Artemisine",
       "Malaria"
