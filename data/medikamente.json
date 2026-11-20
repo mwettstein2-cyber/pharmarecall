@@ -1651,5 +1651,20 @@
       "correct": 28,
       "date": "2026-11-20"
     }
+  },
+  {
+    "name": "Biopharmaka",
+    "category": "Biopharmaka",
+    "meds": "Monoklonale Antikörper\n  anti-CD3\n    Muromonab-CD3\n  anti-CD25 (Transplantatabstoßung)\n    Basiliximab\n  anti-TNF (rheumatoide Arthritis, M. Crohn)\n    Infliximab, Adalimumab\n  anti-CD20 (rheumatoide arthritis)\n    Rituximab\n  anti-IL-6-Rezeptor \n    Tocilizumab\nFusionsprotein\n  anti-TNF\n    Etanercept",
+    "keyFacts": "",
+    "markedWords": [
+      "Basiliximab"
+    ],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": false,
+    "id": 1795184876412,
+    "reviews": []
   }
 ]
