@@ -1710,5 +1710,18 @@
       "correct": 9,
       "date": "2026-11-20"
     }
+  },
+  {
+    "name": "Antipsychotika",
+    "category": "Antipsychotika",
+    "meds": "1. Generation (D2 Rezeptorblock)\n2. Generation (D2 und Serotonin/5HTA Rezeptorblock",
+    "keyFacts": "—> Dopamin Blockade macht hyperprolactinämie\n—> D2 Antagonisten wirken nicht Sedierend\n—> Niedrig und Hochpotente Antipsychotika wirken gleich\n—> Niedrigpotente Antipsychotika sedieren stärker als hochpotente\n—> D2 antagonisten machen keien orthostatishcen Dysregulationen\n—> ANtipsychotika machen nichtt abhängig",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1795216066959,
+    "reviews": []
   }
 ]
