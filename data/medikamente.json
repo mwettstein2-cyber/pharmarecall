@@ -1514,12 +1514,17 @@
         "total": 18,
         "correct": 10,
         "date": "2026-11-19"
+      },
+      {
+        "total": 18,
+        "correct": 15,
+        "date": "2026-11-20"
       }
     ],
     "questionStats": {
       "total": 18,
-      "correct": 10,
-      "date": "2026-11-19"
+      "correct": 15,
+      "date": "2026-11-20"
     }
   },
   {
