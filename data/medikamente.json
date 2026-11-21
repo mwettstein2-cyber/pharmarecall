@@ -1715,7 +1715,7 @@
   {
     "name": "Biopharmaka",
     "category": "Biopharmaka",
-    "meds": "Monoklonale Antikörper\n  anti-CD3\n    Muromonab-CD3 (M)\n  anti-CD25 (Transplantatabstoßung)\n    Basiliximab (C)\n  anti-TNF (rheumatoide Arthritis, M. Crohn)\n    Infliximab (C), Adalimumab\n  anti-CD20 (rheumatoide arthritis)\n    Rituximab\n  anti-IL-6-Rezeptor \n    Tocilizumab\n  a4b7-Integrinblocker\n    Vedolizumab\nFusionsprotein\n  anti-TNF\n    Etanercept",
+    "meds": "Monoklonale Antikörper\n  anti-CD3\n    Muromonab-CD3 (M)\n  anti-CD25 (Transplantatabstoßung)\n    Basiliximab (C)\n  anti-TNF (rheumatoide Arthritis, M. Crohn)\n    Infliximab (C), Adalimumab\n  anti-CD20 (rheumatoide arthritis)\n    Rituximab\n  anti-IL-6-Rezeptor \n    Tocilizumab\n  a4b7-Integrinblocker\n    Vedolizumab\n  PD1 Inhibitor\n    Nivolumab\nFusionsprotein\n  anti-TNF\n    Etanercept",
     "keyFacts": "—> es gibt chimäre, murin und humanisierte antikörper\n—> der Fc (konstanter teil) des antikörpers ist human\n—> Basiliximab, bindet an die a-Untereinheit der Interleukin-2-Rezeptoren —> es bindet kein interleukin!!",
     "markedWords": [
       "Basiliximab",
