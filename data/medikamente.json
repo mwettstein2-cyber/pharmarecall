@@ -1768,7 +1768,12 @@
     ],
     "learned": true,
     "id": 1795201205044,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "green",
+        "date": "2026-11-21"
+      }
+    ],
     "questionHistory": [
       {
         "total": 19,
