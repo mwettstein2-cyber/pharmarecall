@@ -1718,12 +1718,13 @@
     "meds": "Monoklonale Antikörper\n  anti-CD3\n    Muromonab-CD3 (M)\n  anti-CD25 (Transplantatabstoßung)\n    Basiliximab (C)\n  anti-TNF (rheumatoide Arthritis, M. Crohn)\n    Infliximab, Adalimumab\n  anti-CD20 (rheumatoide arthritis)\n    Rituximab\n  anti-IL-6-Rezeptor \n    Tocilizumab\nFusionsprotein\n  anti-TNF\n    Etanercept",
     "keyFacts": "—> es gibt chimäre, murin und humanisierte antikörper\n—> der Fc (konstanter teil) des antikörpers ist human\n—> Basiliximab, bindet an die a-Untereinheit der Interleukin-2-Rezeptoren",
     "markedWords": [
-      "Basiliximab"
+      "Basiliximab",
+      "M. Crohn"
     ],
     "audioNotes": [],
     "markedFacts": [],
     "images": [
-      "images/518c5050-86d4-4ff4-bef0-613d64d19430.jpg"
+      "images/030475e7-475d-4ed2-9dea-a7964dac775d.jpg"
     ],
     "learned": true,
     "id": 1795184876412,
