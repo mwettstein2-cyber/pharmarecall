@@ -1762,11 +1762,13 @@
       "Ciclosporin"
     ],
     "audioNotes": [],
-    "markedFacts": [],
+    "markedFacts": [
+      "Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion"
+    ],
     "images": [
       "images/ce273b09-b45a-4891-a0a5-300a02596586.jpg"
     ],
-    "learned": true,
+    "learned": false,
     "id": 1795201205044,
     "reviews": [
       {
