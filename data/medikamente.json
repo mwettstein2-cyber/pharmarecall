@@ -1655,11 +1655,12 @@
   {
     "name": "Hepatitis-C und Malaria",
     "category": "Antiinfektiva",
-    "meds": "Hepatitis-C\n    Ribavirin\n    NS3/NS4, NS5A, NS5B -Inhibitoren\nMalaria\n  Chinoline\n    Chloroquin (L), Mefloquin, Primaquin (L)\n  Artemisine\n    Atovaquon (L)",
-    "keyFacts": "—> Chinole hemmen die demineralisierung von Häm zu Hämozin\n—> Artemisine hemmen die CalciumATPase (PFATP6)\n—> Artemisin ist ein Prodrug\n—> Primaquin wird über Cyp aktiviert\n—> Atovaquon, Chloroquin und Primaquin wirken beim Leberstadium der Malaria\n—> Mefloquin macht depressionen\n—> Primaquin hilft bei Hypnozyten",
+    "meds": "Hepatitis-C\n    Sofosbuvir\n    Ribavirin\n    NS3/NS4, NS5A, NS5B -Inhibitoren\nMalaria\n  Chinoline\n    Chloroquin (L), Mefloquin, Primaquin (L)\n  Artemisine\n    Atovaquon (L)",
+    "keyFacts": "—> Chinole hemmen die demineralisierung von Häm zu Hämozin\n—> Artemisine hemmen die CalciumATPase (PFATP6)\n—> Artemisin ist ein Prodrug\n—> Primaquin wird über Cyp aktiviert\n—> Atovaquon, Chloroquin und Primaquin wirken beim Leberstadium der Malaria\n—> Mefloquin macht depressionen\n—> Primaquin hilft bei Hypnozyten\n—> Atovaquon hemmt Elektronentransport",
     "markedWords": [
       "Artemisine",
-      "Malaria"
+      "Malaria",
+      "Sofosbuvir"
     ],
     "audioNotes": [],
     "markedFacts": [
