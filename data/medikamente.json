@@ -1751,7 +1751,7 @@
     "name": "Immunmodulatoren",
     "category": "Immunmodulatoren",
     "meds": "Interleukin-2-Synthesehemmer:\n    Ciclosporin, Tacrolimus\nInterleukin-2-Proliferationshemmer:\n  Purin-Inhibitoren\n    Mycophenolatmofetil\n  Pyrimidin-Ihibitoren:\n    Leflunomid  \nmTOR-Inhibitoren:\n    Sirolimus, Everolimus",
-    "keyFacts": "—> Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion\n—> Ciclosporin wird von CYP450 oxidiert\n—> Leflunomid akomuliert nicht im Fettgewebe\n—> mTOR inhibitoren führen nicht zu einer hemmung von Calcineurin",
+    "keyFacts": "—> Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion\n—> Ciclosporin wird von CYP450 oxidiert\n—> Leflunomid akomuliert nicht im Fettgewebe\n—> mTOR inhibitoren führen nicht zu einer hemmung von Calcineurin\n—> Tacrolimus bindet an Zytosolischen Rezeptor",
     "markedWords": [
       "Leflunomid",
       "Ciclosporin"
