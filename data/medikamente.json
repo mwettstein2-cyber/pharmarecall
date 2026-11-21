@@ -1553,7 +1553,7 @@
   {
     "name": "Tuberkulostatika und Antimykotika",
     "category": "Antiinfektiva",
-    "meds": "Tuberkulostatika\nAntimykotika\n  Triazole\n    Fluconazol\n  Porenbildner\n    Amphotericin B\n  Glucansynthese-Inhibitoren\n    Caspofungin",
+    "meds": "Tuberkulostatika\nAntimykotika\n  Triazole (hemmen Ergosterolsynthese\n    Fluconazol\n  Pyrimidin-Antagonisten\n    5-Flucoruracil\n  Porenbildner\n    Amphotericin B\n  Glucansynthese-Inhibitoren\n    Caspofungin",
     "keyFacts": "—> Triazole werden Systhmeisch eingesetzt",
     "markedWords": [
       "Triazole"
