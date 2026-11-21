@@ -1824,5 +1824,18 @@
       "correct": 12,
       "date": "2026-11-21"
     }
+  },
+  {
+    "name": "Pharmakodynamik und Pharmakokinetik",
+    "category": "Pharmakodynamik und Pharmakokinetik",
+    "meds": "CYP450\n  Si:\n  No: \n    Rifampicin\nDopamin\n  G-Proteingekoppelt\nRetardkapslen\n  cMax sinkt",
+    "keyFacts": "",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": false,
+    "id": 1795284587666,
+    "reviews": []
   }
 ]
