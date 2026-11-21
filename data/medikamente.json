@@ -1761,13 +1761,18 @@
       "Leflunomid",
       "Ciclosporin"
     ],
-    "audioNotes": [],
+    "audioNotes": [
+      {
+        "word": "Leflunomid",
+        "ref": "audio/b5b2a8da-1762-4255-8071-1051018c7a0d.m4a"
+      }
+    ],
     "markedFacts": [
       "Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion",
       "mTOR inhibitoren führen nicht zu einer hemmung von Calcineurin"
     ],
     "images": [
-      "images/ce273b09-b45a-4891-a0a5-300a02596586.jpg"
+      "images/9b12786b-e709-43a6-9e60-680e2f350e14.jpg"
     ],
     "learned": true,
     "id": 1795201205044,
