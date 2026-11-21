@@ -1755,20 +1755,21 @@
   {
     "name": "Immunmodulatoren",
     "category": "Immunmodulatoren",
-    "meds": "Interleukin-2-Synthesehemmer:\n    Ciclosporin, Tacrolimus\nInterleukin-2-Proliferationshemmer:\n  Purin-Inhibitoren\n    Mycophenolatmofetil\n  Pyrimidin-Ihibitoren:\n    Leflunomid  \nmTOR-Inhibitoren:\n    Sirolimus, Everolimus",
-    "keyFacts": "—> Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion\n—> Ciclosporin wird von CYP450 oxidiert\n—> Leflunomid akomuliert nicht im Fettgewebe\n—> mTOR inhibitoren führen nicht zu einer hemmung von Calcineurin\n—> Tacrolimus bindet an Zytosolischen Rezeptor",
+    "meds": "Interleukin-2-Synthesehemmer:\n    Ciclosporin, Tacrolimus\nInterleukin-2-Proliferationshemmer:\n  Purin-Inhibitoren\n    Mycophenolatmofetil\n  Pyrimidin-Ihibitoren:\n    Leflunomid (Rheumatoide Arthritis)\nmTOR-Inhibitoren:\n    Sirolimus, Everolimus",
+    "keyFacts": "—> Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion\n—> Ciclosporin wird von CYP450 oxidiert\n—> Leflunomid akomuliert nicht im Fettgewebe\n—> mTOR inhibitoren führen nicht zu einer hemmung von Calcineurin\n—> Tacrolimus bindet an Zytosolischen Rezeptor\n—> Ciclosporin macht gingiva Hyperplasie",
     "markedWords": [
       "Leflunomid",
       "Ciclosporin"
     ],
     "audioNotes": [],
     "markedFacts": [
-      "Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion"
+      "Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion",
+      "mTOR inhibitoren führen nicht zu einer hemmung von Calcineurin"
     ],
     "images": [
       "images/ce273b09-b45a-4891-a0a5-300a02596586.jpg"
     ],
-    "learned": false,
+    "learned": true,
     "id": 1795201205044,
     "reviews": [
       {
