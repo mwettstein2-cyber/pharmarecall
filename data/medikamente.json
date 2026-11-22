@@ -764,12 +764,17 @@
         "total": 69,
         "correct": 49,
         "date": "2026-11-15"
+      },
+      {
+        "total": 32,
+        "correct": 20,
+        "date": "2026-11-22"
       }
     ],
     "questionStats": {
-      "total": 69,
-      "correct": 49,
-      "date": "2026-11-15"
+      "total": 32,
+      "correct": 20,
+      "date": "2026-11-22"
     },
     "markedFacts": [],
     "audioNotes": []
@@ -823,12 +828,17 @@
         "total": 69,
         "correct": 49,
         "date": "2026-11-15"
+      },
+      {
+        "total": 32,
+        "correct": 20,
+        "date": "2026-11-22"
       }
     ],
     "questionStats": {
-      "total": 69,
-      "correct": 49,
-      "date": "2026-11-15"
+      "total": 32,
+      "correct": 20,
+      "date": "2026-11-22"
     },
     "markedFacts": [],
     "audioNotes": []
