@@ -1813,12 +1813,16 @@
     "name": "Antipsychotika",
     "category": "Antipsychotika",
     "meds": "1. Generation (D2 Rezeptorblock)\n2. Generation (D2 und Serotonin/5HTA Rezeptorblock",
-    "keyFacts": "—> Dopamin Blockade macht hyperprolactinämie\n—> D2 Antagonisten wirken nicht Sedierend\n—> Niedrig und Hochpotente Antipsychotika wirken gleich\n—> Niedrigpotente Antipsychotika sedieren stärker als hochpotente\n—> D2 Antagonisten machen keine Orthostatischen Dysregulationen\n—> Antipsychotika machen nicht abhängig",
+    "keyFacts": "—> Niedrigpotente Antipsychotika machen nicht häufiger Spätdyskinesien\n—> Dopamin Blockade macht hyperprolactinämie\n—> D2 Antagonisten wirken nicht Sedierend\n—> Niedrig und Hochpotente Antipsychotika wirken gleich\n—> Niedrigpotente Antipsychotika sedieren stärker als hochpotente\n—> D2 Antagonisten machen keine Orthostatischen Dysregulationen\n—> Antipsychotika machen nicht abhängig",
     "markedWords": [],
     "audioNotes": [],
-    "markedFacts": [],
-    "images": [],
-    "learned": false,
+    "markedFacts": [
+      "Niedrigpotente Antipsychotika machen nicht häufiger Spätdyskinesien"
+    ],
+    "images": [
+      "images/e61a348a-c35c-4c3a-994d-0876474bb2f9.jpg"
+    ],
+    "learned": true,
     "id": 1795216066959,
     "reviews": [],
     "questionHistory": [
