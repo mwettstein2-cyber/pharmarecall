@@ -724,6 +724,7 @@
       "Methylnaltrexon"
     ],
     "images": [
+      "images/1dd2440d-3ea8-4a22-b89d-699373fa19c3.jpg",
       "images/e02ed108-9ed6-4d4b-b0b3-e1d80ab28451.jpg",
       "images/c61413d0-7c02-497c-9a1f-e735dbc4eab5.jpg"
     ],
@@ -770,7 +771,8 @@
       "correct": 49,
       "date": "2026-11-15"
     },
-    "markedFacts": []
+    "markedFacts": [],
+    "audioNotes": []
   },
   {
     "name": "Nichtopioide Analgetika",
