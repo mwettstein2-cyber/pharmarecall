@@ -580,7 +580,7 @@
     "category": "Lipidsenker",
     "meds": "Cholesterin Resorptionshemmer: \n    Ezetemib\nHMG-CoA-Reduktase-Hemmer: \n    Statine\nGallensäurekomplexbildner (Anionenaustauscherharze): \n    Colestyramin\nFibrate\nPCSK9-Hemmer: \n    Evolocumab, Alirocumab\nPCSK9-Translatoren: \n    Inclisiran",
     "mechanism": "",
-    "learned": false,
+    "learned": true,
     "id": 1793984301032,
     "reviews": [
       {
@@ -594,6 +594,10 @@
       {
         "score": "green",
         "date": "2026-11-19"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-22"
       }
     ],
     "questionHistory": [
