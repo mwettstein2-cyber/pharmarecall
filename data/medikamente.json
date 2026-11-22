@@ -1950,5 +1950,18 @@
       "correct": 8,
       "date": "2026-11-22"
     }
+  },
+  {
+    "name": "Pulmonale Antihyperthonika",
+    "category": "Antihyperthonika",
+    "meds": "",
+    "keyFacts": "",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1795358679475,
+    "reviews": []
   }
 ]
