@@ -1954,13 +1954,15 @@
   {
     "name": "Pulmonale Antihyperthonika",
     "category": "Antihypertonika",
-    "meds": "ET1-Agonist (Endothelinrezeptor)\n    Macitentan",
-    "keyFacts": "—> Macitentan ist eine",
-    "markedWords": [],
+    "meds": "ET1-Agonist (Endothelinrezeptor)\n    Macitentan, Bosenthan",
+    "keyFacts": "—> Macitentan ist ein Endothelinrezeptorantagonist\n—> Ramipril wird nicht eingesetzt bei Pulmonaler Hyperthermie",
+    "markedWords": [
+      "Macitentan"
+    ],
     "audioNotes": [],
     "markedFacts": [],
     "images": [],
-    "learned": false,
+    "learned": true,
     "id": 1795358679475,
     "reviews": []
   }
