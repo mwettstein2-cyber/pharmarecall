@@ -2048,12 +2048,12 @@
     "name": "Antiarrhythmika",
     "category": "Antiarrhythmika",
     "meds": "Amiodaron\nAV-Block 2\n    Ipatropiumbromid",
-    "keyFacts": "",
+    "keyFacts": "—> flecainid ist nicht Proarrhytmogen\n—> Amiodaran ist Jod haltig, drohnedaron nicht",
     "markedWords": [],
     "audioNotes": [],
     "markedFacts": [],
     "images": [],
-    "learned": true,
+    "learned": false,
     "id": 1795383468036,
     "reviews": []
   }
