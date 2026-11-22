@@ -1941,7 +1941,12 @@
     "images": [],
     "learned": true,
     "id": 1795284587666,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "green",
+        "date": "2026-11-22"
+      }
+    ],
     "questionHistory": [
       {
         "total": 34,
