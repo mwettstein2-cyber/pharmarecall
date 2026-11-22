@@ -1849,5 +1849,18 @@
       "correct": 16,
       "date": "2026-11-21"
     }
+  },
+  {
+    "name": "Antihistaminika",
+    "category": "Antihistaminika",
+    "meds": "1.Generation\n  Doxylamin, Dimenhydrinat\n2.Generation\n  Loratadin",
+    "keyFacts": "—> werden eingesetzt bei Allergien, weniger Schwellung der Nasenschleimhaut\n—> Antihistaminika der zweiten Generation werden zusätzlich eingesetzt bei Reisekrankheiten",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1795305775763,
+    "reviews": []
   }
 ]
