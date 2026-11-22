@@ -363,7 +363,7 @@
       "correct": 65,
       "date": "2026-11-15"
     },
-    "keyFacts": "Doxazosin macht am wahrscheinlichsten eine Reflextachikardie",
+    "keyFacts": "—> Doxazosin macht am wahrscheinlichsten eine Reflextachikardie",
     "images": [
       "images/5a836834-8945-4402-9f63-752373cfca95.jpg"
     ],
@@ -394,7 +394,11 @@
         "date": "2026-11-15"
       }
     ],
-    "markedWords": []
+    "markedWords": [
+      "Doxazosin"
+    ],
+    "audioNotes": [],
+    "markedFacts": []
   },
   {
     "name": "Kalziumkanalblocker/Calciumkanalblocker",
