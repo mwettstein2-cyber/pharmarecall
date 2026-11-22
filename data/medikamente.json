@@ -1861,6 +1861,18 @@
     "images": [],
     "learned": true,
     "id": 1795305775763,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 14,
+        "correct": 8,
+        "date": "2026-11-22"
+      }
+    ],
+    "questionStats": {
+      "total": 14,
+      "correct": 8,
+      "date": "2026-11-22"
+    }
   }
 ]
