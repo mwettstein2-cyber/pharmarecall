@@ -592,12 +592,18 @@
         "date": "2026-11-15"
       }
     ],
-    "keyFacts": "—> Ramipril macht keine Glucose Erhöhung bei Langzeittherapie",
+    "keyFacts": "—> Ramipril macht keine Glucose Erhöhung bei Langzeittherapie\n—> Enalapril ist gut bei NYHA 1 + Diabetis",
     "images": [
       "images/5567be88-4e96-4f7c-8d41-b554183587d8.jpg"
     ],
     "highlightedMeds": [],
-    "markedWords": []
+    "markedWords": [
+      "Enalapril"
+    ],
+    "audioNotes": [],
+    "markedFacts": [
+      "Enalapril ist gut bei NYHA 1 + Diabetis"
+    ]
   },
   {
     "name": "Lipidsenker",
