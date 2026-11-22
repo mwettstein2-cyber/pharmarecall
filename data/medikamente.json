@@ -279,6 +279,10 @@
       {
         "score": "red",
         "date": "2026-11-15"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-22"
       }
     ],
     "questionStats": {
@@ -415,6 +419,10 @@
       {
         "score": "yellow",
         "date": "2026-11-15"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-22"
       }
     ],
     "questionStats": {
