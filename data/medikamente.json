@@ -2043,5 +2043,18 @@
       "correct": 27,
       "date": "2026-11-22"
     }
+  },
+  {
+    "name": "Antiarrhythmika",
+    "category": "Antiarrhythmika",
+    "meds": "Amiodaron\nAV-Block 2\n    Ipatropiumbromid",
+    "keyFacts": "",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "learned": true,
+    "id": 1795383468036,
+    "reviews": []
   }
 ]
