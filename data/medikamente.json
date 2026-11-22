@@ -286,9 +286,9 @@
       }
     ],
     "questionStats": {
-      "total": 79,
-      "correct": 65,
-      "date": "2026-11-15"
+      "total": 49,
+      "correct": 27,
+      "date": "2026-11-22"
     },
     "questionHistory": [
       {
@@ -315,6 +315,11 @@
         "total": 79,
         "correct": 65,
         "date": "2026-11-15"
+      },
+      {
+        "total": 49,
+        "correct": 27,
+        "date": "2026-11-22"
       }
     ],
     "keyFacts": "",
@@ -359,9 +364,9 @@
       }
     ],
     "questionStats": {
-      "total": 79,
-      "correct": 65,
-      "date": "2026-11-15"
+      "total": 49,
+      "correct": 27,
+      "date": "2026-11-22"
     },
     "keyFacts": "—> Doxazosin macht am wahrscheinlichsten eine Reflextachikardie",
     "images": [
@@ -392,6 +397,11 @@
         "total": 79,
         "correct": 65,
         "date": "2026-11-15"
+      },
+      {
+        "total": 49,
+        "correct": 27,
+        "date": "2026-11-22"
       }
     ],
     "markedWords": [
@@ -430,9 +440,9 @@
       }
     ],
     "questionStats": {
-      "total": 79,
-      "correct": 65,
-      "date": "2026-11-15"
+      "total": 49,
+      "correct": 27,
+      "date": "2026-11-22"
     },
     "questionHistory": [
       {
@@ -459,6 +469,11 @@
         "total": 79,
         "correct": 65,
         "date": "2026-11-15"
+      },
+      {
+        "total": 49,
+        "correct": 27,
+        "date": "2026-11-22"
       }
     ],
     "keyFacts": "—> werden nicht mit Beta-Blockern kombiniert!",
@@ -500,9 +515,9 @@
       }
     ],
     "questionStats": {
-      "total": 79,
-      "correct": 65,
-      "date": "2026-11-15"
+      "total": 49,
+      "correct": 27,
+      "date": "2026-11-22"
     },
     "keyFacts": "BISOn in METro schaut NEBenbei ARTE",
     "images": [
@@ -533,6 +548,11 @@
         "total": 79,
         "correct": 65,
         "date": "2026-11-15"
+      },
+      {
+        "total": 49,
+        "correct": 27,
+        "date": "2026-11-22"
       }
     ],
     "markedWords": []
@@ -567,9 +587,9 @@
       }
     ],
     "questionStats": {
-      "total": 79,
-      "correct": 65,
-      "date": "2026-11-15"
+      "total": 49,
+      "correct": 27,
+      "date": "2026-11-22"
     },
     "questionHistory": [
       {
@@ -596,6 +616,11 @@
         "total": 79,
         "correct": 65,
         "date": "2026-11-15"
+      },
+      {
+        "total": 49,
+        "correct": 27,
+        "date": "2026-11-22"
       }
     ],
     "keyFacts": "—> Ramipril macht keine Glucose Erhöhung bei Langzeittherapie\n—> Enalapril ist gut bei NYHA 1 + Diabetis",
@@ -1970,6 +1995,43 @@
     "images": [],
     "learned": true,
     "id": 1795358679475,
-    "reviews": []
+    "reviews": [],
+    "questionHistory": [
+      {
+        "total": 79,
+        "correct": 39,
+        "date": "2026-11-06"
+      },
+      {
+        "total": 79,
+        "correct": 62,
+        "date": "2026-11-07"
+      },
+      {
+        "total": 79,
+        "correct": 69,
+        "date": "2026-11-11"
+      },
+      {
+        "total": 79,
+        "correct": 63,
+        "date": "2026-11-12"
+      },
+      {
+        "total": 79,
+        "correct": 65,
+        "date": "2026-11-15"
+      },
+      {
+        "total": 49,
+        "correct": 27,
+        "date": "2026-11-22"
+      }
+    ],
+    "questionStats": {
+      "total": 49,
+      "correct": 27,
+      "date": "2026-11-22"
+    }
   }
 ]
