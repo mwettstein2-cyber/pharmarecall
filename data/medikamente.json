@@ -1658,12 +1658,17 @@
         "total": 18,
         "correct": 15,
         "date": "2026-11-20"
+      },
+      {
+        "total": 10,
+        "correct": 8,
+        "date": "2026-11-23"
       }
     ],
     "questionStats": {
-      "total": 18,
-      "correct": 15,
-      "date": "2026-11-20"
+      "total": 10,
+      "correct": 8,
+      "date": "2026-11-23"
     }
   },
   {
