@@ -1124,7 +1124,7 @@
     "name": "Lokalanästhetika",
     "category": "Lokalanästhetika",
     "meds": "Lokalanästhetika vom Estertyp:\n    Cocain \nLokalanästhetika vom Amidtyp (blocker an Spannungsabhängigen Na+ Knälen Intrezellulär):\n    Lidocain, Bupivacain, Articain",
-    "keyFacts": "—> dünne Nerfenfasern sind empfindlicher als dicke nervenfasern für amide\n—> bindungsaffinität von Amiden ist abhänging von der konfirmation des Natriumkanals\n—> Nur der Ester Typ wird von der Cholinesterase abgebaut duhhh",
+    "keyFacts": "—> Articain hat einen schnellen wirkeintritt, schneller als 20min\n—> dünne Nerfenfasern sind empfindlicher als dicke nervenfasern für amide\n—> bindungsaffinität von Amiden ist abhänging von der konfirmation des Natriumkanals\n—> Nur der Ester Typ wird von der Cholinesterase abgebaut duhhh\n—> Bubivacain hat das günstigste Nebenwirkungsprofil, aufgrund seiner geringen lipophili",
     "markedWords": [],
     "images": [
       "images/b11fbe2c-7f75-441d-95f1-2b884e480e6a.jpg",
@@ -1174,8 +1174,10 @@
       "date": "2026-11-23"
     },
     "markedFacts": [
-      "Nur der Ester Typ wird von der Cholinesterase abgebaut duhhh"
-    ]
+      "Nur der Ester Typ wird von der Cholinesterase abgebaut duhhh",
+      "Articain hat einen schnellen wirkeintritt, schneller als 20min"
+    ],
+    "audioNotes": []
   },
   {
     "name": "Lifestyle Drugs",
