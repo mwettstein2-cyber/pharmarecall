@@ -1628,7 +1628,7 @@
     "images": [
       "images/bf96d3ef-704e-44e5-bfb9-9876d6f9af9b.jpg"
     ],
-    "learned": false,
+    "learned": true,
     "id": 1795049134467,
     "reviews": [
       {
@@ -1638,6 +1638,10 @@
       {
         "score": "yellow",
         "date": "2026-11-20"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-23"
       }
     ],
     "questionHistory": [
