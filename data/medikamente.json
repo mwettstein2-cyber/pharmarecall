@@ -1161,12 +1161,17 @@
         "total": 16,
         "correct": 14,
         "date": "2026-11-16"
+      },
+      {
+        "total": 16,
+        "correct": 13,
+        "date": "2026-11-23"
       }
     ],
     "questionStats": {
       "total": 16,
-      "correct": 14,
-      "date": "2026-11-16"
+      "correct": 13,
+      "date": "2026-11-23"
     },
     "markedFacts": [
       "Nur der Ester Typ wird von der Cholinesterase abgebaut duhhh"
