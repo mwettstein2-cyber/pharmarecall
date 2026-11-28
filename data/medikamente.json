@@ -2,7 +2,7 @@
   {
     "name": "Thrombozytenaggregationshemmer",
     "category": "Antikoagulanzien",
-    "meds": "COX Hemmer: \n    Acethylsalicylsäure (ASS)\nADP Antagonisten: \n    Clopidogrel, Ticagrelor, Prasugrel\nGlykoprotein IIb/IIIa Antagnositen: \n    Tirofiban, Eptifibatid, Abciximab",
+    "meds": "COX Hemmer: \n    Acethylsalicylsäure (ASS)(Thromboxan a2 hemmer)\nADP Antagonisten (P2Y12 Hemmer): \n    Clopidogrel, Ticagrelor, Prasugrel\nGlykoprotein IIb/IIIa Antagnositen: \n    Tirofiban, Eptifibatid, Abciximab",
     "mechanism": "",
     "learned": true,
     "id": 1792941750868,
@@ -30,22 +30,68 @@
       {
         "score": "yellow",
         "date": "2026-11-06"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-25"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-26"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
-      "total": 43,
-      "correct": 24,
-      "date": "2026-10-28"
+      "total": 23,
+      "correct": 19,
+      "date": "2026-11-27"
     },
-    "keyFacts": "",
+    "keyFacts": "—‎> ass, clopidogrel und prasugrel hemmen irreversibel\n—> ticagrelor kann oral gegeben werden und ist kein prodrug, muss daher nicht abgebaut werden um den Rezeptor P2Y12 zu hemmen",
     "highlightedMeds": [],
-    "images": [],
-    "markedWords": []
+    "images": [
+      "images/32a0f5c2-ee5a-4afd-a97b-140577b46d89.jpg"
+    ],
+    "markedWords": [
+      "Abciximab",
+      "Ticagrelor"
+    ],
+    "audioNotes": [
+      {
+        "word": "Abciximab",
+        "ref": "audio/3689915e-300b-44d6-ac5e-7bbe6d3c44fe.m4a"
+      }
+    ],
+    "markedFacts": [
+      "—> ticagrelor kann oral gegeben werden und ist kein prodrug, muss daher nicht abgebaut werden um den Rezeptor P2Y12 zu hemmen"
+    ],
+    "featuredImages": [
+      "images/32a0f5c2-ee5a-4afd-a97b-140577b46d89.jpg"
+    ],
+    "questionHistory": [
+      {
+        "total": 43,
+        "correct": 24,
+        "date": "2026-10-28"
+      },
+      {
+        "total": 23,
+        "correct": 10,
+        "date": "2026-11-26"
+      },
+      {
+        "total": 23,
+        "correct": 19,
+        "date": "2026-11-27"
+      }
+    ]
   },
   {
     "name": "Oralen Antikoagulanzien",
     "category": "Antikoagulanzien",
-    "meds": "Vitamin-K Antagonisten: Phenprocoumon, Warfarin\nDirekte Faktor Xa Hemmer: Apixaban, Edoxaban, Rivaroxaban\nDirekter Thrombininhibitor: Dapigatran",
+    "meds": "Vitamin-K Antagonisten:\n    Phenprocoumon, Warfarin\nDirekte Faktor Xa Hemmer: \n    Apixaban, Edoxaban, Rivaroxaban\nDirekter Thrombininhibitor: \n    Dapigatran",
     "mechanism": "",
     "learned": true,
     "id": 1793182556545,
@@ -73,16 +119,54 @@
       {
         "score": "yellow",
         "date": "2026-11-06"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-26"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-27"
       }
     ],
-    "keyFacts": "",
+    "keyFacts": "—> dabigatran ist nur zu 6,5% Bioverfügbarkeit",
     "highlightedMeds": [],
-    "images": []
+    "images": [
+      "images/ef84faba-0da1-441f-a6b3-1781c07b2d72.jpg"
+    ],
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "featuredImages": [
+      "images/ef84faba-0da1-441f-a6b3-1781c07b2d72.jpg"
+    ],
+    "questionHistory": [
+      {
+        "total": 43,
+        "correct": 24,
+        "date": "2026-10-28"
+      },
+      {
+        "total": 23,
+        "correct": 10,
+        "date": "2026-11-26"
+      },
+      {
+        "total": 23,
+        "correct": 19,
+        "date": "2026-11-27"
+      }
+    ],
+    "questionStats": {
+      "total": 23,
+      "correct": 19,
+      "date": "2026-11-27"
+    }
   },
   {
     "name": "Parenterale Antikoagulantien",
     "category": "Antikoagulanzien",
-    "meds": "Unfraktionierte Heparine: Heparin\nNiedermolekulare Heparine: Certoparin, Dalteparin, Enoxaparin, Nadoparin, Tinzaparin\nSynthetisches Penthasaccharid: Fondaparinux\nHeparinoide: Danaparoid\nRekombinantes Hirudin: Bivalirudin",
+    "meds": "Unfraktionierte Heparine: \n    Heparin\nNiedermolekulare Heparine: \n    Certoparin, Dalteparin, Enoxaparin, Nadoparin, Tinzaparin\nSynthetisches Penthasaccharid: \n    Fondaparinux\nHeparinoide: \n    Danaparoid\nRekombinantes Hirudin: \n    Bivalirudin",
     "mechanism": "",
     "learned": true,
     "id": 1793187628014,
@@ -110,10 +194,52 @@
       {
         "score": "yellow",
         "date": "2026-11-06"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-26"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-27"
       }
     ],
-    "keyFacts": "",
-    "images": []
+    "keyFacts": "—> fondaparinux hemmt ausschließlich faktor Xa nicht zusetzlich thrombin",
+    "images": [
+      "images/cc0b5c95-5cbd-4661-9e48-1e0ffac6a03d.jpg"
+    ],
+    "markedWords": [
+      "Fondaparinux"
+    ],
+    "audioNotes": [],
+    "markedFacts": [
+      "fondaparinux hemmt ausschließlich faktor Xa nicht zusetzlich thrombin"
+    ],
+    "featuredImages": [
+      "images/cc0b5c95-5cbd-4661-9e48-1e0ffac6a03d.jpg"
+    ],
+    "questionHistory": [
+      {
+        "total": 43,
+        "correct": 24,
+        "date": "2026-10-28"
+      },
+      {
+        "total": 23,
+        "correct": 10,
+        "date": "2026-11-26"
+      },
+      {
+        "total": 23,
+        "correct": 19,
+        "date": "2026-11-27"
+      }
+    ],
+    "questionStats": {
+      "total": 23,
+      "correct": 19,
+      "date": "2026-11-27"
+    }
   },
   {
     "name": "Diabetis Typ 1",
@@ -146,12 +272,20 @@
       {
         "score": "green",
         "date": "2026-11-17"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-24"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-25"
       }
     ],
     "questionStats": {
-      "total": 60,
-      "correct": 56,
-      "date": "2026-11-17"
+      "total": 34,
+      "correct": 31,
+      "date": "2026-11-25"
     },
     "keyFacts": "—> Insulin Lispro, Wirkungseintritt: 15min , Wirkdauer: 2-5h, Halbwertszeit: 1h",
     "markedWords": [],
@@ -179,6 +313,16 @@
         "total": 60,
         "correct": 56,
         "date": "2026-11-17"
+      },
+      {
+        "total": 34,
+        "correct": 27,
+        "date": "2026-11-24"
+      },
+      {
+        "total": 34,
+        "correct": 31,
+        "date": "2026-11-25"
       }
     ],
     "audioNotes": [],
@@ -191,7 +335,7 @@
   {
     "name": "Diabetis Typ2 (Antidiabetika)",
     "category": "Antidiabetika",
-    "meds": "Biguanine (Hemmung der Glukoneogenese, Insulinsensitivität ^): \n    Metformin\nBlocker ATP-Sensitiver Kaliumkanäle (Insulinausschüzzung ^):\n  Sulfonylharnstoffe: \n    Glibenklamid, Glimepirid\n  Glinide (kurz wirkend): \n    Nateglinid, Repaglinid\nGLP-1R-Agonist: \n    Exenatid, Liraglutid, Semaglutid, Dulaglotid\nDPP4-Hemmer (GLP1 bleibt länger Aktiv:\n    Saxagliptin\nSGLT-2-Inhibitoren: \n    Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer (Hemmung der Glukose Aufnahme im Darm): \n    Arcabose",
+    "meds": "Biguanine (Hemmung der Glukoneogenese, Insulinsensitivität ^): \n    Metformin\nBlocker ATP-Sensitiver Kaliumkanäle (Insulinausschüzzung ^):\n  Sulfonylharnstoffe: \n    Glibenklamid, Glimepirid\n  Glinide (kurz wirkend): \n    Nateglinid, Repaglinid\nGLP-1R-Agonist: \n    Exenatid, Liraglutid, Semaglutid, Dulaglotid\nDPP4-Hemmer (GLP1 bleibt länger Aktiv):\n    Saxagliptin\nSGLT-2-Inhibitoren: \n    Dapagliflozin, Empagliflozin, Ertugliflozin\nalpha-Glucosidasehemmer (Hemmung der Glukose Aufnahme im Darm): \n    Arcabose",
     "mechanism": "",
     "learned": true,
     "id": 1793369153654,
@@ -219,14 +363,22 @@
       {
         "score": "green",
         "date": "2026-11-17"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-24"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-25"
       }
     ],
     "questionStats": {
-      "total": 60,
-      "correct": 56,
-      "date": "2026-11-17"
+      "total": 34,
+      "correct": 31,
+      "date": "2026-11-25"
     },
-    "keyFacts": "—> Biguanide hemmen die Glucoseaufnahme aus dem Darm\n—> Exenatid kann nicht Oral Aufgenommen werden\n—> Liraglutid wirkt länger als Exenatid und bindet besser am GLP1\n—> SGLT2 hemmer immernoch off Label bei DB typ 1\n—> Semaglutid macht eine hohe Gewichtsabnahme",
+    "keyFacts": "—> Biguanide hemmen die Glucoseaufnahme aus dem Darm\n—> Exenatid kann nicht Oral Aufgenommen werden\n—> Liraglutid wirkt länger als Exenatid und bindet besser am GLP1\n—> SGLT2 hemmer immernoch off Label bei DB typ 1\n—> Semaglutid macht eine hohe Gewichtsabnahme\n—> Sufonylharnstoffe und Glinide machen Gewichtserhöhung\n—> Liraglutid besitzt keine Bioverfügbarkeit\n—> Typ1 Diabetis bekommt eine intensive Therapie\n—> Glibenclamid hemmt die ATP sensitive kaliumkanal",
     "markedWords": [
       "Semaglutid",
       "Empagliflozin",
@@ -257,10 +409,22 @@
         "total": 60,
         "correct": 56,
         "date": "2026-11-17"
+      },
+      {
+        "total": 34,
+        "correct": 27,
+        "date": "2026-11-24"
+      },
+      {
+        "total": 34,
+        "correct": 31,
+        "date": "2026-11-25"
       }
     ],
     "audioNotes": [],
-    "markedFacts": [],
+    "markedFacts": [
+      "Semaglutid macht eine hohe Gewichtsabnahme"
+    ],
     "featuredImages": [
       "images/248a7bc3-ad9b-4ce3-a543-d7989be3dc7b.jpg",
       "images/bdc0e00d-0a09-432b-86d3-424ec5a5d956.jpg"
@@ -293,12 +457,20 @@
       {
         "score": "red",
         "date": "2026-11-22"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-23"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 49,
-      "correct": 27,
-      "date": "2026-11-22"
+      "total": 43,
+      "correct": 33,
+      "date": "2026-11-26"
     },
     "questionHistory": [
       {
@@ -330,11 +502,21 @@
         "total": 49,
         "correct": 27,
         "date": "2026-11-22"
+      },
+      {
+        "total": 49,
+        "correct": 44,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 43,
+        "correct": 33,
+        "date": "2026-11-26"
       }
     ],
     "keyFacts": "",
     "images": [
-      "images/d4a11556-7d8a-4fa9-b2ab-a11b13923406.jpg"
+      "images/b81ade34-3579-4d1d-b819-6b63b4f7baa4.jpg"
     ],
     "markedWords": [
       "Clonidin",
@@ -342,7 +524,10 @@
       "Moxonidin"
     ],
     "audioNotes": [],
-    "markedFacts": []
+    "markedFacts": [],
+    "featuredImages": [
+      "images/b81ade34-3579-4d1d-b819-6b63b4f7baa4.jpg"
+    ]
   },
   {
     "name": "Alphablocker",
@@ -371,16 +556,24 @@
       {
         "score": "green",
         "date": "2026-11-22"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-23"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 49,
-      "correct": 27,
-      "date": "2026-11-22"
+      "total": 43,
+      "correct": 33,
+      "date": "2026-11-26"
     },
     "keyFacts": "—> Doxazosin macht am wahrscheinlichsten eine Reflextachikardie",
     "images": [
-      "images/5a836834-8945-4402-9f63-752373cfca95.jpg"
+      "images/34d98657-644f-4d82-b223-53da0d1b9739.jpg"
     ],
     "questionHistory": [
       {
@@ -412,13 +605,26 @@
         "total": 49,
         "correct": 27,
         "date": "2026-11-22"
+      },
+      {
+        "total": 49,
+        "correct": 44,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 43,
+        "correct": 33,
+        "date": "2026-11-26"
       }
     ],
     "markedWords": [
       "Doxazosin"
     ],
     "audioNotes": [],
-    "markedFacts": []
+    "markedFacts": [],
+    "featuredImages": [
+      "images/34d98657-644f-4d82-b223-53da0d1b9739.jpg"
+    ]
   },
   {
     "name": "Kalziumkanalblocker/Calciumkanalblocker",
@@ -447,12 +653,20 @@
       {
         "score": "red",
         "date": "2026-11-22"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-23"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 49,
-      "correct": 27,
-      "date": "2026-11-22"
+      "total": 43,
+      "correct": 33,
+      "date": "2026-11-26"
     },
     "questionHistory": [
       {
@@ -484,16 +698,29 @@
         "total": 49,
         "correct": 27,
         "date": "2026-11-22"
+      },
+      {
+        "total": 49,
+        "correct": 44,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 43,
+        "correct": 33,
+        "date": "2026-11-26"
       }
     ],
-    "keyFacts": "—> werden nicht mit Beta-Blockern kombiniert!",
+    "keyFacts": "—> werden nicht mit Beta-Blockern kombiniert!\n—> Nifedipin macht keine negativ Chronotrope Wirkung\n—> Gefäßselektive Ca-Blocker dürfen mit Betablockern kombiniert werden die anderen nicht\n—> ACE und AT1 antagonisten können zu Hyperkaliämie führen",
     "markedWords": [],
     "images": [
       "images/58508747-7324-4aba-9c20-bff2de06c596.jpg",
       "images/ff2c542e-87e4-497a-849c-3e793d2bb65a.jpg"
     ],
     "audioNotes": [],
-    "markedFacts": []
+    "markedFacts": [],
+    "featuredImages": [
+      "images/58508747-7324-4aba-9c20-bff2de06c596.jpg"
+    ]
   },
   {
     "name": "Beta-Blocker (Sympatholytika)",
@@ -522,12 +749,20 @@
       {
         "score": "green",
         "date": "2026-11-22"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-23"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 49,
-      "correct": 27,
-      "date": "2026-11-22"
+      "total": 43,
+      "correct": 33,
+      "date": "2026-11-26"
     },
     "keyFacts": "BISOn in METro schaut NEBenbei ARTE",
     "images": [
@@ -563,14 +798,29 @@
         "total": 49,
         "correct": 27,
         "date": "2026-11-22"
+      },
+      {
+        "total": 49,
+        "correct": 44,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 43,
+        "correct": 33,
+        "date": "2026-11-26"
       }
     ],
-    "markedWords": []
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "featuredImages": [
+      "images/865b425e-ac90-4e84-b4f5-fbc47421348d.jpg"
+    ]
   },
   {
     "name": "RAAS Inhibitoren",
     "category": "Antihypertonika",
-    "meds": "ACE Inhibitoren: \n    Enalapril, Lisinopril, Captopril, Ramipril\nSartane: \n    Candesartan, Valsartan, Losartan\nDirekte Renin Inhibitoren: \n    Aliskiren",
+    "meds": "ACE Inhibitoren: \n    Enalapril, Lisinopril, Captopril, Ramipril\nSartane: \n    Candesartan, Valsartan, Losartan\nDirekte Renin Inhibitoren: \n    Aliskiren\nNEP Hemmer\n    Sacubitril",
     "mechanism": "",
     "learned": true,
     "id": 1793897206116,
@@ -594,12 +844,20 @@
       {
         "score": "green",
         "date": "2026-11-22"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-23"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 49,
-      "correct": 27,
-      "date": "2026-11-22"
+      "total": 43,
+      "correct": 33,
+      "date": "2026-11-26"
     },
     "questionHistory": [
       {
@@ -631,11 +889,21 @@
         "total": 49,
         "correct": 27,
         "date": "2026-11-22"
+      },
+      {
+        "total": 49,
+        "correct": 44,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 43,
+        "correct": 33,
+        "date": "2026-11-26"
       }
     ],
-    "keyFacts": "—> Ramipril macht keine Glucose Erhöhung bei Langzeittherapie\n—> Enalapril ist gut bei NYHA 1 + Diabetis",
+    "keyFacts": "—> Ramipril macht keine Glucose Erhöhung bei Langzeittherapie\n—> Enalapril ist gut bei NYHA 1 + Diabetis\n—> Ramipril induziert eine Bradykininerhöhung\n—> ACE Hemmer führen zu einer erhöhung von Bradykinin welches Reizhusten verursachen kann",
     "images": [
-      "images/5567be88-4e96-4f7c-8d41-b554183587d8.jpg"
+      "images/16af2629-4bf8-450b-90dc-bf08eb9a6c13.jpg"
     ],
     "highlightedMeds": [],
     "markedWords": [
@@ -643,7 +911,12 @@
     ],
     "audioNotes": [],
     "markedFacts": [
-      "Enalapril ist gut bei NYHA 1 + Diabetis"
+      "Enalapril ist gut bei NYHA 1 + Diabetis",
+      "Ramipril macht keine Glucose Erhöhung bei Langzeittherapie",
+      "ACE Hemmer führen zu einer erhöhung von Bradykinin welches Reizhusten verursachen kann"
+    ],
+    "featuredImages": [
+      "images/16af2629-4bf8-450b-90dc-bf08eb9a6c13.jpg"
     ]
   },
   {
@@ -726,7 +999,7 @@
     "name": "Diuretika",
     "category": "Diuretika",
     "meds": "Schleifendiuretika (Na, Ca, 2Cl -Contransporter): \n    Furosemid, Torasemid\nThiazid-Diuretika: \n    Hodrochlorothiazid, Indapamid, Chlortalidon\nKaliumsparende Diuretika \n  Natriumkanal Blocker: \n    Amilorid, Triamteren\n  Aldosteron Antagonisten (weniger Natrium Transporter): \n    Spironolacton, Eplerenon\nOsmotische Diuretika: \n    Mannitol\nCarboanhydrase Hemmer (weniger Bicarbonat abbau): \n    Acetazolamid, Dorzolamid, Brinzolamid",
-    "keyFacts": "- Furosemid nicht mit Thiazid-Diuretika\n- Thiazide erhöhen das Serum Calzium\n- Furosemid wird aktiv ins Tubuluslumen Sezerniert\n- Schleifendiuretika und Thiazide sind die einziegen Diuretika die Calcium beeinflussen\n-",
+    "keyFacts": "- Furosemid nicht mit Thiazid-Diuretika\n- Thiazide erhöhen das Serum Calzium\n- Furosemid wird aktiv ins Tubuluslumen Sezerniert\n- Schleifendiuretika und Thiazide sind die einziegen Diuretika die Calcium beeinflussen\n—> Spironolacton macht androgenen nebenwirkungen wie Dysmenorhoe und Gynäkomastie\n—> Spironolacton braucht länger als 1h bis zum wirkeintritt\n—> Spironolacton und Triamteren fördern bei die natriurese\n—> Schleifendiuretika fördern die Calziumausscheidung\n—> Eplerenon ist der Selektivere antagonist am Mineralokortikoidrezeptor",
     "images": [
       "images/af07fd79-4d02-49ec-aadb-b4e1ae6d4e47.jpg",
       "images/df7e9ddd-4f49-41bd-8260-0c3d454fcfed.jpg",
@@ -750,6 +1023,10 @@
       {
         "score": "yellow",
         "date": "2026-11-19"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-27"
       }
     ],
     "questionHistory": [
@@ -772,23 +1049,39 @@
         "total": 37,
         "correct": 30,
         "date": "2026-11-19"
+      },
+      {
+        "total": 14,
+        "correct": 7,
+        "date": "2026-11-26"
+      },
+      {
+        "total": 14,
+        "correct": 14,
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
-      "total": 37,
-      "correct": 30,
-      "date": "2026-11-19"
+      "total": 14,
+      "correct": 14,
+      "date": "2026-11-27"
     },
     "highlightedMeds": [],
     "markedWords": [
       "Triamteren"
+    ],
+    "audioNotes": [],
+    "markedFacts": [],
+    "featuredImages": [
+      "images/af07fd79-4d02-49ec-aadb-b4e1ae6d4e47.jpg",
+      "images/df7e9ddd-4f49-41bd-8260-0c3d454fcfed.jpg"
     ]
   },
   {
     "name": "Opioide Analgetika",
     "category": "Analgetika",
     "meds": "Agonisten an Opioid-Rezeptoren: \n  Morphin-Derivate: \n    Morphin, Codein, Oxycodon\n  Synthetische Opioide: \n    Methadon, Levomethadon, Tramadol, Tilidin, Fentanyl\nGemischt Agonisten/Antagonisten an Opioidrezeptoren: \n    Buprenorphin\nAntagonisten an Opioid/Rezeptoren: \n    Naloxon, Methylnaltrexon",
-    "keyFacts": "-Alfentanyl hat die kürzeste Halbwertszeit\n-Naloxon kann alle Wirkungen von Morphin aufheben nicht aber bei Buprenorphin\n-Methylnaltrexon verhindert nur, die durch Opioide verursachte Obstipation",
+    "keyFacts": "-Alfentanyl hat die kürzeste Halbwertszeit\n-Naloxon kann alle Wirkungen von Morphin aufheben nicht aber bei Buprenorphin\n-Methylnaltrexon verhindert nur, die durch Opioide verursachte Obstipation\n—> Morphin macht keinen Husten\n—> Levomethadon führt weniger wahrscheinlich zu einer verlängerten QT-Zeit als Methadon\n—> Methylnaltrexon, Naloxon wirken spasmolytisch und verhindern opstipation",
     "markedWords": [
       "Fentanyl",
       "Morphin",
@@ -817,6 +1110,10 @@
       {
         "score": "yellow",
         "date": "2026-11-22"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-23"
       }
     ],
     "questionHistory": [
@@ -844,14 +1141,27 @@
         "total": 32,
         "correct": 20,
         "date": "2026-11-22"
+      },
+      {
+        "total": 32,
+        "correct": 25,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 22,
+        "correct": 16,
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 32,
-      "correct": 20,
-      "date": "2026-11-22"
+      "total": 22,
+      "correct": 16,
+      "date": "2026-11-26"
     },
-    "markedFacts": [],
+    "markedFacts": [
+      "Morphin macht keinen Husten",
+      "Methylnaltrexon, Naloxon wirken spasmolytisch und verhindern opstipation"
+    ],
     "audioNotes": [],
     "featuredImages": [
       "images/0ba61e08-7fab-4b86-b1c3-a3c9d71cabbd.jpg"
@@ -861,10 +1171,11 @@
     "name": "Nichtopioide Analgetika",
     "category": "Analgetika",
     "meds": "NSAIDs (Nicht Steroidale Anti-Inflammatorische Drugs):\n  Nicht Selektiven COX hemmer:\n    ASS, Diclofenac, Ibuprofen\n  Selektiven COX 2 Hemmer:\n    Celecoxib \nÜberwiegend Zentral wirkenden COX Hemmer:\n    Paracetamol, Metamizol",
-    "keyFacts": "-ASS hemmt COX 1 und 2 irreversibel\n-Paracetamol macht tödliches Leberkoma\n-Metamizol wirkt Spasmolytisch\n—> COX inhibitoren machen keine Dysmenorhöischen wirkungen",
+    "keyFacts": "-ASS hemmt COX 1 und 2 irreversibel\n-Paracetamol macht tödliches Leberkoma\n-Metamizol wirkt Spasmolytisch\n—> COX inhibitoren machen keine Dysmenorhöischen wirkungen\n—> Ibuprofen + Glucocortikoide macht erhöte Gastrointestinale komplikationen\n—> NSAIDs machen keine Hyponatriämie\n—> Die halbwertszeit von Salizylsäure ist dosisabhängig, von ASS nicht\n—> Metamizol wirkt spasmolytisch",
     "markedWords": [
       "ASS",
-      "Celecoxib"
+      "Celecoxib",
+      "Metamizol"
     ],
     "images": [
       "images/e6be5af2-b982-4f03-9d67-4e70e8f63cef.jpg",
@@ -888,6 +1199,10 @@
       {
         "score": "yellow",
         "date": "2026-11-22"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-23"
       }
     ],
     "questionHistory": [
@@ -915,14 +1230,26 @@
         "total": 32,
         "correct": 20,
         "date": "2026-11-22"
+      },
+      {
+        "total": 32,
+        "correct": 25,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 22,
+        "correct": 16,
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 32,
-      "correct": 20,
-      "date": "2026-11-22"
+      "total": 22,
+      "correct": 16,
+      "date": "2026-11-26"
     },
-    "markedFacts": [],
+    "markedFacts": [
+      "—> Metamizol wirkt spasmolytisch"
+    ],
     "audioNotes": [],
     "featuredImages": [
       "images/e6be5af2-b982-4f03-9d67-4e70e8f63cef.jpg"
@@ -991,13 +1318,18 @@
     "audioNotes": [],
     "markedFacts": [
       "nicht-Depolarisierende Muskelrelaxantien setzen Histamin frei"
+    ],
+    "featuredImages": [
+      "images/ca28b980-3594-45cc-9e1d-b05f47b18bfc.jpg",
+      "images/5d7023dc-4394-4c91-b70d-52e064c990dd.jpg",
+      "images/c957f592-c70b-40e9-9e8c-e347cbfbf465.jpg"
     ]
   },
   {
     "name": "Antianginosa (Koronare Durchblutungsstörungen)",
     "category": "Inotropika und Antianginosa",
-    "meds": "Nitrovasodilatoren / NO-Donatoren:\n    Glyceroltrinitrat, Nitroprussidnatrium, Molsidomin\nIf-Kanalblocker:\n    Ivabradin",
-    "keyFacts": "—> NO Donatoren machen Kopfschmerzen",
+    "meds": "Nitrovasodilatoren / NO-Donatoren / Organische Nitrate:\n    Glyceroltrinitrat, Nitroprussidnatrium, Molsidomin\nIf-Kanalblocker:\n    Ivabradin",
+    "keyFacts": "—> NO Donatoren machen Kopfschmerzen\n—> Betablocker + Organische Nitrate ist eine positive kombination für koronare Herzerkrankungen\n—> Tadalafil + Glyceroltrinitrat verstärken ihre gefäßrelaxierende wirkung und sind in kombination kontraindiziert wegen der extremen hypothonie die sie hervorrufen können\n—> Sartan + Sacubitril = Entrestro, gibt man nicht bei KHK",
     "markedWords": [
       "Ivabradin",
       "Molsidomin"
@@ -1016,6 +1348,10 @@
       {
         "score": "yellow",
         "date": "2026-11-15"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-27"
       }
     ],
     "questionHistory": [
@@ -1033,20 +1369,35 @@
         "total": 44,
         "correct": 30,
         "date": "2026-11-15"
+      },
+      {
+        "total": 24,
+        "correct": 19,
+        "date": "2026-11-26"
+      },
+      {
+        "total": 24,
+        "correct": 19,
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
-      "total": 44,
-      "correct": 30,
-      "date": "2026-11-15"
+      "total": 24,
+      "correct": 19,
+      "date": "2026-11-27"
     },
-    "markedFacts": []
+    "markedFacts": [],
+    "audioNotes": [],
+    "featuredImages": [
+      "images/e6dd9aaa-3e30-4540-a681-8a9e848d72e7.jpg",
+      "images/2d4dfc5e-8543-41e6-840b-7ec43313a599.jpg"
+    ]
   },
   {
     "name": "Inotropika (Herzinsuffiziens)",
     "category": "Inotropika und Antianginosa",
     "meds": "Therapeutika der Chronischen Herzinsuffiziens:\n  Herzglykoside (hemmung der Na/K ATPase):\n    Digitoxin, Digoxin\n  Sonstige:\n    If-Kanalblocker\nTherapeutika der Akuten Herzinsuffiziens:\n  beta-Sympathomimetika\n    Dobutamin, Dopamin, Adrenalin, Noradrenalin\n  Phosphodiesterase-3-Hemmer:\n    Milrinon\n  Kalzium-Sensitivierer\n    Levosimendan",
-    "keyFacts": "—> Herzglykoside hemmen die Na/Ka ATPase\n—> Digitoxin und Digoxin bremsen den AV-Knoten\n—> Herzglykoside sind Reservemedikamente \n—> Digitoxin und Digoxin haben nur einen kleinen First-Pass Effekt",
+    "keyFacts": "—> Herzglykoside hemmen die Na/Ka ATPase\n—> Digitoxin und Digoxin bremsen den AV-Knoten\n—> Herzglykoside sind Reservemedikamente \n—> Digitoxin und Digoxin haben nur einen kleinen First-Pass Effekt\n—> Herzglycoside werden durch Betablocker versterkt und das ist bei Herzinsuffiziens gewollt\n—> Thiaziddiuretika versterken die positiv Inotrope wirkung von Herzglykosiden durch die Hypokaliämie",
     "markedWords": [
       "Milrinon",
       "Levosimendan",
@@ -1054,7 +1405,7 @@
       "Digoxin"
     ],
     "images": [
-      "images/1997652b-1856-4e4f-baad-cfb6b9797c1b.jpg",
+      "images/5bf22543-16dc-4669-9ed1-1fefcef2e08d.jpg",
       "images/ddc21d52-11c4-44a6-8de0-546fb365683a.jpg",
       "images/f7500ed7-5bd1-4848-9533-21bd7fe74350.jpg"
     ],
@@ -1068,6 +1419,10 @@
       {
         "score": "yellow",
         "date": "2026-11-15"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-27"
       }
     ],
     "questionHistory": [
@@ -1085,13 +1440,32 @@
         "total": 44,
         "correct": 30,
         "date": "2026-11-15"
+      },
+      {
+        "total": 24,
+        "correct": 19,
+        "date": "2026-11-26"
+      },
+      {
+        "total": 24,
+        "correct": 19,
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
-      "total": 44,
-      "correct": 30,
-      "date": "2026-11-15"
-    }
+      "total": 24,
+      "correct": 19,
+      "date": "2026-11-27"
+    },
+    "audioNotes": [],
+    "markedFacts": [
+      "Herzglycoside werden durch Betablocker versterkt und das ist bei Herzinsuffiziens gewollt",
+      "—> Digitoxin und Digoxin haben nur einen kleinen First-Pass Effekt"
+    ],
+    "featuredImages": [
+      "images/ddc21d52-11c4-44a6-8de0-546fb365683a.jpg",
+      "images/5bf22543-16dc-4669-9ed1-1fefcef2e08d.jpg"
+    ]
   },
   {
     "name": "Toxicologie",
@@ -1108,7 +1482,7 @@
       "Blei"
     ],
     "images": [
-      "images/461b3e25-2212-4e81-9197-899cddec21e1.jpg"
+      "images/58f57c13-093f-44fe-ab14-27a6e252d39b.jpg"
     ],
     "learned": true,
     "id": 1794404275461,
@@ -1128,13 +1502,25 @@
         "total": 77,
         "correct": 51,
         "date": "2026-11-12"
+      },
+      {
+        "total": 28,
+        "correct": 9,
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
-      "total": 77,
-      "correct": 51,
-      "date": "2026-11-12"
-    }
+      "total": 28,
+      "correct": 9,
+      "date": "2026-11-27"
+    },
+    "audioNotes": [],
+    "markedFacts": [
+      "—> Obidoxim reaktiviert die Acethylcholinesterase"
+    ],
+    "featuredImages": [
+      "images/58f57c13-093f-44fe-ab14-27a6e252d39b.jpg"
+    ]
   },
   {
     "name": "Lokalanästhetika",
@@ -1193,7 +1579,10 @@
       "Nur der Ester Typ wird von der Cholinesterase abgebaut duhhh",
       "Articain hat einen schnellen wirkeintritt, schneller als 20min"
     ],
-    "audioNotes": []
+    "audioNotes": [],
+    "featuredImages": [
+      "images/b11fbe2c-7f75-441d-95f1-2b884e480e6a.jpg"
+    ]
   },
   {
     "name": "Lifestyle Drugs",
@@ -1247,44 +1636,64 @@
       "date": "2026-11-23"
     },
     "audioNotes": [],
-    "markedFacts": []
+    "markedFacts": [],
+    "featuredImages": [
+      "images/92e6b689-cb88-4539-b3fc-2d4a70cd116d.jpg"
+    ]
   },
   {
     "name": "Parasympathomimetika und Parasympatholytika",
     "category": "Parasympathomimetika und Parasympatholytika",
     "meds": "Muskarin-Rezeptor:\n  Agonisten (Parasympathomimetika):\n    Pilocarpin\n  Antagonisten (Parasympatholytika):\n    Butylscopolamin, Scopolamin\nCholinesterase Hemmer (Parasympathomimetika):\n    Physostigmin, Neostigmin",
-    "keyFacts": "—> Muskarinrezeptoren sind Gi und Gq gekoppelt\n—> Pilocarpin setzt man beim Glaukom ein\n—> Butylscopolamin kann nicht durch die Blut/Hirn Schranke\n—> Butylscopolamin hat eine Geringe Bioverfügbarkeit\n—>",
+    "keyFacts": "—> Muskarinrezeptoren sind Gi und Gq gekoppelt\n—> Pilocarpin setzt man beim Glaukom ein\n—> Butylscopolamin kann nicht durch die Blut/Hirn Schranke\n—> Butylscopolamin hat eine Geringe Bioverfügbarkeit\n—> Physostigmin und Neostigmin hemmen die Acethylcholinesterase",
     "markedWords": [
-      "Butylscopolamin"
+      "Butylscopolamin",
+      "Neostigmin",
+      "Physostigmin"
     ],
     "images": [
-      "images/e5fbf6b5-59a5-4ccf-aa82-279377b1fd9e.jpg",
+      "images/b19b2107-0723-4c96-b194-44a6707d3a85.jpg",
       "images/88ca0afe-97e1-419e-9a23-29d13c6d55eb.jpg"
     ],
     "learned": true,
     "id": 1794597518026,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "red",
+        "date": "2026-11-27"
+      }
+    ],
     "questionHistory": [
       {
         "total": 24,
         "correct": 13,
         "date": "2026-11-13"
+      },
+      {
+        "total": 12,
+        "correct": 7,
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
-      "total": 24,
-      "correct": 13,
-      "date": "2026-11-13"
-    }
+      "total": 12,
+      "correct": 7,
+      "date": "2026-11-27"
+    },
+    "audioNotes": [],
+    "markedFacts": [],
+    "featuredImages": [
+      "images/b19b2107-0723-4c96-b194-44a6707d3a85.jpg"
+    ]
   },
   {
     "name": "Sympathomimetika",
     "category": "Sympathomimetika",
-    "meds": "Rezeptoren:\n  alpha: \n    a1 = Gq = Gefäße eng\n    a2 = Gi = NA hemmer\n  beta\n    b1 = Gs = Inotrop, Chronotrop\n    b2 = Gs = relaxation Bronchien und Gefäße\nNA-Wiederaufnahme Hemmer (indirekte Sympathomimetika):\n  Ephedrin\n  Amphetamine (hemmen die NA wiederaufnahme):\n    Methylamphetamin\n  Cocain",
-    "keyFacts": "—> Cocain hemmt nicht die Commt\n—> Ephedrin steigert die Herzfrequenz!\n—> Xylomethazolin hilft nicht bei Hypothonen zuständen!",
+    "meds": "Rezeptoren:\n  alpha: \n    a1 = Gq = Gefäße eng\n    a2 = Gi = NA hemmer\n  beta\n    b1 = Gs = Inotrop, Chronotrop\n    b2 = Gs = relaxation Bronchien und Gefäße\nNA-Wiederaufnahme Hemmer (indirekte Sympathomimetika):\n  Ephedrin\n  Amphetamine (hemmen die NA wiederaufnahme):\n    Methylamphetamin\n  Cocain\nAlpha-Adrenorezeptor Agonist\n    Xylomethazolin",
+    "keyFacts": "—> Cocain hemmt nicht die Commt\n—> Ephedrin steigert die Herzfrequenz!\n—> Xylomethazolin hilft nicht bei Hypothonen zuständen!\n—> b2 aktivieren die adenylatcyclase",
     "markedWords": [],
     "images": [
-      "images/2923a2f2-cd7a-479a-81e9-b05bddfe2dd0.jpg",
+      "images/bcde04b3-0982-4992-806a-a5da37963e66.jpg",
       "images/086c01f6-8771-4f25-b2ae-2992bbd19a0b.jpg",
       "images/02a4b460-7ee7-4ee5-8545-b404d8c3e478.jpg"
     ],
@@ -1319,14 +1728,29 @@
         "total": 28,
         "correct": 20,
         "date": "2026-11-18"
+      },
+      {
+        "total": 15,
+        "correct": 11,
+        "date": "2026-11-25"
+      },
+      {
+        "total": 14,
+        "correct": 12,
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 28,
-      "correct": 20,
-      "date": "2026-11-18"
+      "total": 14,
+      "correct": 12,
+      "date": "2026-11-26"
     },
-    "markedFacts": []
+    "markedFacts": [],
+    "audioNotes": [],
+    "featuredImages": [
+      "images/086c01f6-8771-4f25-b2ae-2992bbd19a0b.jpg",
+      "images/bcde04b3-0982-4992-806a-a5da37963e66.jpg"
+    ]
   },
   {
     "name": "Kinase-Inhibitoren / Zielgerichtete Tumortherapie",
@@ -1352,6 +1776,10 @@
       {
         "score": "green",
         "date": "2026-11-18"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-25"
       }
     ],
     "questionHistory": [
@@ -1369,19 +1797,29 @@
         "total": 4,
         "correct": 3,
         "date": "2026-11-18"
+      },
+      {
+        "total": 4,
+        "correct": 4,
+        "date": "2026-11-25"
       }
     ],
     "questionStats": {
       "total": 4,
-      "correct": 3,
-      "date": "2026-11-18"
+      "correct": 4,
+      "date": "2026-11-25"
     },
     "audioNotes": [],
-    "markedFacts": []
+    "markedFacts": [],
+    "featuredImages": [
+      "images/89f96a0f-c53e-43eb-a476-1fc0a50b27a8.jpg",
+      "images/de4ff8df-3385-42eb-899f-f4f6b3500805.jpg",
+      "images/99bcb268-ec6e-44c0-b101-43862463c4a0.jpg"
+    ]
   },
   {
     "name": "Narkotika",
-    "category": "Narkotika",
+    "category": "36. Narkotika",
     "meds": "Blut/Gas Verteilungkoeffizient:\n  Niedrig: Schnelle ein- und aus-leitung\nInhalationsnarkotika:\n  Halogenierte Kohlenwasserstoffe:\n    Sevofluran, Desfluran\nInjektionsnarkotika:\n    Propofol, Etomidat, Ketamin",
     "keyFacts": "—> Desfluran hat den Niedrigsten Blut/Gaß Koeffizienten direkt nach Xenon\n—> Sevofluran macht als Nebenwirkung Verstärkte Muskelrelaxation\n—> Etomidat wirkt in erster Linie Hypnotisch wie eigentlich alle Narkotika\n—> Hydrophilie ist nicht gut für die Wirkung von Narkotikan",
     "markedWords": [
@@ -1420,20 +1858,29 @@
         "total": 10,
         "correct": 9,
         "date": "2026-11-18"
+      },
+      {
+        "total": 10,
+        "correct": 8,
+        "date": "2026-11-25"
       }
     ],
     "questionStats": {
       "total": 10,
-      "correct": 9,
-      "date": "2026-11-18"
+      "correct": 8,
+      "date": "2026-11-25"
     },
-    "audioNotes": []
+    "audioNotes": [],
+    "featuredImages": [
+      "images/b36bfc6c-93ef-42e1-9f68-c7701e0d046d.jpg",
+      "images/bfe5f41b-7b5c-4784-a194-f6123cfff4d2.jpg"
+    ]
   },
   {
     "name": "Gicht",
     "category": "Gicht",
     "meds": "Urikostatika:\n  Xanthinoxidase Hemmer:\n    Allopurinol, Febuxostat\nUrolytika:\n    Rasburicase\nColchicin (Hemmt Neutros)\nUrikosurika:\n    Benzbromaron\nAnti-IL-1-beta \n    Canakinumab",
-    "keyFacts": "—> Xanthionoxidase Verstoffwechselt 6MP nicht\n—> Canakinumab wird bei einem akuten Gichtanfall eingesetzt\n—> Febuxostat wird nicht Empfohlen bei KHK",
+    "keyFacts": "—> Xanthionoxidase Verstoffwechselt 6MP nicht\n—> Canakinumab wird bei einem akuten Gichtanfall eingesetzt\n—> Febuxostat wird nicht Empfohlen bei KHK\n—> Allopurinol hemmt den abbau von Azathioprin",
     "markedWords": [
       "Canakinumab",
       "Colchicin"
@@ -1443,7 +1890,7 @@
       "Canakinumab wird bei einem akuten Gichtanfall eingesetzt"
     ],
     "images": [
-      "images/976e2f54-a4b7-402a-b4e9-187cb39c1bcd.jpg"
+      "images/db274b74-3b26-43b0-aeef-8f74dea80400.jpg"
     ],
     "learned": true,
     "id": 1794700100252,
@@ -1472,20 +1919,28 @@
         "total": 14,
         "correct": 12,
         "date": "2026-11-19"
+      },
+      {
+        "total": 14,
+        "correct": 13,
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
       "total": 14,
-      "correct": 12,
-      "date": "2026-11-19"
+      "correct": 13,
+      "date": "2026-11-26"
     },
-    "audioNotes": []
+    "audioNotes": [],
+    "featuredImages": [
+      "images/db274b74-3b26-43b0-aeef-8f74dea80400.jpg"
+    ]
   },
   {
     "name": "Osteoporose und Kalziumhomöostase",
     "category": "Osteoporose und Kalziumhomöostase",
     "meds": "Pharmaka, die den Knochenabbau hemmen / Osteoklasten Hemmer\n  Bisphosphonate \n  RANKL-Inhibitoren\n    Denosumab",
-    "keyFacts": "—> Denosumab ist für Postmenopausale Frauen\n—> Denosumab hemmt Osteoklasten\n—> Denosumab imitiert die wirkung von Osteoprogerin",
+    "keyFacts": "—> Denosumab ist für Postmenopausale Frauen\n—> Denosumab hemmt Osteoklasten\n—> Denosumab imitiert die wirkung von Osteoprogerin\n—> Desonumab wirkt nicht vornehmlich osteoanabol",
     "markedWords": [
       "Denosumab",
       "Bisphosphonate"
@@ -1494,7 +1949,7 @@
       "Desonumab hemmt Osteoklasten"
     ],
     "images": [
-      "images/69d0833e-4d85-41f6-82b5-946dbc725121.jpg"
+      "images/62230718-0e5f-4ec8-8a9d-f501c7f09560.jpg"
     ],
     "learned": true,
     "id": 1794786404451,
@@ -1502,6 +1957,10 @@
       {
         "score": "red",
         "date": "2026-11-17"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-27"
       }
     ],
     "questionHistory": [
@@ -1519,27 +1978,35 @@
         "total": 7,
         "correct": 6,
         "date": "2026-11-20"
+      },
+      {
+        "total": 7,
+        "correct": 4,
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
       "total": 7,
-      "correct": 6,
-      "date": "2026-11-20"
+      "correct": 4,
+      "date": "2026-11-27"
     },
-    "audioNotes": []
+    "audioNotes": [],
+    "featuredImages": [
+      "images/62230718-0e5f-4ec8-8a9d-f501c7f09560.jpg"
+    ]
   },
   {
     "name": "Antiemetika Antivertiginosa",
     "category": "Antiemetika Antivertiginosa",
-    "meds": "Serotonin 5-HT3-Rezeptorantagonisten (Ligandengesteuerte Ionenkanäle):\n    Ondansetron\nNK1-Rezeptorantagonisten:\n    Aprepitant",
-    "keyFacts": "—> Docken an Ligandengesteuerte Ionenkanäle",
+    "meds": "Serotonin 5-HT3-Rezeptorantagonisten (Ligandengesteuerte Ionenkanäle):\n    Ondansetron\nNK1-Rezeptorantagonisten:\n    Aprepitant\nD2-Hemmer\n    Droperidol, Methoclopramid\nH1-blocker\n    Dimenhydrinat",
+    "keyFacts": "—> Docken an Ligandengesteuerte Ionenkanäle\n—> H2-Blocker hemmen die Protonen Pumpe aber sind keine antiemetikum.",
     "markedWords": [
       "Ondansetron",
       "Aprepitant"
     ],
     "markedFacts": [],
     "images": [
-      "images/c7220d55-f31b-44bd-8bd1-c0486632eaa1.jpg"
+      "images/5eca0f7e-d960-463c-a375-85f71e5a9362.jpg"
     ],
     "learned": true,
     "id": 1794789683927,
@@ -1551,6 +2018,10 @@
       {
         "score": "green",
         "date": "2026-11-20"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-27"
       }
     ],
     "questionHistory": [
@@ -1568,25 +2039,33 @@
         "total": 11,
         "correct": 9,
         "date": "2026-11-20"
+      },
+      {
+        "total": 8,
+        "correct": 4,
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
-      "total": 11,
-      "correct": 9,
-      "date": "2026-11-20"
+      "total": 8,
+      "correct": 4,
+      "date": "2026-11-27"
     },
     "audioNotes": [
       {
         "word": "Aprepitant",
         "ref": "audio/7c10f975-ef39-40ef-8851-2ae6bbca264b.m4a"
       }
+    ],
+    "featuredImages": [
+      "images/5eca0f7e-d960-463c-a375-85f71e5a9362.jpg"
     ]
   },
   {
     "name": "Gastritis und Ulkusmittel",
     "category": "Gastritis und Ulkusmittel",
     "meds": "Protonenpumpen Inhibitoren (PPI):\n    Esomeprazol, Pantoprazol, Omeprazol\nAntazida: \n    Hydrotalcit\nHistamin H2-Rezeptorantagonisten:\n    Rantidin, Famotidin\nProstaglandin-Analoga:\n    Misoprostol",
-    "keyFacts": "—> Antazida sind Basisch und puffern H+, pH ^\n—> PPI H+/K+ATPase binden an alpha Untereinheit irreversibel\n—> H2 Rezeptoren steigern cAMP\n—> Protonenpumpen Inhibitoren sind von ihrer wirkung her nicht auf ihre halbwertszeit beschränkt",
+    "keyFacts": "—> Antazida sind Basisch und puffern H+, pH ^\n—> PPI H+/K+ATPase binden an alpha Untereinheit irreversibel\n—> H2 Rezeptoren steigern cAMP\n—> Protonenpumpen Inhibitoren sind von ihrer wirkung her nicht auf ihre halbwertszeit beschränkt\n—> Pantoprazol hemmt nicht die CYP2C19",
     "markedWords": [
       "Pantoprazol"
     ],
@@ -1596,7 +2075,7 @@
       "PPI H+/K+ATPase binden an alpha Untereinheit irreversibel"
     ],
     "images": [
-      "images/eb02f8f3-59b5-419e-9b8d-eed79771b1eb.jpg"
+      "images/5296a84e-857f-4902-91d6-29be7d0ac52d.jpg"
     ],
     "learned": true,
     "id": 1794843011294,
@@ -1608,6 +2087,10 @@
       {
         "score": "green",
         "date": "2026-11-20"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-27"
       }
     ],
     "questionHistory": [
@@ -1625,13 +2108,21 @@
         "total": 27,
         "correct": 18,
         "date": "2026-11-20"
+      },
+      {
+        "total": 10,
+        "correct": 9,
+        "date": "2026-11-27"
       }
     ],
     "questionStats": {
-      "total": 27,
-      "correct": 18,
-      "date": "2026-11-20"
-    }
+      "total": 10,
+      "correct": 9,
+      "date": "2026-11-27"
+    },
+    "featuredImages": [
+      "images/5296a84e-857f-4902-91d6-29be7d0ac52d.jpg"
+    ]
   },
   {
     "name": "Intestinale Antiphlogistika",
@@ -1647,7 +2138,7 @@
       "Morbus Chron 5-Aminosalicylsäure, Salazosulfapyridin"
     ],
     "images": [
-      "images/bf96d3ef-704e-44e5-bfb9-9876d6f9af9b.jpg"
+      "images/335e6941-1ae9-4f55-b00d-7c60bafb8b77.jpg"
     ],
     "learned": true,
     "id": 1795049134467,
@@ -1686,13 +2177,16 @@
       "total": 10,
       "correct": 8,
       "date": "2026-11-23"
-    }
+    },
+    "featuredImages": [
+      "images/335e6941-1ae9-4f55-b00d-7c60bafb8b77.jpg"
+    ]
   },
   {
     "name": "Tuberkulostatika und Antimykotika",
     "category": "Antiinfektiva",
-    "meds": "Tuberkulostatika\nAntimykotika\n  Triazole (hemmen Ergosterolsynthese\n    Fluconazol\n  Pyrimidin-Antagonisten\n    5-Flucoruracil\n  Porenbildner\n    Amphotericin B\n  Glucansynthese-Inhibitoren\n    Caspofungin",
-    "keyFacts": "—> Triazole werden Systhmeisch eingesetzt\n—> Triazole machen GI-Beschwerden",
+    "meds": "Tuberkulostatika\n  Erstlinie\n    Rifampicin, Pyrazinamid, Isoniazid, Ethambutol\nAntimykotika\n  Triazole (hemmen Ergosterolsynthese)\n    Fluconazol\n  Pyrimidin-Antagonisten\n    5-Flucoruracil\n  Porenbildner\n    Amphotericin B\n  Glucansynthese-Inhibitoren\n    Caspofungin",
+    "keyFacts": "—> Triazole werden Systhmeisch eingesetzt\n—> Triazole machen GI-Beschwerden\n—> Moxifloxacin ist kein Antituberkulotikum\n—> Fluconazol, Itraconazol hemmen CYP450\n—> Rifampicin kann zu verfärbungen von kontaktlinsen führen",
     "markedWords": [
       "Triazole"
     ],
@@ -1707,6 +2201,10 @@
       {
         "score": "red",
         "date": "2026-11-21"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-24"
       }
     ],
     "questionHistory": [
@@ -1719,24 +2217,34 @@
         "total": 56,
         "correct": 40,
         "date": "2026-11-21"
+      },
+      {
+        "total": 54,
+        "correct": 31,
+        "date": "2026-11-24"
       }
     ],
     "questionStats": {
-      "total": 56,
-      "correct": 40,
-      "date": "2026-11-21"
-    }
+      "total": 54,
+      "correct": 31,
+      "date": "2026-11-24"
+    },
+    "featuredImages": [
+      "images/477732af-466a-4f4a-b567-5e34573f6ca0.jpg"
+    ]
   },
   {
     "name": "Virostatika: Retrovieren",
     "category": "Antiinfektiva",
-    "meds": "Antiretrovirale Arzneimittel\n  Protease-Inhibitoren\n    Ritonavir, Lopinavir\n  Entry-Inhibitoren:\n    Maraviroc (CCR5-Antagonist)",
-    "keyFacts": "",
+    "meds": "Antiretrovirale Arzneimittel\n  Protease-Inhibitoren\n    Ritonavir, Lopinavir\n  Entry-Inhibitoren:\n    Maraviroc (CCR5-Antagonist)\n  Reverse Transkriptase Inhibitoren",
+    "keyFacts": "—> Nukleotidische Reverse Transkriptase Inhibitoren werden durch Biiiiphosphorylierung aktiviert nicht tri\n—> HIV Protease inhibitoren machen Lipidystrophy und Glucosestoffwechselstörungen",
     "markedWords": [
       "Maraviroc"
     ],
     "audioNotes": [],
-    "markedFacts": [],
+    "markedFacts": [
+      "Nukleotidische Reverse Transkriptase Inhibitoren werden durch Biiiiphosphorylierung aktiviert"
+    ],
     "images": [
       "images/2bd4d071-435d-45c8-ab9f-bc01fb4a72fa.jpg"
     ],
@@ -1746,6 +2254,10 @@
       {
         "score": "green",
         "date": "2026-11-21"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-24"
       }
     ],
     "questionHistory": [
@@ -1758,24 +2270,34 @@
         "total": 56,
         "correct": 40,
         "date": "2026-11-21"
+      },
+      {
+        "total": 54,
+        "correct": 31,
+        "date": "2026-11-24"
       }
     ],
     "questionStats": {
-      "total": 56,
-      "correct": 40,
-      "date": "2026-11-21"
-    }
+      "total": 54,
+      "correct": 31,
+      "date": "2026-11-24"
+    },
+    "featuredImages": [
+      "images/2bd4d071-435d-45c8-ab9f-bc01fb4a72fa.jpg"
+    ]
   },
   {
     "name": "Virostatika: Influenza und Humane Herpes-Viren (HHV)",
     "category": "Antiinfektiva",
     "meds": "Influenza Virostatika\n  Neuraminidase-Inhibitoren\n    Oseltamivir, Zanamivir\nHuman Herpes-Viren (HHV) Virostatika\n  Nukleosidische Purin-Analoga\n    Aciclovir",
-    "keyFacts": "—> Oseltamivir ist ein Prodrug",
+    "keyFacts": "—> Oseltamivir ist ein Prodrug!",
     "markedWords": [
       "Oseltamivir"
     ],
     "audioNotes": [],
-    "markedFacts": [],
+    "markedFacts": [
+      "Oseltamivir ist ein Prodrug!"
+    ],
     "images": [
       "images/86737379-72a9-4223-a517-eea563417583.jpg"
     ],
@@ -1785,6 +2307,10 @@
       {
         "score": "yellow",
         "date": "2026-11-21"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-24"
       }
     ],
     "questionHistory": [
@@ -1797,19 +2323,27 @@
         "total": 56,
         "correct": 40,
         "date": "2026-11-21"
+      },
+      {
+        "total": 54,
+        "correct": 31,
+        "date": "2026-11-24"
       }
     ],
     "questionStats": {
-      "total": 56,
-      "correct": 40,
-      "date": "2026-11-21"
-    }
+      "total": 54,
+      "correct": 31,
+      "date": "2026-11-24"
+    },
+    "featuredImages": [
+      "images/86737379-72a9-4223-a517-eea563417583.jpg"
+    ]
   },
   {
     "name": "Hepatitis-C und Malaria",
     "category": "Antiinfektiva",
-    "meds": "Hepatitis-C\n    Sofosbuvir\n    Ribavirin\n    NS3/NS4, NS5A, NS5B -Inhibitoren\nMalaria\n  Chinoline\n    Chloroquin (L), Mefloquin, Primaquin (L)\n  Artemisine\n    Atovaquon (L)",
-    "keyFacts": "—> Chinole hemmen die demineralisierung von Häm zu Hämozin\n—> Artemisine hemmen die CalciumATPase (PFATP6)\n—> Artemisin ist ein Prodrug\n—> Primaquin wird über Cyp aktiviert\n—> Atovaquon, Chloroquin und Primaquin wirken beim Leberstadium der Malaria\n—> Mefloquin macht depressionen\n—> Primaquin hilft bei Hypnozyten\n—> Atovaquon hemmt Elektronentransport",
+    "meds": "Hepatitis-C\n  RNA Polymerase Hemmer\n    Sofosbuvir, Ribavirin\n    NS3/NS4, NS5A, NS5B -Inhibitoren\nMalaria\n  Chinoline (hemmt die bildung von Hämozoin)\n    Chloroquin, Mefloquin, Primaquin (L/H)\n  Artemisine\n  Atovaquon",
+    "keyFacts": "—> Chinole hemmen die demineralisierung von Häm zu Hämozin\n—> Artemisine hemmen die CalciumATPase (PFATP6)\n—> Artemisin ist ein Prodrug\n—> Primaquin wird über Cyp aktiviert\n—> Atovaquon, Chloroquin und Primaquin wirken beim Leberstadium der Malaria\n—> Mefloquin macht depressionen\n—> Primaquin hilft bei Hypnozyten\n—> Atovaquon hemmt Elektronentransport\n—> Chinolone hemmen die bildung von Hämozin",
     "markedWords": [
       "Artemisine",
       "Malaria",
@@ -1818,11 +2352,14 @@
     "audioNotes": [],
     "markedFacts": [
       "Chinole hemmen die demineralisierung von Häm zu Hämozin",
-      "Artemisine hemmen die CalciumATPase",
-      "Atovaquon, Chloroquin und Primaquin wirken beim Leberstadium der Malaria"
+      "Atovaquon, Chloroquin und Primaquin wirken beim Leberstadium der Malaria",
+      "Artemisine hemmen die CalciumATPase (PFATP6)",
+      "Artemisin ist ein Prodrug",
+      "Primaquin wird über Cyp aktiviert"
     ],
     "images": [
-      "images/571eb3f6-c383-4a68-ab0b-c2e48e6cacdf.jpg"
+      "images/571eb3f6-c383-4a68-ab0b-c2e48e6cacdf.jpg",
+      "images/67f77f98-3064-48af-a4d2-60542a68bc19.jpg"
     ],
     "learned": true,
     "id": 1795114933849,
@@ -1830,6 +2367,10 @@
       {
         "score": "red",
         "date": "2026-11-21"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-24"
       }
     ],
     "questionHistory": [
@@ -1842,25 +2383,46 @@
         "total": 56,
         "correct": 40,
         "date": "2026-11-21"
+      },
+      {
+        "total": 54,
+        "correct": 31,
+        "date": "2026-11-24"
       }
     ],
     "questionStats": {
-      "total": 56,
-      "correct": 40,
-      "date": "2026-11-21"
-    }
+      "total": 54,
+      "correct": 31,
+      "date": "2026-11-24"
+    },
+    "featuredImages": [
+      "images/571eb3f6-c383-4a68-ab0b-c2e48e6cacdf.jpg",
+      "images/67f77f98-3064-48af-a4d2-60542a68bc19.jpg"
+    ]
   },
   {
     "name": "Biopharmaka",
     "category": "Biopharmaka",
     "meds": "Monoklonale Antikörper\n  anti-CD3\n    Muromonab-CD3 (M)\n  anti-CD25 (Transplantatabstoßung)\n    Basiliximab (C)\n  anti-TNF (rheumatoide Arthritis, M. Crohn)\n    Infliximab (C), Adalimumab\n  anti-CD20 (rheumatoide arthritis)\n    Rituximab\n  anti-IL-6-Rezeptor \n    Tocilizumab\n  a4b7-Integrinblocker\n    Vedolizumab\n  PD1 Inhibitor\n    Nivolumab\nFusionsprotein\n  anti-TNF\n    Etanercept",
-    "keyFacts": "—> es gibt chimäre, murin und humanisierte antikörper\n—> der Fc (konstanter teil) des antikörpers ist human\n—> Basiliximab, bindet an die a-Untereinheit der Interleukin-2-Rezeptoren —> es bindet kein interleukin!!",
+    "keyFacts": "—> es gibt chimäre, murin und humanisierte antikörper\n—> der Fc (konstanter teil) des antikörpers ist human\n—> Basiliximab, bindet an die a-Untereinheit der Interleukin-2-Rezeptoren —> es bindet kein interleukin!!\n—> Tocilizumab macht keine CRP erhöhung\n—> Vedolizumab ist gegen a4b7\n—> Tacrolimus bindet am Zytosolischen rezeptor",
     "markedWords": [
       "Basiliximab",
-      "M. Crohn"
+      "M. Crohn",
+      "Tocilizumab"
     ],
-    "audioNotes": [],
-    "markedFacts": [],
+    "audioNotes": [
+      {
+        "word": "Tocilizumab",
+        "ref": "audio/a785cf9d-b4fc-4ec7-881b-9093f70f0f84.m4a"
+      },
+      {
+        "word": "Vedolizumab",
+        "ref": "audio/84fb1b1f-bc06-4c0b-8269-b6e42b32dc3e.m4a"
+      }
+    ],
+    "markedFacts": [
+      "Basiliximab, bindet an die a-Untereinheit der Interleukin-2-Rezeptoren —> es bindet kein interleukin!"
+    ],
     "images": [
       "images/030475e7-475d-4ed2-9dea-a7964dac775d.jpg"
     ],
@@ -1870,6 +2432,10 @@
       {
         "score": "yellow",
         "date": "2026-11-21"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-24"
       }
     ],
     "questionHistory": [
@@ -1882,22 +2448,31 @@
         "total": 21,
         "correct": 14,
         "date": "2026-11-21"
+      },
+      {
+        "total": 18,
+        "correct": 13,
+        "date": "2026-11-24"
       }
     ],
     "questionStats": {
-      "total": 21,
-      "correct": 14,
-      "date": "2026-11-21"
-    }
+      "total": 18,
+      "correct": 13,
+      "date": "2026-11-24"
+    },
+    "featuredImages": [
+      "images/030475e7-475d-4ed2-9dea-a7964dac775d.jpg"
+    ]
   },
   {
     "name": "Immunmodulatoren",
     "category": "Immunmodulatoren",
     "meds": "Interleukin-2-Synthesehemmer:\n    Ciclosporin, Tacrolimus\nInterleukin-2-Proliferationshemmer:\n  Purin-Inhibitoren\n    Mycophenolatmofetil\n  Pyrimidin-Ihibitoren:\n    Leflunomid (Rheumatoide Arthritis)\nmTOR-Inhibitoren:\n    Sirolimus, Everolimus",
-    "keyFacts": "—> Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion\n—> Ciclosporin wird von CYP450 oxidiert\n—> Leflunomid akomuliert nicht im Fettgewebe\n—> mTOR inhibitoren führen nicht zu einer hemmung von Calcineurin\n—> Tacrolimus bindet an Zytosolischen Rezeptor\n—> Ciclosporin macht gingiva Hyperplasie",
+    "keyFacts": "—> Ciclosporin verursacht häufig Einschränkungen der Nierenfunktion\n—> Ciclosporin wird von CYP450 oxidiert\n—> Leflunomid akomuliert nicht im Fettgewebe\n—> mTOR inhibitoren führen nicht zu einer hemmung von Calcineurin\n—> Tacrolimus bindet an Zytosolischen Rezeptor\n—> Ciclosporin macht gingiva Hyperplasie\n—> Tacrolimus ist ILhemmer ncht mTOR hemmer!!!!\n—> Leflunomid ist gut bei Rheuma",
     "markedWords": [
       "Leflunomid",
-      "Ciclosporin"
+      "Ciclosporin",
+      "Tacrolimus"
     ],
     "audioNotes": [
       {
@@ -1918,6 +2493,10 @@
       {
         "score": "green",
         "date": "2026-11-21"
+      },
+      {
+        "score": "green",
+        "date": "2026-11-24"
       }
     ],
     "questionHistory": [
@@ -1930,19 +2509,27 @@
         "total": 19,
         "correct": 13,
         "date": "2026-11-21"
+      },
+      {
+        "total": 14,
+        "correct": 10,
+        "date": "2026-11-24"
       }
     ],
     "questionStats": {
-      "total": 19,
-      "correct": 13,
-      "date": "2026-11-21"
-    }
+      "total": 14,
+      "correct": 10,
+      "date": "2026-11-24"
+    },
+    "featuredImages": [
+      "images/9b12786b-e709-43a6-9e60-680e2f350e14.jpg"
+    ]
   },
   {
     "name": "Antipsychotika",
     "category": "Antipsychotika",
-    "meds": "1. Generation (D2 Rezeptorblock)\n2. Generation (D2 und Serotonin/5HTA Rezeptorblock",
-    "keyFacts": "—> Niedrigpotente Antipsychotika machen nicht häufiger Spätdyskinesien\n—> Dopamin Blockade macht hyperprolactinämie\n—> D2 Antagonisten wirken nicht Sedierend\n—> Niedrig und Hochpotente Antipsychotika wirken gleich\n—> Niedrigpotente Antipsychotika sedieren stärker als hochpotente\n—> D2 Antagonisten machen keine Orthostatischen Dysregulationen\n—> Antipsychotika machen nicht abhängig",
+    "meds": "1. Generation: D2 Rezeptorblock\n2. Generation: D2 und Serotonin/5HTA Rezeptorblock",
+    "keyFacts": "—> Niedrigpotente Antipsychotika machen nicht häufiger Spätdyskinesien, können aber welche verursachen und auch häufiger als 1/10000\n—> Dopamin Blockade macht hyperprolactinämie\n—> D2 Antagonisten wirken nicht Sedierend\n—> Niedrig und Hochpotente Antipsychotika wirken gleich\n—> Niedrigpotente Antipsychotika sedieren stärker als hochpotente\n—> D2 Antagonisten machen keine Orthostatischen Dysregulationen\n—> Antipsychotika machen nicht abhängig\n—> D2 Antagonisten machen keine Antihistaminergen effekte",
     "markedWords": [],
     "audioNotes": [],
     "markedFacts": [
@@ -1957,6 +2544,10 @@
       {
         "score": "red",
         "date": "2026-11-22"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-25"
       }
     ],
     "questionHistory": [
@@ -1969,23 +2560,33 @@
         "total": 20,
         "correct": 16,
         "date": "2026-11-22"
+      },
+      {
+        "total": 14,
+        "correct": 12,
+        "date": "2026-11-25"
       }
     ],
     "questionStats": {
-      "total": 20,
-      "correct": 16,
-      "date": "2026-11-22"
-    }
+      "total": 14,
+      "correct": 12,
+      "date": "2026-11-25"
+    },
+    "featuredImages": [
+      "images/e61a348a-c35c-4c3a-994d-0876474bb2f9.jpg"
+    ]
   },
   {
     "name": "Pharmakodynamik und Pharmakokinetik",
     "category": "Pharmakodynamik und Pharmakokinetik",
-    "meds": "CYP450\n  Si:\n  No: \n    Rifampicin\nDopamin\n  G-Proteingekoppelt\nRetardkapslen\n  cMax sinkt",
-    "keyFacts": "",
+    "meds": "cMax = maximal konznetration\ntMax = konzentration über Zeit\nKinetik 0.Ordnung = kostante elimination\nKinetik 1.Ordnung = proportionale elimination, Ct=C0xe\nb-Glucoronidase spaltet Arneistoffe im Darm\nParenterale = gabe unter umgehung des Magen/Darmtracktes",
+    "keyFacts": "—> b-Glucoronidase spaltet Arneistoffe im Darm\n—> Rifampizin reduziert nicht die expression von ABC Transportern\n—> CYP2C9 aktiviert Clopidogrel\n—> CYP3A4 hat am seltensten Polymorphismus\n—> Parenteral bedeutet über die Vene",
     "markedWords": [],
     "audioNotes": [],
     "markedFacts": [],
-    "images": [],
+    "images": [
+      "images/a1e9827b-f371-4d6f-9226-d0ceb5760825.jpg"
+    ],
     "learned": true,
     "id": 1795284587666,
     "reviews": [
@@ -2004,55 +2605,95 @@
         "total": 34,
         "correct": 27,
         "date": "2026-11-22"
+      },
+      {
+        "total": 29,
+        "correct": 17,
+        "date": "2026-11-25"
       }
     ],
     "questionStats": {
-      "total": 34,
-      "correct": 27,
-      "date": "2026-11-22"
-    }
+      "total": 29,
+      "correct": 17,
+      "date": "2026-11-25"
+    },
+    "featuredImages": []
   },
   {
     "name": "Antihistaminika",
     "category": "Antihistaminika",
     "meds": "1.Generation\n  Doxylamin, Dimenhydrinat\n2.Generation\n  Loratadin",
-    "keyFacts": "—> werden eingesetzt bei Allergien, weniger Schwellung der Nasenschleimhaut\n—> Antihistaminika der zweiten Generation werden zusätzlich eingesetzt bei Reisekrankheiten",
-    "markedWords": [],
+    "keyFacts": "—> werden eingesetzt bei Allergien, weniger Schwellung der Nasenschleimhaut\n—> Antihistaminika der zweiten Generation werden zusätzlich eingesetzt bei Reisekrankheiten\n—> eine überdosis mit Doxylamin zeichnet sich durch eine Mydriasis, Tachikardi und aggitierten Erregungszuständen aus\n—> Antihistaminika der 2.Generation wirken nicht Antimuskarinerg",
+    "markedWords": [
+      "Doxylamin"
+    ],
     "audioNotes": [],
-    "markedFacts": [],
+    "markedFacts": [
+      "Antihistaminika der 2.Generation wirken nicht Antimuskarinerg"
+    ],
     "images": [
-      "images/49d98235-8205-4a2d-8a46-d13c5b7f122d.jpg"
+      "images/31e7f9c0-222c-40ae-aa58-787a94e12bc6.jpg"
     ],
     "learned": true,
     "id": 1795305775763,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-11-23"
+      }
+    ],
     "questionHistory": [
       {
         "total": 14,
         "correct": 8,
         "date": "2026-11-22"
+      },
+      {
+        "total": 14,
+        "correct": 11,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 14,
+        "correct": 12,
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
       "total": 14,
-      "correct": 8,
-      "date": "2026-11-22"
-    }
+      "correct": 12,
+      "date": "2026-11-26"
+    },
+    "featuredImages": [
+      "images/31e7f9c0-222c-40ae-aa58-787a94e12bc6.jpg"
+    ]
   },
   {
     "name": "Pulmonale Antihyperthonika",
     "category": "Antihypertonika",
-    "meds": "ET1-Agonist (Endothelinrezeptor)\n    Macitentan, Bosenthan\nPDE5-Hemmer\n    Tadalafil",
+    "meds": "ET1-Antagonist (Endothelinrezeptor)\n    Macitentan, Bosenthan\nPDE5-Hemmer\n    Tadalafil",
     "keyFacts": "—> Macitentan ist ein Endothelinrezeptorantagonist\n—> Ramipril wird nicht eingesetzt bei Pulmonaler Hyperthermie",
     "markedWords": [
-      "Macitentan"
+      "Macitentan",
+      "Tadalafil"
     ],
     "audioNotes": [],
     "markedFacts": [],
-    "images": [],
+    "images": [
+      "images/ac095c0e-8f08-4017-b494-13a0b7dc0df5.jpg"
+    ],
     "learned": true,
     "id": 1795358679475,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "red",
+        "date": "2026-11-23"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-26"
+      }
+    ],
     "questionHistory": [
       {
         "total": 79,
@@ -2083,38 +2724,288 @@
         "total": 49,
         "correct": 27,
         "date": "2026-11-22"
+      },
+      {
+        "total": 49,
+        "correct": 44,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 43,
+        "correct": 33,
+        "date": "2026-11-26"
       }
     ],
     "questionStats": {
-      "total": 49,
-      "correct": 27,
-      "date": "2026-11-22"
-    }
+      "total": 43,
+      "correct": 33,
+      "date": "2026-11-26"
+    },
+    "featuredImages": [
+      "images/ac095c0e-8f08-4017-b494-13a0b7dc0df5.jpg"
+    ]
   },
   {
     "name": "Antiarrhythmika",
     "category": "Antiarrhythmika",
-    "meds": "Amiodaron\nAV-Block 2\n    Ipatropiumbromid",
-    "keyFacts": "—> flecainid ist nicht Proarrhytmogen\n—> Amiodaran ist Jod haltig, drohnedaron nicht",
-    "markedWords": [],
+    "meds": "Klasse 1 (Blockiert Spannungsgesteuerte Na+ Kanäle)\n  Klasse 1a\n    Ajmalin, Chinidin\n  Klasse 1b\n    Lidocain\n  Klasse 1c\n    Flecainid\nKlasse 3 Antiarrhythmika (blockieren K+ kanäle)\n    Amiodaron, Dronedaron\nAV-Block 2 (Blockt M2 Rezeptoren)\n    Ipatropiumbromid",
+    "keyFacts": "—> flecainid ist nicht Proarrhytmogen\n—> Amiodaran ist Jod haltig, Drohnedaron nicht\n—> Klasse 1 Antiarrhythmika sind negativ Ionotrop\n—> Dronedaron ist bei Herzinsuffiziens kontraindiziert\n—> Ajmalin ist nicht Positiv Inotrop",
+    "markedWords": [
+      "Dronedaron"
+    ],
     "audioNotes": [],
-    "markedFacts": [],
-    "images": [],
+    "markedFacts": [
+      "flecainid ist nicht Proarrhytmogen",
+      "Amiodaran ist Jod haltig, Drohnedaron nicht"
+    ],
+    "images": [
+      "images/2a99e61c-1cb0-40d2-b74e-8fb62b86466f.jpg"
+    ],
     "learned": false,
     "id": 1795383468036,
-    "reviews": [],
+    "reviews": [
+      {
+        "score": "red",
+        "date": "2026-11-24"
+      },
+      {
+        "score": "red",
+        "date": "2026-11-27"
+      }
+    ],
     "questionHistory": [
       {
         "total": 15,
         "correct": 7,
         "date": "2026-11-22"
+      },
+      {
+        "total": 13,
+        "correct": 4,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 12,
+        "correct": 10,
+        "date": "2026-11-24"
+      },
+      {
+        "total": 12,
+        "correct": 11,
+        "date": "2026-11-27"
+      }
+    ],
+    "questionStats": {
+      "total": 12,
+      "correct": 11,
+      "date": "2026-11-27"
+    },
+    "featuredImages": [
+      "images/2a99e61c-1cb0-40d2-b74e-8fb62b86466f.jpg"
+    ]
+  },
+  {
+    "name": "Antidepressiva",
+    "category": "Antidepressiva",
+    "meds": "Trizyklische Antidepressiva (Haupt Wirkung: Serotonin, Noradrenaline Wiederaufnahme hememr)(Außerdem H1-, a1-, M-hemmung)(Na+Kanal Blocker)\n    Amitryptilin\nSSRIs (Serotonin Wiederaufnahme Hemmer)\n    Citalopram, Escitalopram\nSARI (Seraotonin Antagonist und Wiederaufnahme Hemmer)(5HT2a Rezeptor)\n    Trazodon\nMAO-Hemmer\n  Reversible MAO-A Hemmer\n    Moklobemid",
+    "keyFacts": "—> SSRI machen keine Kiefernekrose\n—> TZA hemmen die Muskarin Rezeptoren\n—> H1 hemmung macht eine Sedierende Nebenwirkung die SSRIs nicht haben\n—> MAO A/B hemmer interagieren nicht mit Thyramin da sie irreversibel hemmen\n—> Trizyklische antidepressiva können Hyperthermie und Erregungsleitungsstörung machen\n—> TCA brauchen mehrere Tage bis Wochen bis sie wirken\n—> TCA sind lebensgefährlich wegen der Na+-Kanal blockade am Herzen",
+    "markedWords": [
+      "Trizyklische Antidepressiva",
+      "M-hemmung"
+    ],
+    "audioNotes": [],
+    "markedFacts": [
+      "—> TZA hemmen die Muskarin Rezeptoren"
+    ],
+    "images": [
+      "images/12c87b3f-4d6d-4ee7-a61d-8af4653111ab.jpg",
+      "images/00aaf944-6ec1-43fa-92b6-49e79aba3db2.jpg",
+      "images/641392f9-ef9a-4295-aa1b-e2265c9d88ae.jpg"
+    ],
+    "featuredImages": [
+      "images/00aaf944-6ec1-43fa-92b6-49e79aba3db2.jpg",
+      "images/12c87b3f-4d6d-4ee7-a61d-8af4653111ab.jpg"
+    ],
+    "id": 1795469887351,
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-11-24"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-24"
+      },
+      {
+        "score": "yellow",
+        "date": "2026-11-27"
+      }
+    ],
+    "questionHistory": [
+      {
+        "total": 17,
+        "correct": 11,
+        "date": "2026-11-23"
+      },
+      {
+        "total": 17,
+        "correct": 15,
+        "date": "2026-11-24"
+      },
+      {
+        "total": 19,
+        "correct": 14,
+        "date": "2026-11-27"
+      }
+    ],
+    "questionStats": {
+      "total": 19,
+      "correct": 14,
+      "date": "2026-11-27"
+    }
+  },
+  {
+    "name": "Hypnotika, Sedativa, Anxiolytika",
+    "category": "19. Hypnotika, Sedativa, Anxiolytika",
+    "meds": "Benzodiazepine (GABAa aktivierung, Cl kanal öffnung)\n  Ultrakurz Wirksame\n    Midazolam\n  Lang Wirksame\n    Diazepam\nZ-Hypnotika (GABAa aktivierung, Cl kanal öffnung)\n    Zopiclon",
+    "keyFacts": "—> Benzos wirken nicht analgetisch\n—> Zopiclon wird nur als Schlafmittel eingesetzt und wirkt auch nur sedierend\n—> Benzos wirken Muskelrelaxierend, Antihypnotisch, Antikonvulsiv, Sedativ, Antegrad Amnestisch\n—> Bei längerer gabe von Z-Hypnotikan zeigt sich eine Wirkungsverlust",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [
+      "Bei längerer gabe von Z-Hypnotikan zeigt sich eine Wirkungsverlust"
+    ],
+    "images": [
+      "images/42bc4f96-b6e8-489b-b251-5a98b6170677.jpg",
+      "images/d0e3bfc7-226d-4bb3-b80c-efcfed3963be.jpg"
+    ],
+    "featuredImages": [
+      "images/d0e3bfc7-226d-4bb3-b80c-efcfed3963be.jpg",
+      "images/42bc4f96-b6e8-489b-b251-5a98b6170677.jpg"
+    ],
+    "id": 1795475259016,
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-11-24"
+      }
+    ],
+    "questionHistory": [
+      {
+        "total": 12,
+        "correct": 7,
+        "date": "2026-11-24"
+      },
+      {
+        "total": 12,
+        "correct": 8,
+        "date": "2026-11-25"
+      }
+    ],
+    "questionStats": {
+      "total": 12,
+      "correct": 8,
+      "date": "2026-11-25"
+    }
+  },
+  {
+    "name": "Mittel zu Therapie obstruktiver Atemwegserkrankungen",
+    "category": "Mittel zu Therapie obstruktiver Atemwegserkrankungen",
+    "meds": "beta2 Agonisten\n  SABA\n    Salbutamol, Fenoterol, Terbutamin\n  LABA\n    Salmeterol, Formoterol\nMuskarin-Rezeptor\n  SAMA\n    Ipatropium\n  LAMA\n    Tiotropium\nLeukotrien-Antagonist\n    Montelukast\nPDE-4-Hemmer\n    Roflumilast, Theophilin",
+    "keyFacts": "—> Theophilin hemmt PDE-4 und Adenosin\n—> Theophilin wir nurnoch selten verabreicht aufgrund vieler nebenwirkungnen",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [
+      "Theophilin wir nurnoch selten verabreicht aufgrund vieler nebenwirkungnen"
+    ],
+    "images": [
+      "images/2ba0e880-8088-4699-99a8-7f113a0e7592.jpg"
+    ],
+    "featuredImages": [
+      "images/2ba0e880-8088-4699-99a8-7f113a0e7592.jpg"
+    ],
+    "id": 1795557308406,
+    "reviews": [
+      {
+        "score": "green",
+        "date": "2026-11-25"
+      }
+    ],
+    "questionHistory": [
+      {
+        "total": 15,
+        "correct": 10,
+        "date": "2026-11-24"
+      },
+      {
+        "total": 15,
+        "correct": 12,
+        "date": "2026-11-25"
       }
     ],
     "questionStats": {
       "total": 15,
-      "correct": 7,
-      "date": "2026-11-22"
-    },
-    "featuredImages": []
+      "correct": 12,
+      "date": "2026-11-25"
+    }
+  },
+  {
+    "name": "AAA",
+    "category": "AAA",
+    "meds": "Fehlt Noch:\n\n33. Kortikoide, schilddrüsen\n26. Antibiotika\n23. Klssische Zytostatika\n22. Anfallssuppressiva",
+    "keyFacts": "",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [],
+    "images": [],
+    "featuredImages": [],
+    "id": 1795557499501,
+    "reviews": []
+  },
+  {
+    "name": "Parkinson",
+    "category": "Parkinson",
+    "meds": "Levodopa + Decarboxilase Hemmer (hemmen den abbau von L-Dopa außerhalb der Blut/Hirnschranke)\n    Levodopa + Carbidopa\nCOMT Hemmer (hemmen Ebenfalls den L-Dopa abbau vor der Blut/Hirnschranke)\n    Opicapon, Tolcapon\nDopaminrezeptor Agonisten\nNMDA Hemmer \n    Amantadin\nMAO-B Hemmer\n    Rasagilin",
+    "keyFacts": "—> Opicapon hemmt den abbau von L-Dopa nur Periferal wärend Tolcapon den abbau auch ein wenig im ZNS fördert\n—> mann strebt eine kombinationstherapie von wirstoff und abbau inhibitor an um mit maximaler dopa wirkung nur um ZNS der degeneration der substantia nigra entgegen zu wirken\n—> Levodopa + Decarboxilase hemmer verursachen On/Off diskinesien\n—> Ergolinagonist macht Fibrose\n—> hemmung Kompetittiver mCho Rezeptoren ist ebenfalls eine therapie gegen Parkinson\n—> die agonisten wirken an den post-synapsen und umgehen damit die degenerrierte substantia nigra",
+    "markedWords": [],
+    "audioNotes": [],
+    "markedFacts": [
+      "Opicapon hemmt den abbau von L-Dopa nur Periferal wärend Tolcapon den abbau auch ein wenig im ZNS fördert",
+      "Ergolinagonist macht Fibrose"
+    ],
+    "images": [
+      "images/51d6aa37-a649-45cd-9252-b874dd475e9e.jpg"
+    ],
+    "featuredImages": [
+      "images/51d6aa37-a649-45cd-9252-b874dd475e9e.jpg"
+    ],
+    "id": 1795564893531,
+    "reviews": [
+      {
+        "score": "yellow",
+        "date": "2026-11-27"
+      }
+    ],
+    "questionHistory": [
+      {
+        "total": 14,
+        "correct": 7,
+        "date": "2026-11-25"
+      },
+      {
+        "total": 14,
+        "correct": 6,
+        "date": "2026-11-26"
+      },
+      {
+        "total": 14,
+        "correct": 13,
+        "date": "2026-11-27"
+      }
+    ],
+    "questionStats": {
+      "total": 14,
+      "correct": 13,
+      "date": "2026-11-27"
+    }
   }
 ]
